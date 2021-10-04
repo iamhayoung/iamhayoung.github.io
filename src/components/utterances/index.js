@@ -1,6 +1,7 @@
 import React, { createRef, useEffect } from "react";
 
 const src = "https://utteranc.es/client.js";
+const branch = "main";
 
 export default function Utterances({ repo, theme }) {
   const rootElm = createRef();
@@ -12,6 +13,7 @@ export default function Utterances({ repo, theme }) {
     const utterancesConfig = {
       src,
       repo,
+      branch,
       "issue-term": "pathname",
       label: "✨💬✨",
       theme: theme === "dark" ? "photon-dark" : "github-light",
@@ -23,7 +25,7 @@ export default function Utterances({ repo, theme }) {
       utterances.setAttribute(key, value);
     });
     rootElm.current.appendChild(utterances);
-  }, [repo, theme]);
+  }, [repo, rootElm, theme]);
 
   return <div className="utterances" ref={rootElm} />;
 }
