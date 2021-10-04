@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"✏️ hayoung_log"}},"allMarkdownRemark":{"nodes":[{"excerpt":"요즘따라 나만의 커스터마이즈를 한 블로그를 만들고 싶었다. \n그래서 velog와 tistory를 짧게 나마 사용해본 결과… 통계 기능과 비공개 포스팅 기능, 그리고 커스터마이징 기능 등 여러 기능들이 갖추어진 tistory…","fields":{"slug":"/hello-world/"},"frontmatter":{"date":"October 05, 2021","title":"Hello World","description":"Gatsby 블로그 첫 포스팅!"}}]}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"✏️ hayoung_log"}},"allMarkdownRemark":{"nodes":[{"excerpt":"요즘따라 나만의 커스터마이즈를 한 블로그를 만들고 싶었다. \n그래서 velog와 tistory를 짧게 나마 사용해본 결과… 정착하지 못함. 통계 기능과 비공개 포스팅 기능, 그리고 커스터마이징 기능 등 여러 기능들이 갖추어진 tistory…","fields":{"slug":"/hello-world/"},"frontmatter":{"date":"October 05, 2021","title":"Hello World","description":"Gatsby 블로그 첫 포스팅!"}}]}},"pageContext":{}},
     "staticQueryHashes": ["230163734","2841359383"]}

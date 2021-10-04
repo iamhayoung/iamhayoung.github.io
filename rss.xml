@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung_log]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://iamhayoung.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 04 Oct 2021 15:13:38 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[요즘따라 나만의 커스터마이즈를 한 블로그를 만들고 싶었다. 
-그래서 velog와 tistory를 짧게 나마 사용해본 결과… 통계 기능과 비공개 포스팅 기능, 그리고 커스터마이징 기능 등 여러 기능들이 갖추어진 tistory…]]></description><link>https://iamhayoung.github.io/hello-world/</link><guid isPermaLink="false">https://iamhayoung.github.io/hello-world/</guid><pubDate>Tue, 05 Oct 2021 00:09:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung_log]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://iamhayoung.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 04 Oct 2021 15:22:01 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[요즘따라 나만의 커스터마이즈를 한 블로그를 만들고 싶었다. 
+그래서 velog와 tistory를 짧게 나마 사용해본 결과… 정착하지 못함. 통계 기능과 비공개 포스팅 기능, 그리고 커스터마이징 기능 등 여러 기능들이 갖추어진 tistory…]]></description><link>https://iamhayoung.github.io/hello-world/</link><guid isPermaLink="false">https://iamhayoung.github.io/hello-world/</guid><pubDate>Tue, 05 Oct 2021 00:09:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
@@ -34,20 +34,24 @@
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;요즘따라 나만의 커스터마이즈를 한 블로그를 만들고 싶었다. &lt;br /&gt;
 그래서 velog와 tistory를 짧게 나마 사용해본 결과…&lt;/p&gt;
+&lt;p&gt;정착하지 못함.&lt;/p&gt;
 &lt;p&gt;통계 기능과 비공개 포스팅 기능, 그리고 커스터마이징 기능 등 여러 기능들이 갖추어진 tistory에 정착을 하려 했지만,
 그래도 tistory만의 틀이 존재했다는 점이 무언가 아쉬웠다.&lt;/p&gt;
 &lt;p&gt;나의 개성과 색깔을 녹여서 블로그의 모든 요소를 내 손으로 하나하나 만들어보고자 하는 생각에,
 React 기반의 정적 페이지 생성 프레임워크인 Gatsby로 블로그를 만들기로 결정했다👏&lt;/p&gt;
-&lt;p&gt;블로그를 빌드한 직후인 지금은, starter로 배포된 블로그를 그대로 사용한 상태여서 아직 추가하고 보완해야할 것들이 산더미다😇&lt;/p&gt;
-&lt;p&gt;먼저 오늘은, 첫 스타트로 블로그의 필수 기능인 댓글 기능을 추가하고자 &lt;a href=&quot;https://utteranc.es/&quot;&gt;utterances&lt;/a&gt;를 적용시켜 댓글창을 추가했다.&lt;/p&gt;
-&lt;h4&gt;utterance를 이용한 Github 댓글 기능의 장점!&lt;/h4&gt;
+&lt;p&gt;여러 자료들을 참고해서 블로그 배포는 성공했지만, 본방은 지금부터다🙊 &lt;br /&gt;
+지금은 gatsby starter로 구성한 블로그를 그대로 사용 중인 상태이기 때문에 추가하고 보완해야할 것들이 산더미다😇&lt;/p&gt;
+&lt;p&gt;UI 구현은 물론, 커스텀 도메인, SEO 대응 등등..&lt;/p&gt;
+&lt;p&gt;일단 오늘은, 첫 스타트로 블로그의 필수 기능인 댓글 기능을 추가하고자 &lt;a href=&quot;https://utteranc.es/&quot;&gt;utterances&lt;/a&gt;를 적용시켜 댓글창을 추가해보았다.&lt;/p&gt;
+&lt;h4&gt;utterances를 이용한 GitHub 댓글 기능의 장점!&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Disqus에 비해 광고가 없고 가벼움&lt;/li&gt;
-&lt;li&gt;개발자라면 누구나 가지고 있는 Github 계정을 이용해서 댓글을 달 수 있음!&lt;/li&gt;
+&lt;li&gt;개발자라면 누구나 가지고 있는 GitHub 계정을 이용해서 댓글을 달 수 있음!&lt;/li&gt;
 &lt;li&gt;댓글에서 마크 다운을 사용할 수 있다는 점&lt;/li&gt;
 &lt;li&gt;디자인도 더 깔끔하고 이쁨💖&lt;/li&gt;
 &lt;li&gt;다크 모드 지원🌙&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Gatsby에 대해 하나하나 알아가면서, 내가 원하는 블로그를 만들 때까지 조금씩 조금씩 꾸며갈 계획이다.&lt;/p&gt;
+&lt;p&gt;utterances를 활용한 GitHub 댓글 기능에 관해서는 본격적으로 블로그를 커스텀하는 과정에 포스팅을 할 예정이다.&lt;/p&gt;
+&lt;p&gt;Gatsby에 대해 하나하나 알아가면서, 내가 원하는 블로그를 만들 때까지 조금씩 조금씩 꾸며가자.&lt;/p&gt;
 &lt;p&gt;드디어 보금자리를 찾은 것 같아 기쁘다. 꾸준히 만들어나가야지. &lt;br /&gt;
 화이팅!&lt;/p&gt;</content:encoded></item></channel></rss>
