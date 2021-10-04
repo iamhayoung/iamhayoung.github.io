@@ -1,6 +1,7 @@
 import * as React from "react";
 import GlobalHeader from "./global-header";
 import PageHeader from "./page-header";
+import GlobalFooter from "./global-footer";
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`;
@@ -14,11 +15,7 @@ const Layout = ({ location, title, children }) => {
         <PageHeader siteTitle={title || `Title`} />
       )}
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
-      </footer>
+      <GlobalFooter />
     </div>
   );
 };

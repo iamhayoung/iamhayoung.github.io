@@ -3,3 +3,13 @@
   justify-content: $justify;
   align-items: $align;
 }
+
+@mixin keyframes($name) {
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  animation: #{$str};
+}

@@ -1,0 +1,68 @@
+@use "../../styles/mixins" as *;
+
+footer {
+  padding: var(--spacing-6) var(--spacing-0);
+  font-size: 15px;
+
+  .footer-container {
+    @include flex(space-between, center);
+  }
+
+  .footer-copyright {
+    margin: 0;
+
+    .link {
+      margin-right: 5px;
+    }
+  }
+
+  .footer-link-list {
+    margin: 0;
+    @include flex(flex-end, center);
+
+    .footer-link-item {
+      position: relative;
+      margin: 0;
+
+      &:not(:last-child) {
+        margin-right: 26px;
+
+        &:after {
+          position: absolute;
+          top: 4px;
+          right: -14px;
+          display: block;
+          content: "";
+          width: 1px;
+          height: 15px;
+          background-color: #b6b6b6;
+        }
+      }
+    }
+  }
+
+  .icon-heart {
+    display: inline-block;
+    @include keyframes(heartbeat) {
+      0% {
+        transform: scale(1);
+      }
+      30% {
+        transform: scale(0.9);
+      }
+      40% {
+        transform: scale(1.2);
+      }
+      60% {
+        transform: scale(0.9);
+      }
+      70% {
+        transform: scale(1.2);
+      }
+      80% {
+        transform: scale(1);
+      }
+    }
+    @include animation("heartbeat 1.8s infinite");
+  }
+}
