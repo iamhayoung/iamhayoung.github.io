@@ -61,7 +61,7 @@ const BlogPostTemplate = ({ data, location }) => {
           </li>
         </ul>
       </nav>
-      <Utterances repo="iamhayoung/iamhayoung.github.io" />
+      <Utterances repo="iamhayoung/blog-comments" />
     </Layout>
   );
 };
