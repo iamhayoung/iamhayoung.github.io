@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "hayoung-log",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "hayoung-log is a devlog, built with Gatsby.js",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "iamhayoung <hahhyoung@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/iamhayoung/iamhayoung.github.io/issues"
   },
   "dependencies": {
     "gatsby": "^3.13.1",
@@ -35,7 +35,7 @@
     "gh-pages": "^3.2.3",
     "prettier": "2.4.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/iamhayoung/iamhayoung.github.io#readme",
   "keywords": [
     "gatsby"
   ],
@@ -43,7 +43,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/iamhayoung/iamhayoung.github.io.git"
   },
   "scripts": {
     "build": "gatsby build",
