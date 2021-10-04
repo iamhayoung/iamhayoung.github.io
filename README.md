@@ -1,15 +1,15 @@
 # [hayoung_log](https://iamhayoung.github.io/)
 
-<a href="https://hits.seeyoufarm.com">
-    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fiamhayoung%2Fiamhayoung.github.io&count_bg=%23BB7E8C&title_bg=%23434343&icon=github.svg&icon_color=%23FFFFFF&title=hits&edge_flat=false"/>
-</a>
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fiamhayoung%2Fiamhayoung.github.io&count_bg=%23BB7E8C&title_bg=%23434343&icon=github.svg&icon_color=%23FFFFFF&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-<p>
-Welcome to my devlog 👋 <br />
+Welcome to my devlog 👋  
 Gatsby.js를 기반으로 한 기술 블로그입니다.
-</p>
 
-(🛠 2021.10 현재 개발 진행중)
+🛠 2021.10 현재 개발 진행중
+
+## Wiki
+
+기술 블로그 개발에 관한 생각, 메모들을 Wiki에 남기고 있습니다 👉 [Wiki](https://github.com/iamhayoung/iamhayoung.github.io/wiki)
 
 ## Branches
 
