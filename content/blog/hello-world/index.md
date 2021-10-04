@@ -1,231 +1,33 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+date: "2021-10-05T00:09:03.284Z"
+description: "Gatsby 블로그 첫 포스팅!"
 ---
 
-This is my first post on my new fake blog! How exciting!
+![People](./people.jpg)
 
-I'm sure I'll write a lot more interesting things in the future.
+요즘따라 나만의 커스터마이즈를 한 블로그를 만들고 싶었다. <br />
+그래서 velog와 tistory를 짧게 나마 사용해본 결과...
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+통계 기능과 비공개 포스팅 기능, 그리고 커스터마이징 기능 등 여러 기능들이 갖추어진 tistory에 정착을 하려 했지만,
+그래도 tistory만의 틀이 존재했다는 점이 무언가 아쉬웠다.
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+나의 개성과 색깔을 녹여서 블로그의 모든 요소를 내 손으로 하나하나 만들어보고자 하는 생각에,
+React 기반의 정적 페이지 생성 프레임워크인 Gatsby로 블로그를 만들기로 결정했다👏
 
-![Chinese Salty Egg](./salty_egg.jpg)
+블로그를 빌드한 직후인 지금은, starter로 배포된 블로그를 그대로 사용한 상태여서 아직 할 일이 산더미다😇
 
-You can also write code blocks here!
+오늘은, 첫 스타트로 블로그의 필수 기능인 댓글 기능을 추가하고자, [utterances](https://utteranc.es/)를 적용시켜 댓글창을 추가했다.
 
-```js
-const saltyDuckEgg = "chinese preserved food product"
-```
+#### utterance를 이용한 Github 댓글 기능의 장점!
 
-| Number | Title                                    | Year |
-| :----- | :--------------------------------------- | ---: |
-| 1      | Harry Potter and the Philosopher’s Stone | 2001 |
-| 2      | Harry Potter and the Chamber of Secrets  | 2002 |
-| 3      | Harry Potter and the Prisoner of Azkaban | 2004 |
+- Disqus에 비해 광고가 없고 가벼움
+- 개발자라면 누구나 가지고 있는 Github 계정을 이용해서 댓글을 달 수 있음!
+- 댓글에서 마크 다운을 사용할 수 있다는 점
+- 디자인도 더 깔끔하고 이쁨💖
+- 다크 모드 지원🌙
 
-[View raw (TEST.md)](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)
+Gatsby에 대해 하나하나 알아가면서, 내가 원하는 블로그를 만들 때까지 조금씩 조금씩 꾸며갈 계획이다.
 
-This is a paragraph.
-
-    This is a paragraph.
-
-# Header 1
-
-## Header 2
-
-    Header 1
-    ========
-
-    Header 2
-    --------
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1
-    ## Header 2
-    ### Header 3
-    #### Header 4
-    ##### Header 5
-    ###### Header 6
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1 #
-    ## Header 2 ##
-    ### Header 3 ###
-    #### Header 4 ####
-    ##### Header 5 #####
-    ###### Header 6 ######
-
-> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-> ## This is a header.
->
-> 1. This is the first list item.
-> 2. This is the second list item.
->
-> Here's some example code:
->
->     Markdown.generate();
-
-    > ## This is a header.
-    > 1. This is the first list item.
-    > 2. This is the second list item.
-    >
-    > Here's some example code:
-    >
-    >     Markdown.generate();
-
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-
-```markdown
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-```
-
-- `code goes` here in this line
-- **bold** goes here
-
-```markdown
-- `code goes` here in this line
-- **bold** goes here
-```
-
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-
-```markdown
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-```
-
-1. `code goes` here in this line
-1. **bold** goes here
-
-```markdown
-1. `code goes` here in this line
-1. **bold** goes here
-```
-
-Paragraph:
-
-    Code
-
-<!-- -->
-
-    Paragraph:
-
-        Code
-
----
-
----
-
----
-
----
-
----
-
-    * * *
-
-    ***
-
-    *****
-
-    - - -
-
-    ---------------------------------------
-
-This is [an example](http://example.com "Example") link.
-
-[This link](http://example.com) has no title attr.
-
-This is [an example][id] reference-style link.
-
-[id]: http://example.com "Optional Title"
-
-    This is [an example](http://example.com "Example") link.
-
-    [This link](http://example.com) has no title attr.
-
-    This is [an example] [id] reference-style link.
-
-    [id]: http://example.com "Optional Title"
-
-_single asterisks_
-
-_single underscores_
-
-**double asterisks**
-
-**double underscores**
-
-    *single asterisks*
-
-    _single underscores_
-
-    **double asterisks**
-
-    __double underscores__
-
-This paragraph has some `code` in it.
-
-    This paragraph has some `code` in it.
-
-![Alt Text](https://placehold.it/200x50 "Image Title")
-
-    ![Alt Text](https://placehold.it/200x50 "Image Title")
+드디어 보금자리를 찾은 것 같아 기쁘다. 꾸준히 만들어나가야지. <br />
+화이팅!
