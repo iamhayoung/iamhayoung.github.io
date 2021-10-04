@@ -1,0 +1,29 @@
+@use "../../styles/mixins" as *;
+
+.page-header {
+  margin-bottom: var(--spacing-12);
+  @include flex(space-between, center);
+
+  .link-home {
+    color: var(--color-heading);
+    font-weight: var(--fontWeight-bold);
+    font-family: var(--font-heading);
+    font-size: var(--fontSize-2);
+    text-decoration: none;
+  }
+
+  .page-header-nav {
+    .link {
+      color: var(--color-heading);
+      font-weight: var(--fontWeight-semibold);
+      font-family: var(--font-heading);
+      // font-size: var(--fontSize-1);
+      text-transform: uppercase;
+      text-decoration: none;
+
+      &:not(:first-child) {
+        margin-left: 20px;
+      }
+    }
+  }
+}
