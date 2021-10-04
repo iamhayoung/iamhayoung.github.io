@@ -138,6 +138,15 @@ sup {
   top: -0.5em;
 }
 
+/**
+ * Remove bullets from ul, ol.
+ */
+
+ol,
+ul {
+  list-style: none;
+}
+
 /* Embedded content
    ========================================================================== */
 
