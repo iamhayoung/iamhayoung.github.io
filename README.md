@@ -5,8 +5,8 @@ Welcome to my blog💖
 ## Branches
 
 ```
-└─── main             // Github pages에 필요한 static files
-      └── source      // Default branch. Blog source code
+└─── main               // Github pages에 필요한 static files
+      └── source        // Default branch. Blog source code
     	     └── docs   // History of README.md
 ```
 
