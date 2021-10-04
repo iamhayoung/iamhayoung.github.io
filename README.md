@@ -4,28 +4,29 @@ Welcome to my blog💖
 
 ## Branches
 
-```bash
-└─── main            // Github pages에 필요한 source files
-			└── source     // Blog source code
-    				└── docs // History of README.md
+```
+└─── main             // Github pages에 필요한 static files
+      └── source      // Default branch. Blog source code
+    	     └── docs   // History of README.md
 ```
 
 ## Run
 
-```bash
+```shell
 gatsby develop
 ```
 
 ## Deploy
 
+정적 파일 생성 && public 디렉토리 내부에 생성된 정적 파일들을 main 브랜치에 배포
+
 ```json
 "scripts": {
-  	 // 정적 파일 생성 && public 디렉토리 내부에 생성된 정적 파일들을 main 브랜치에 배포
     "deploy": "gatsby build && gh-pages -d public -b main"
 }
 ```
 
-```bash
+```shell
 npm run deploy
 ```
 
