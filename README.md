@@ -30,4 +30,6 @@ gatsby develop
 npm run deploy
 ```
 
-© 2021, Built with [Gatsby](https://www.gatsbyjs.com/)
+---
+
+© 2021, Built with [Gatsby.js](https://www.gatsbyjs.com/)
