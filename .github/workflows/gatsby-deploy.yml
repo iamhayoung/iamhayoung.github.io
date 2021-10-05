@@ -5,6 +5,8 @@ on:
     # branches: source 브랜치에 push를 할 때마다 아래의 jobs를 실행
     branches:
       - source
+    paths-ignore:
+      - "**/README.md"
   pull_request:
 
 jobs:
