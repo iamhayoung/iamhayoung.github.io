@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkhayoung_log=self.webpackChunkhayoung_log||[]).push([[682],{5518:function(e,t,a){a.r(t);var l=a(7294),n=a(3384),u=a(3751);t.default=function(e){var t=e.data,a=e.location,o=t.site.siteMetadata.title;return l.createElement(n.Z,{location:a,title:o},l.createElement(u.Z,{title:"About"}),l.createElement("h1",null,"About"),l.createElement("p",null,"작성 중입니다. 잠시만 기다려주세요🙇‍♀️"))}}}]);
-//# sourceMappingURL=component---src-pages-about-js-ccbedd04c0a3978b2dfe.js.map
