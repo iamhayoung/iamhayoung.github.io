@@ -6,12 +6,14 @@ module.exports = {
       summary: `who write and build stuff on internet 🌏`,
     },
     description: `배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝`,
-    siteUrl: `https://iamhayoung.github.io/`,
+    siteUrl: `https://hayoung.life`,
     social: {
       github: `iamhayoung`,
     },
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-feed`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
     {
