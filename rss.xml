@@ -1,5 +1,746 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung.life]]></title><description><![CDATA[배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝]]></description><link>https://iamhayoung.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Oct 2021 10:02:25 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[요즘따라 나만의 커스터마이즈를 한 블로그를 만들고 싶었다. 
-그래서 velog와 tistory를 짧게 나마 사용해본 결과… 정착하지 못함. 통계 기능과 비공개 포스팅 기능, 그리고 커스터마이징 기능 등 여러 기능들이 갖추어진 tistory…]]></description><link>https://iamhayoung.github.io/hello-world/</link><guid isPermaLink="false">https://iamhayoung.github.io/hello-world/</guid><pubDate>Tue, 05 Oct 2021 00:09:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung.life]]></title><description><![CDATA[배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝]]></description><link>https://iamhayoung.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Oct 2021 14:24:43 GMT</lastBuildDate><item><title><![CDATA[Namecheap에서 도메인 구매, 연결하기 (Feat. GitHub Pages)]]></title><description><![CDATA[이 블로그는 GitHub Pages로 배포되어 있는데, GitHub Pages로 배포한 웹은 기본적으로 도메인이 iamhayoung.github.io…]]></description><link>https://iamhayoung.github.io/new-domain/</link><guid isPermaLink="false">https://iamhayoung.github.io/new-domain/</guid><pubDate>Tue, 05 Oct 2021 23:02:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d55d0a16fa43c4518bc513c44d654fcd/45249/thumbnail.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.93670886075949%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAABCklEQVQoz4WSPW7EIBCF97K5Qe6SE0Rpc4VttkidVJFSResfvBgMthkMfhH4R9jraItPzDzgMTPiZK3DCg2wdgDRHM+QTfL0/AGnveFymYZxMh88KOQHhDu0e+SUiquZB2zXgVxYDZwbN/iwvzNb4tUwCmSjGeVXuJcn+NdnmPM7yqZHkRUoChbJ8xJ9T3E0+0o3LZOxGAC43x/4rwv85Q22vKLkElV1Q1VxMHZDlhXRAKO/q3TTsjEWrGSTgTIQBHCp0UiFupYRIRpwLlALiY/PbzSqxzDP+c4wzE/rDlI00Eqj0y20btG2fdQDIVZq0hhXsYjDlhchvLaw5Kmeat49aPm/7/GItMI/AIW7dmpPMCYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Register Your Domain Name&quot;
+        title=&quot;Register Your Domain Name&quot;
+        src=&quot;/static/d55d0a16fa43c4518bc513c44d654fcd/f058b/thumbnail.png&quot;
+        srcset=&quot;/static/d55d0a16fa43c4518bc513c44d654fcd/c26ae/thumbnail.png 158w,
+/static/d55d0a16fa43c4518bc513c44d654fcd/6bdcf/thumbnail.png 315w,
+/static/d55d0a16fa43c4518bc513c44d654fcd/f058b/thumbnail.png 630w,
+/static/d55d0a16fa43c4518bc513c44d654fcd/40601/thumbnail.png 945w,
+/static/d55d0a16fa43c4518bc513c44d654fcd/78612/thumbnail.png 1260w,
+/static/d55d0a16fa43c4518bc513c44d654fcd/45249/thumbnail.png 2363w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;이 블로그는 &lt;strong&gt;GitHub Pages&lt;/strong&gt;로 배포되어 있는데, GitHub Pages로 배포한 웹은 기본적으로 도메인이 &lt;a href=&quot;https://iamhayoung.github.io&quot;&gt;iamhayoung.github.io&lt;/a&gt;와 같은 형태로 이루어져있다.&lt;/p&gt;
+&lt;p&gt;지금 이 글을 쓰고 있는 블로그는 &lt;strong&gt;앞으로 공부하면서 배운 것들을 기록해나감과 동시에, 간단한 일기장으로써 나의 생각과 생활의 일부분을 담아갈 예정&lt;/strong&gt;이다. 따라서, 이 블로그만큼은 &lt;strong&gt;의미를 함축한, 간편한 도메인&lt;/strong&gt;으로 설정하고 싶었다.&lt;/p&gt;
+&lt;p&gt;결과적으로 현재 이 블로그의 도메인은 &lt;strong&gt;&lt;a href=&quot;https://hayoung.life&quot;&gt;hayoung.life&lt;/a&gt;&lt;/strong&gt; 가 되었다. &lt;strong&gt;내 생활, 삶을 담는 장소라는 의미&lt;/strong&gt;를 담았다😊&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;해당 포스팅은 이 블로그의 도메인을 구매하고 연결하는 과정을 담았다.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;1. 도메인 업체 고르기&lt;/h1&gt;
+&lt;p&gt;커스텀 도메인을 설정하기 위해서는 먼저 도메인을 구매해야한다.
+도메인을 구매하기 위해서는 내가 원하는 도메인을 제공하는 도메인 업체를 선정해야한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;같은 도메인을 판매하더라도 업체마다 가격도 천차만별, 제공하는 서비스도 가지각색&lt;/strong&gt;인데, 나는 다음의 기준을 가지고 업체를 선정했다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;비용이 많이 비싸지 않을 것&lt;/li&gt;
+&lt;li&gt;도메인 개인정보보호 서비스 (Whois Privacy Protection)를 무료로 제공할 것&lt;/li&gt;
+&lt;li&gt;안심할 수 있는 고객지원서비스를 제공하는 곳&lt;/li&gt;
+&lt;li&gt;안정적이고, 규모가 크고 인지도가 있는 업체일 것 (업체가 갑자기 사라지지 않을 것 같은 안심감을 위해..)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;결과적으로, 위의 기준을 모두 만족한 &lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap&lt;/a&gt;이라는 해외 도메인 업체를 선택했다.&lt;/p&gt;
+&lt;p&gt;Namecheap은 해외에서 꽤 인지도 있는 유명한 회사였다. (여기서 일단 큰 점수++) 그럼에도 비용도 대체적으로 저렴한 편에 속했다. 그리고 여러 블로그 후기를 찾아보니 유저 평가가 꽤 좋은 업체라 Namecheap을 선택하게 되었다!&lt;/p&gt;
+&lt;h1&gt;2. 도메인을 고르기&lt;/h1&gt;
+&lt;p&gt;커스텀 도메인을 설정하고자 한다면 어느 정도 희망하는 도메인이 있을 것이다. &lt;strong&gt;희망하는 도메인이 이미 사용중인지, 비용은 어떤지, 혹시 이미 사용중이라면 다른 도메인들은 무엇 무엇이 있는지 살펴봐야한다.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap&lt;/a&gt; 사이트에 접속&lt;/strong&gt;해서 도메인을 골라보자.&lt;/p&gt;
+&lt;p&gt;아, 도메인을 둘러보기 전에 나는 먼저 회원 가입이 되어있는 상태였고, 로그인을 한 후에 둘러봤다.
+장바구니에 담고 바로 구매를 할 예정이었기 때문..&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/99cb49fe34231cc0a1197add481f6ae5/8733b/image1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.86075949367089%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAAC7ElEQVQoz22S7U9TVxzH77+h0Thlc/UhTbBqXHR1iGKBiKn2QaWD+dK9c0ENMRKjb0yMr0hmdBjZaK+rWCrQDVuHPESgglC3bFkyURFo9ba3ZSoFep8+C22YmPhJzsk5v/P7fnJOcgSS46iGDigsR1EVdD2HpuVQ1QV0Q0VXsmjZNPpcBiWXJfVOQVEXMAwFTSvkhZabE7R44/jFCXzeBKKYJBiYJuB/gSi+QhTj+LxxRF8cUUzgWxy+BE1NU/i949xoeskP16dobp6g2TeFUPfdQ642hqk+NkxlxShVB0ZxOUY47hnB5XyCwz6G2xnDeXiMI64YTscoleXD2PaPUGEb5JA9its5wIGKAY7UDCJcrA/S4f2R454wJbv7+XJnD6Ul/bidUaqPRvHUDPG1J8pR1xCH7QNUVjxkl7UPW9l9dn7Ry7kzHVxrDFBW+oDSkh6E2pp2TnwTYP/eEF9ZIzjsfTgO9WGv6sfl6qehMUpd/TC11YNUVfZwsPwBx6w3qS27xpbiMHXf3uJyw09sL76LeWMnwonTg1i2hdjweScuRy/Btn+4G3xO+F6c7u4E4a5pwl1TdP+W4P69SULeGP7dHuq31GM2/8KObUEsxXc4deEv3LVDCBbbI3ZZ2zF/dotVK29TtC7ARlMbRZ+0YlofwFLcyabNv7J5Qxtr17SyaqWforWtmD71s3rFz5hMQb6/8Yw5IP4WBIt1FNueO3jcIc5f+puuSIJQb5LbHdM0nIux1dxC+dbLXLnyJ17vOCfPxti7L8JBWzunTz3iyR+Zwj8zjMUJYUJSiI0vkJnjo4w9fspwJJJvXkLTDBZy+gd7wzDQDQPhfdRA1yGbnScly7yWkqSSMm/evkH+dxZJSiJJKdJymtnZd/mErhkFWf6CBamg64si4//CIs9kmd8nJ5nJZJBlGTmVIp1O59czMzOoqpp/4VL/8qywdLBU0DUNRVXJKQqZTIZkKpUXSZLE/Px8XlYQvpct5z9MVfP3HwjfKgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Browse Domain&quot;
+        title=&quot;Browse Domain&quot;
+        src=&quot;/static/99cb49fe34231cc0a1197add481f6ae5/f058b/image1.png&quot;
+        srcset=&quot;/static/99cb49fe34231cc0a1197add481f6ae5/c26ae/image1.png 158w,
+/static/99cb49fe34231cc0a1197add481f6ae5/6bdcf/image1.png 315w,
+/static/99cb49fe34231cc0a1197add481f6ae5/f058b/image1.png 630w,
+/static/99cb49fe34231cc0a1197add481f6ae5/40601/image1.png 945w,
+/static/99cb49fe34231cc0a1197add481f6ae5/78612/image1.png 1260w,
+/static/99cb49fe34231cc0a1197add481f6ae5/8733b/image1.png 1495w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Namecheap 메인 화면에 들어가면, 이렇게 도메인을 검색할 수 있는 input이 바로 나와있다. 원하는 도메인명을 검색하자.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a4d59e20bd4d14d7ab15d9888811ebc6/95e59/image2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.0253164556962%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAABoElEQVQoz3WTTW4bMQyFff8eoYeo3fQEzabJylkVrYE2GyNwYntm9ENpRI2+Qko8CWxXwAMBDfn0SL5ZlKcNod/jQ+TjSSnhvSeE0KJ4IcRIcAYxPdFbeuvprcx5MUYWpUAphWmaGGMkhlAvGmm7L6XFd4BOEyVn0DTXnr4vyltxzhOHYWB3PDJIoAuBMI6oalP7DsUMPdIfGKzl6D0njnpmwlrYe0cnghmFvff4EEjjyHgG8Q7vHTJNhJxnwguFzjqCCNZkmF5fLFyeqrLObPN701BbviBULfSd4aXr+LtzaMpnsyuzEmstz887Vl9vWC5XrbszwkKewDmhs4ZfdsClNCedE6Y0Yozh5uZbwxVC0Kx0Q4d3DmsMIvJfhZoSxgx8Wa4arhIWTYzekjW3RdSNXicsaM7twYf1mvX6gVwtdE6YVFsbvQijKvnCLm9QJQYhiEdU22jaUsqrFxfz5lTp9nse61KGobVxDVWNc5bD/oXbu3tuf9yRP1hhUX+X6q0a2/xEmlnjFf+dUHOdc2wf//C03SI/H/CfPyH33/kHw5CjiISJU30AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Search Result&quot;
+        title=&quot;Search Result&quot;
+        src=&quot;/static/a4d59e20bd4d14d7ab15d9888811ebc6/f058b/image2.png&quot;
+        srcset=&quot;/static/a4d59e20bd4d14d7ab15d9888811ebc6/c26ae/image2.png 158w,
+/static/a4d59e20bd4d14d7ab15d9888811ebc6/6bdcf/image2.png 315w,
+/static/a4d59e20bd4d14d7ab15d9888811ebc6/f058b/image2.png 630w,
+/static/a4d59e20bd4d14d7ab15d9888811ebc6/40601/image2.png 945w,
+/static/a4d59e20bd4d14d7ab15d9888811ebc6/78612/image2.png 1260w,
+/static/a4d59e20bd4d14d7ab15d9888811ebc6/95e59/image2.png 1460w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;검색을 하면, 그 도메인이 사용중인지 사용가능한지 여부를 알려준다. 뿐만 아니라, 그 외 다양한 도메인들도 추천해준다. &lt;strong&gt;견적 받을 필요 없이&lt;/strong&gt; 비용도 바로바로 알 수 있어서 아주아주 편리하다👍&lt;/p&gt;
+&lt;p&gt;인기있는 도메인들은 비용이 비싸거나 이미 사용중인 경우가 많다는 점..🥲&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c09176e8f0214dedfa3174dc9b6964ee/0d40b/image3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 77.84810126582278%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAACKklEQVQ4y32U227bMAyG8+J7hj3AsGHHYlvvd99dNmmz7ma7iIc0TZHYii1L1MEn+R+o1FmSJiPwATJB/hJpSqMmncP4Cl3Xgq3v+4i1Dt77iDFmu3YOlZZwWsJbA6EcFLnod96jbVuMQghgmrpGXVWsuAVbf9d1O+L3k69vGiCESNhjhCczziFXCr5tUXUdiDqErj84NRuLkVJwpPGgNQo+xJ6NhoSaA5sW1NawXQMharRttxMbqOsaSkoI5zCWEg/WHmw6AvpYoSELQwqGangXsPU/h8viXnHfNusURuvTgkQViBRWuQVRe1aQS1ZKYTZL8Or1G1xfj08LWltBK4VEK2TeAeH8CZ21mM/nuLj4jOn0x5EgLwCU3sEQoSBCThRPsh+4T1VVUfDDx0+4ub09FIz/rg9odb6bNW9t7FM4GondiDUN7u8X+PL1End3P49LZr2ARyGQlyWIKKK13q3Pked55Llg3+P34yMW6zU2mw2KooDIMuT5BlJKyKKIfk4uihxCiBizWq3ixicF42ylKSQnChGTsjRFlmURIbIowP40TaOwKss4lycFeSepFOZSojAmXkPuqXPbO80/Ylhz7HK5xNXVdyRJgqFt/wQBWCKkSmFhDBq+o2eMk0hrJMkfvH33HuPJDQaNePWGP8e7K6JYUuXcbuaOGR6JUkpMJxMsFwvAO3RlgdDUGA1PFJfEDE+R/w8cR6oAiTWsUjDfLkEvX8DNfuEv+o7UeZ9ROu0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Search Filter&quot;
+        title=&quot;Search Filter&quot;
+        src=&quot;/static/c09176e8f0214dedfa3174dc9b6964ee/f058b/image3.png&quot;
+        srcset=&quot;/static/c09176e8f0214dedfa3174dc9b6964ee/c26ae/image3.png 158w,
+/static/c09176e8f0214dedfa3174dc9b6964ee/6bdcf/image3.png 315w,
+/static/c09176e8f0214dedfa3174dc9b6964ee/f058b/image3.png 630w,
+/static/c09176e8f0214dedfa3174dc9b6964ee/40601/image3.png 945w,
+/static/c09176e8f0214dedfa3174dc9b6964ee/0d40b/image3.png 1175w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;그리고 이렇게 목적과 상황별에 따라 도메인을 선택할 수 있도록 세부 카테고리 기능을 제공하고 있다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a630216434ebd8a146b85104fa3c6e82/cecac/image4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 129.1139240506329%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAACXBIWXMAAAsTAAALEwEAmpwYAAACVElEQVRIx62VW0sbURDHl+JXKH4XaTEmJiHmKTeNtj72SQq17UOhL5baQilYqCCUPtUIJjH5QL4U+phVk+zlrHv/lT3uRkNvse7AsHBm+O3Mzpz/Kvfn57k3N8eHvU8wOsfVxkgLw/gR/tOTPMdxUeq1GvlclvbRN3zTwLUEYZwwiyV5QRBi2zZKo9Egl81yfNSSAdM0sSwLIQS+789eZQxWms0mKytler0+QRCgqioDVcUwjBlhXHUU58bAEr1eTwJUdYB6diaBfwNFL4/aDIOA0HevPPBR6vU6+Xyefr8vgcPzM8ZjjYuLIUJYv60yMsdxcF2PwLPxxBBbV8G7RFldXaVQKNDtdmXiaDTCdd2pj/6nySYWhOCKEXgWSrVaZWFhgcPDQxmMBpG0NMswpleHqykXi0VOTk7koed5M6/MpItkfZKhlMvlyVCSCv/XJTCqsNvpTCq8i8mhZKPFPj5OB7jWbJJdWkoPGLW8vLxMJ62WI2C02KkCi9Fip15hu50esFQqTRY7kaw7AQv5PO20KqzValPikAowl8tNVXjzPzGL/N9UbamH0U3pdNpxMJCB2ylNOBEJpVqpTF29sa7j31JtHN/n0jgHV0OpVCpkMhlarRZDdcD301NsQwfXIbBtQid2SxAIk/DSuj6zbZlnmwZi8ANMFaVRr1NcKdM52IcX6xgbi+iPl9A2FtEexb6xiPG0gfFyE/1JGW39IdqjzCSmb2bR1x5g7G5fA9tfv8DBW8Y7W5jvtn9xsfca8fkN4uMrzN1n0/H3zzF3trBa+/wEnrdeFJAiNSwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Cart&quot;
+        title=&quot;Cart&quot;
+        src=&quot;/static/a630216434ebd8a146b85104fa3c6e82/f058b/image4.png&quot;
+        srcset=&quot;/static/a630216434ebd8a146b85104fa3c6e82/c26ae/image4.png 158w,
+/static/a630216434ebd8a146b85104fa3c6e82/6bdcf/image4.png 315w,
+/static/a630216434ebd8a146b85104fa3c6e82/f058b/image4.png 630w,
+/static/a630216434ebd8a146b85104fa3c6e82/cecac/image4.png 728w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;(사진 크기 주의)
+구매할 도메인을 선택했다면, 장바구니에 담고 가격을 확인하자. 약간의 수수료가 발생한다.&lt;/p&gt;
+&lt;p&gt;그리고 &lt;strong&gt;반드시 확인하고 넘어가야할 점&lt;/strong&gt;이 있다.&lt;/p&gt;
+&lt;p&gt;등록 첫 해에는 할인을 제공하는 경우가 많아 저렴한 편이지만, 사용하는 기간이 길어지는만큼 2년부터는 비용이 오른다. &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;1 year registration&lt;/code&gt; 드롭다운 메뉴를 클릭해서, 반드시 등록 1년 후의 가격도 확인하고 구매하자!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;아래의 &lt;code class=&quot;language-text&quot;&gt;Checkout&lt;/code&gt; 버튼을 클릭하면 바로 주문서 페이지로 이동된다.&lt;/p&gt;
+&lt;h1&gt;3. 도메인 구매 및 결제하기&lt;/h1&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ee62794a253b4b74bca00b46646752b1/afd61/image5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.06329113924051%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABl0lEQVQoz6VSy2rcQBDc33d+wHYICTgk9zjXQMCQNQT2nsv6sKCsNtJIlnrerwrTeljONYJST/fMdFd3zS5fnhDaCsYH5JTwv9+u/NpW4HQ6oaqqFXVd43w+s63PNS6XC4QQjKZpMAwDvtx/xd3HT3j3/gOub25xPD5NCfu+R9O2aIVgSKUYSusVerWGrXMOh8MBjw/f8fNxj/2PPRPb5ZwxjiO6voexFnlD3zoLFwJiSuitQUgJ0Ws4PSIC0N/uQW/fQH2+Bd1cIdIwMRyIQFLCOwdrLZydrFKKmRX4ELhIjBHeEq/pz2/0x1+wdQXXtUgxvDAUokPXdeiFAI0jiCSoFCLi/RTjq+GXTmIw8HqEMxaLnJywzMMYw6zSrDRfyC8DKO2WswXrmbLOk11eCLf8PAxohECIkTdRioQAcm69+GymGUpjoK1d41gw+5ywqDYSsSjee0ZhrZViy36ZrXOM0kmcR7CwznPS3aSmgyoMZoZLW27DMITAsX9bzjm/ftgloJTGUISQElJKVnfLdMHW3zLcJvwLTqdSv8j0fvcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Checkout&quot;
+        title=&quot;Checkout&quot;
+        src=&quot;/static/ee62794a253b4b74bca00b46646752b1/f058b/image5.png&quot;
+        srcset=&quot;/static/ee62794a253b4b74bca00b46646752b1/c26ae/image5.png 158w,
+/static/ee62794a253b4b74bca00b46646752b1/6bdcf/image5.png 315w,
+/static/ee62794a253b4b74bca00b46646752b1/f058b/image5.png 630w,
+/static/ee62794a253b4b74bca00b46646752b1/40601/image5.png 945w,
+/static/ee62794a253b4b74bca00b46646752b1/78612/image5.png 1260w,
+/static/ee62794a253b4b74bca00b46646752b1/afd61/image5.png 1431w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;주문서 페이지에서는 각종 옵션을 선택할 수 있다. 도메인을 사용할 기간, 기간이 지나면 도메인 등록을 자동 갱신할 것인지, 그 외 Domain Privacy, DNS, SSL 인증서 사용 여부 등 사용할 환경에 맞춰 설정해주면 된다.&lt;/p&gt;
+&lt;p&gt;나는 Domain Privacy, 도메인 등록 자동 갱신만 선택했다.&lt;/p&gt;
+&lt;p&gt;위의 캡쳐 중간 부분에 있는 &lt;strong&gt;Domain Privacy&lt;/strong&gt; 항목을 확인해보면 알 수 있듯이, &lt;strong&gt;Namecheap의 경우 무료&lt;/strong&gt;로 제공해주고 있다! 일부 도메인 업체에서는 이 기능을 유료로 제공하는 경우가 있었기 때문에 마음에 드는 부분이다 후후.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;도메인 등록자인 나의 이름, 주소 등 개인정보를 보호하기 위해서는 Domain Privacy 기능은 필수.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;캡쳐에서 잘렸는데, 아래에 &lt;strong&gt;SSL 인증서비스&lt;/strong&gt; (유료)를 사용할 것인지 선택하는 항목이 있다.
+가격은 첫 해에는 약 4달러, 그 후에는 매년 10달러로 본 것 같다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;보안을 위해 &lt;code class=&quot;language-text&quot;&gt;HTTPS&lt;/code&gt; 대응은 필수이므로, SSL 인증서비스를 이용하는 것을 추천&lt;/strong&gt;한다.
+하지만 나는 &lt;strong&gt;무료로 &lt;code class=&quot;language-text&quot;&gt;HTTPS&lt;/code&gt;를 제공해주는 GitHub Pages를 통해 정적 호스팅을 할 예정이기 때문에 선택하지 않았다!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GitHub Pages를 이용해 호스팅할 예정이라면 SSL 인증서비스는 이용하지 않아도 될 듯.&lt;/p&gt;
+&lt;p&gt;아참, 그리고 구글에 &lt;code class=&quot;language-text&quot;&gt;Namecheap coupon&lt;/code&gt; 등으로 검색하면 Namecheap의 프로모 코드를 찾을 수 있다. 난 &lt;a href=&quot;https://www.namecheap.com/promos/coupons/&quot;&gt;공식 사이트에서 제공하는 프로모 코드&lt;/a&gt;를 적용했는데, 내가 선택한 도메인 자체가 원래 할인을 하고 있었어서 그런지 추가 할인은 적용되지 않았다.&lt;/p&gt;
+&lt;p&gt;옵션 설정, 프로모 코드 입력을 마치고 꼼꼼하게 확인을 한 뒤 &lt;code class=&quot;language-text&quot;&gt;Continue&lt;/code&gt; 클릭.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4ea1bdd4559a3a96723af6e29f2e4348/1e2b7/image6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.49367088607595%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAABqklEQVQoz42SX0/bMBTF8/2/wkZbYJ1YmUDaCg9ICPbAC5OqNlXL2x761vxpE9uJ7STOme4NRukGgisdOXbsn++51wEqDfdnBmMMrLWgaNv2TSVKIctzSCGR5zmEpFFASgXnHALXNEBt0TQNL7wXfgfB6QyNzws8D4qiwPn3C5ydTTCZnGM8/orBYITB8HWNRsf49PkI9/e/MJ1e4/TLGMPhCMcnp4jjGEFd11iv11itVlg/PfG4CEPWcrk8UBh2ms8X2Gw2WMxm+P34iHARYjmfQRcKAaWcZRmklFxHozV0WfJ3v54UVVV1e4xBXVUojEHpANpp2xqtqxFQ3aIoQpIkXGQSXaCUQlmWBxJC8D9SoTXihzvENz+Q3F4hvbtGY3WXIQG3UcQHCKiUZIDvvM+KLvGXamshbqfYX46RTSfIfn5DY02X4W63656AEBAixz4TvbngclDzpJQvQCrNa8FAb9MD0n3OHSNRKdI0ZZj/z0CqsXNo6el4tW1nebvdsu0Xy7KzTHb76lv+t2lenKHPwgO9RU0dfxYBDiz3gP9Z7tv1wD7M6yPAv8sKiKn46pg0AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Contact Info&quot;
+        title=&quot;Contact Info&quot;
+        src=&quot;/static/4ea1bdd4559a3a96723af6e29f2e4348/f058b/image6.png&quot;
+        srcset=&quot;/static/4ea1bdd4559a3a96723af6e29f2e4348/c26ae/image6.png 158w,
+/static/4ea1bdd4559a3a96723af6e29f2e4348/6bdcf/image6.png 315w,
+/static/4ea1bdd4559a3a96723af6e29f2e4348/f058b/image6.png 630w,
+/static/4ea1bdd4559a3a96723af6e29f2e4348/40601/image6.png 945w,
+/static/4ea1bdd4559a3a96723af6e29f2e4348/78612/image6.png 1260w,
+/static/4ea1bdd4559a3a96723af6e29f2e4348/1e2b7/image6.png 1483w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Namecheap 계정의 이름, 연락처 등 개인 정보를 입력하는 폼이 나온다. 입력 후, &lt;code class=&quot;language-text&quot;&gt;Continue&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7dd2b494746ccb4da0930e0702bcddbd/6c99d/image7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.59493670886076%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB0UlEQVQoz52SXU/bMBSG8/u3i11CGQPGl/YnkHbXpCmUDw0utg6BoFqJ82GnsZvWyTPZLS1DcDNLj05iHb/nnNcO7PCUyaRCa03TNO/Sti11XVOWJWlZUlYVSin/73AaLifgP1f71p4TPDw6xnF8/I3d3T02NjtsdrbepLP12cft7R263ZCDwyO+7h/4Mzu7e6RpStCLY6JejyjqEYYRUfQvbi8MQ6IwpB+GxHHM2dmA+7s7vp+cEHa79OM+p3GE0ZqgKAqyLPM+GGPQ2qDKinLi0JhpvcBMqY3xPs5mM+x8xqTSmKalBua2htYSuDYdeZ4jpaLMn9BPv6iehuhkyFTcMk1vmYrfmOyeosiRSlEpSTKIya7OyC76ZD8G2PmcwN3UAolUJSYfQXIOyeWSiyXntOIaVeSoqsIkY8TmB8SXT4jOR8TBBnY2I5BS4sZ20XdYpJjsAZM9LmL+uOQBnY+QcpE7t3Z12y8JxuMxo9EIF71oUSBEQiqEt0JJ6SdwQutv6cejbWmbBp5xz2Y9svIj6/wPTXJNI24WJDfY5Mbv2fQnatmhtfPV23tJ8FzRVV976Ly7esWlL/CW4MsVLLxbo2ROWYh3SFd59tnDV4J/AbkkffZnn9mKAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Whois Info1&quot;
+        title=&quot;Whois Info1&quot;
+        src=&quot;/static/7dd2b494746ccb4da0930e0702bcddbd/f058b/image7.png&quot;
+        srcset=&quot;/static/7dd2b494746ccb4da0930e0702bcddbd/c26ae/image7.png 158w,
+/static/7dd2b494746ccb4da0930e0702bcddbd/6bdcf/image7.png 315w,
+/static/7dd2b494746ccb4da0930e0702bcddbd/f058b/image7.png 630w,
+/static/7dd2b494746ccb4da0930e0702bcddbd/40601/image7.png 945w,
+/static/7dd2b494746ccb4da0930e0702bcddbd/78612/image7.png 1260w,
+/static/7dd2b494746ccb4da0930e0702bcddbd/6c99d/image7.png 1447w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;그 다음은, Whois 관련 개인 정보를 입력하는 폼이 나온다. 위의 안내 문구에서 볼 수 있듯, ICANN에서 도메인 오너의 정보를 요청하고 있기 때문에 입력을 해주어야 한다고 함.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7b5ca57e8e61f36a3a3febf484e2aff3/da994/image8.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.65822784810127%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB7UlEQVQ4y4WSW08aQRiG9/8nTZoqykEBm6Zt4kVvGpNetAai3pmI0Ao2clgUlsOyZ3bZ3dmnmUUUK8RJnnyTdybvzDfzKpVqlcPDEgeHRXYze2T29p/JLJH6ip3dvVSrVKqUjj6Syxf4sLNLsVTGMAyUyXTG3V2bbrdLu91+pEOn06EjtW6XnqryoKpo/T7aUGOoaVimQbvVpK+qjIZDxoM+cRSiOJ7PRNeZzWboumQ5lximiW4YuK6b4kk8D8d1CYIAO1jgCnAT8OIQEUcoySJAzD1EEPBqJMljSZ4QQqTawnXQjo+YfvvE5LiMfnKMSBKUs7NzyuUjPn/5Sr5wwH42Rzabf0numVwuT2Y/y12zSXD+E6vyA/v0BOfiFHm8cv8w4OqqRu36mlrtmkbjN/VGI61/6nVajTqtVmuNW25ummnbmzpSvHnAaDRmNBox1fV0o+/7bxLHMYiYJF5D3tC2bXq9Hqra534wYDgeY1kWpmkuSedLpL5aC8Pw1ftKlPl8zngyYTqd4jhOijxkVTdiWURR9GS4PpQoDHGlkW2ndRURaSijIX9Vtvc/yVoCXhjKEMxjgR8n+GH49Eby5tJwsVhsZKthPNEIO7dE3b8Ic7Y1f5vYaOj9+o5RfI9ReId/ebHcJMSbZtsM/wFG0MKmYwp6IwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Whois Info2&quot;
+        title=&quot;Whois Info2&quot;
+        src=&quot;/static/7b5ca57e8e61f36a3a3febf484e2aff3/f058b/image8.png&quot;
+        srcset=&quot;/static/7b5ca57e8e61f36a3a3febf484e2aff3/c26ae/image8.png 158w,
+/static/7b5ca57e8e61f36a3a3febf484e2aff3/6bdcf/image8.png 315w,
+/static/7b5ca57e8e61f36a3a3febf484e2aff3/f058b/image8.png 630w,
+/static/7b5ca57e8e61f36a3a3febf484e2aff3/40601/image8.png 945w,
+/static/7b5ca57e8e61f36a3a3febf484e2aff3/78612/image8.png 1260w,
+/static/7b5ca57e8e61f36a3a3febf484e2aff3/da994/image8.png 1487w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;약간 스크롤을 내리면 Domain Privacy 기능을 사용할 것인지 다시 한 번 묻는다.&lt;/p&gt;
+&lt;p&gt;그리고 Namecheap 자체 기본 DNS를 사용할 것인지, 별도로 DNS 관리를 할 것인지에 대한 선택하는 옵션이 나온다. 이 설정은 도메인 구매 이후에도 DNS 변경은 가능하다고 한다.&lt;/p&gt;
+&lt;p&gt;나는 Namecheap BasicDNS을 선택하고 &lt;code class=&quot;language-text&quot;&gt;Continue&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4de632c45e9d47b910ff710fd857e0dc/e8814/image9.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67.08860759493672%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB9UlEQVQ4y42T20/TUByA++9rSFTQhCDiq89qvMUXEI1PYuABHN1wHaNj67n3Ngb9zDnrJugSbfLl9LTnfL9LT6Pd3T02N7d4tvOcR+sbt3j8x3zOxsYT7t1f483bd7x89Zqn2zth/4OH6+x//kKUSU3c7RHHMf1+n4uLC5JkQK/3kyRJGA6HgfN29AwG52it6f444fDggLPeGXHnBDkZERXOIUYpUsqwaBXGmL+eVVVFUVXYqxllA8VNw2w2JXLOkaZpWGStDQgpEUIs5x4v9YR7rSnrGnV8xOTTR9S3r2R7HyjT899CpVS70VJYSZUbqqoOmSzwaxfZllcz3N57xNYa6sU22dYa5enxXOhlfrTWYKyldIraZdS5pipzKjuhdgLn5gG9tCwKVl1Rnuek6YjL8XhZtlQaIVVAG4t1OcY6tHEhYBCWJTQNzfU1zc3NfGwaoqIoyDKBEHLZozLrU407VJOYOusyFb3AlehS6HEIEoQQJLeJfG+8ZF6yDWUjOyAOQRxBdgSTw5bvVGrYCos7wmXJXrg4GqGHxqIuE2zawY5OcaOYWvSZyoSp7JPrycoM7wi9bPlRjCWThkwostBH3fZuwa0erhL6jzIYDO6cOykkaXqJlBnOyBDImpZ/Cf0LL1ucQ4/WBqXav0SrZVbmP4S/AJy3y2aIUzvZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Payment1&quot;
+        title=&quot;Payment1&quot;
+        src=&quot;/static/4de632c45e9d47b910ff710fd857e0dc/f058b/image9.png&quot;
+        srcset=&quot;/static/4de632c45e9d47b910ff710fd857e0dc/c26ae/image9.png 158w,
+/static/4de632c45e9d47b910ff710fd857e0dc/6bdcf/image9.png 315w,
+/static/4de632c45e9d47b910ff710fd857e0dc/f058b/image9.png 630w,
+/static/4de632c45e9d47b910ff710fd857e0dc/40601/image9.png 945w,
+/static/4de632c45e9d47b910ff710fd857e0dc/78612/image9.png 1260w,
+/static/4de632c45e9d47b910ff710fd857e0dc/e8814/image9.png 1392w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;그 다음은 결제페이지이다. 카드 정보를 입력해주자. 페이팔, 비트코인으로도 결제를 지원하는듯.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/04447dd9f906a0a81442874702b19cf4/e0202/image10.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.59493670886076%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAABzUlEQVQoz5WS227TQBBA/cmIB55BQqQg2qa5VTRUiM8o4g8KDaKN4qRBimrHdnB8d3y3D1q3SVMSCbHS0Xp2x2d3PJY8z8P3fXzfw/MDUnsG5jWVOaQyb+pZxLGj4foBIj8IAmzbpnf6gW73lPeHRzQO3nHx5SuS2HwkJAo94tDdIVoFrFarDXEc8ePqO4OrAaPRiJvrn+hzBand6XJ+/omzs4/0++e0Oz2Omi2Om22O67n1EAtOOGm1edN4y+XlN/IkxvV94iwnSmLyNEKS5THT6ZTJ7S2TyQR5PK5PHI1kZPmesTyuZ7E2kmWGwyGWZeNoKvbdDFefY89+EXk2kqFrGIbBYrFA1/UNmqZhWRaW49SIMsMw3JBlGdbnDr8bLzB7BxivnhEOB0gzdYGqKqjzOaqqYpomruviOM4TRDPWiP0kSajKkiLLKLKUMs/ruBYqyh2KoqIoSi0UXX/svr+J12tCmKYp+4bk2BbL5bJG/AqinHXXt4V/y9fCqqqeILleQPCQuC0Rz0VRUIqyimIH8fK2cHPDpIQ4L4iLgjiO65PXkn+NbdFGWOgKhWnUVFVJdZ+5U8o+9t5w+fo5VvMlTv+QKs/2fpf/Ef4BIgB+g4UX42AAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Payment2&quot;
+        title=&quot;Payment2&quot;
+        src=&quot;/static/04447dd9f906a0a81442874702b19cf4/f058b/image10.png&quot;
+        srcset=&quot;/static/04447dd9f906a0a81442874702b19cf4/c26ae/image10.png 158w,
+/static/04447dd9f906a0a81442874702b19cf4/6bdcf/image10.png 315w,
+/static/04447dd9f906a0a81442874702b19cf4/f058b/image10.png 630w,
+/static/04447dd9f906a0a81442874702b19cf4/40601/image10.png 945w,
+/static/04447dd9f906a0a81442874702b19cf4/78612/image10.png 1260w,
+/static/04447dd9f906a0a81442874702b19cf4/e0202/image10.png 1395w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;카드 정보 입력란 밑으로 스크롤을 내리면, 도메인의 유효 기간이 지나기 전에 어떤 서비스를 자동 갱신을 할 것인지 물어보고 있다. 원하는 서비스를 선택한 후 &lt;code class=&quot;language-text&quot;&gt;Continue&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/78c4263c068459b3a200c6bcad1ab19f/84f4d/image11.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.9493670886076%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB+klEQVQ4y41TTY/TMBDt/79wRgKOC3tDewUJcSgSp0oLErsHaLsNpG3iOP5I7CS2Hxo7ibZLCyR6Gc945nkyM15Ac7jjBq3tMPQ9/vZYa9E0Ddq2jet+GNA6B+ccvPfRZ0HK4HzcHAaX4EYZbacgP4phjGH38IBfWYbddgtRi0i6CCEAIYAVBfIsw/5nhjzbJZnvsd8/Qp6j2O+htcbH5RKvXl/j5dU1nj1/gdXtl5QhfYhUCQHBGOqyhKwYtKjj7z1FqzXs4GCyDcTyPeTqM8SnD+g4OyVsrYWxHRQFdB0C2c9gqpX5fg/+9gry3Q3qmzfojvkTQmOgmyYGkE7Sk5ww2qm+jTFnm0b7M6EQArUQ6PsegV4icT2MMbERMTs3wHU6Nof2g3MI3iVJvXicIdXHTY5Tdt7D0dqPB/gA3zWROKTA5D8iEk6LinMcDgcciwJKSmhZJygBLQWUFNBKgtc1qroeK4qZaHpmQhqL9XqNzXYLXhXw7A6+/AZf3kW48j7qttpBKj0T/UE4GaWUsY5CSKiaIRRfgeI24TjJFTr2A+J/COk60cBSpxutYTSHUVWEVSyiUyWM4mja9t+EJWPgnMdrhWnuvIe1HfrBzza6ppfITgiNtXHGqLups+fh3JBmcjziYoY0b/Pm7JTuedJDytr1aVwuZPgbljCNsY91TbwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Confirm&quot;
+        title=&quot;Confirm&quot;
+        src=&quot;/static/78c4263c068459b3a200c6bcad1ab19f/f058b/image11.png&quot;
+        srcset=&quot;/static/78c4263c068459b3a200c6bcad1ab19f/c26ae/image11.png 158w,
+/static/78c4263c068459b3a200c6bcad1ab19f/6bdcf/image11.png 315w,
+/static/78c4263c068459b3a200c6bcad1ab19f/f058b/image11.png 630w,
+/static/78c4263c068459b3a200c6bcad1ab19f/40601/image11.png 945w,
+/static/78c4263c068459b3a200c6bcad1ab19f/84f4d/image11.png 1208w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;결제전 최종 확인 페이지! 금액과 입력한 정보들을 확인하고 Pay Now 💳&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;Pay Now&lt;/code&gt;를 선택하고 나면 바로 결제가 되어서 통장에서 빠져나간다🙊&lt;/p&gt;
+&lt;p&gt;등록된 이메일로 결제 확인 내역이 전송되니 확인하자. &lt;strong&gt;&lt;a href=&quot;https://ap.www.namecheap.com/&quot;&gt;Namecheap의 대시보드&lt;/a&gt;에서도 구매한 도메인을 확인할 수 있고, 세부 설정&lt;/strong&gt;까지 할 수 있다.&lt;/p&gt;
+&lt;h1&gt;4. 구매한 도메인에 접속해보기&lt;/h1&gt;
+&lt;p&gt;다른 도메인 업체를 사용해보지 않아서 도메인 구매 후 사용하기까지 얼마나 걸리는지 잘 모르겠지만, &lt;strong&gt;결제 후 단 5분 정도 후에 내가 구매한 도메인으로 접속&lt;/strong&gt;을 해보니 아래와 같은 화면이 나왔다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ec29ccf0bf9fb015abf37e30327555d2/71ba4/image12.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.9873417721519%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB40lEQVQ4y52RXW/SUBjH+Ya+AHNTaKk3jM/gjRfMC7NoMv0CMyZbNLsyioFNWcacyeLipnMOFoIbc1BSSlug0Jb+zKnEiMy9neR/zsk5z/N73kK+7zPwPAauy8BxgnvwNhiMyQf8joH7OUu7XsVod7AsC+8vn5Aw8jodHLWG87OKZ3cDx3Gghwc4uoq3ncOsVWloTVRVDaB/gEFkXyDOX8Ku73r0gXbXpm1ZuK5Lv9cLTvEfEpvd61Gr19F1HcMwzpQp1GphmmaglmHQtW38YWIhEblcO+Hl0jNOdteo7KxSL27w+GGahHKXVGqaZDJ5ulIppmN32Mi/DyoQvQyAx40frOcXwSyBtgt2mbnZNOFIFEmSiMViY4oLyTLy9WsUctlRYFMvs7n6HLR93PoOmEXmZmeYuDWFoijIwvEUiQri0QhrK8ujQKNxwNa7eWgW8QTQKg2BkyiJxH+AErKioIRvsL6cGwVqRyU238xD6zJAOQBKkTCFfzPcrxySebUIxvffJV8EKElnAKvHZDIvoCWAXy6V4aklH6mH5FcWQNvDqW0Ph5K+EDAeCY8PRWuW2SosQLsM+h44FZ4+ekB04opDMfUyb5ee8O1jlq8fXnPwKcfM/XtMTt0mcU6GcuTmSA9/AU3FboqLRzVHAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Confirm&quot;
+        title=&quot;Confirm&quot;
+        src=&quot;/static/ec29ccf0bf9fb015abf37e30327555d2/f058b/image12.png&quot;
+        srcset=&quot;/static/ec29ccf0bf9fb015abf37e30327555d2/c26ae/image12.png 158w,
+/static/ec29ccf0bf9fb015abf37e30327555d2/6bdcf/image12.png 315w,
+/static/ec29ccf0bf9fb015abf37e30327555d2/f058b/image12.png 630w,
+/static/ec29ccf0bf9fb015abf37e30327555d2/40601/image12.png 945w,
+/static/ec29ccf0bf9fb015abf37e30327555d2/78612/image12.png 1260w,
+/static/ec29ccf0bf9fb015abf37e30327555d2/71ba4/image12.png 1870w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;생각보다 아주 빠르게 처리되었다. 도메인을 바로 이용할 수 있게 됐다🌼&lt;/p&gt;
+&lt;h1&gt;5. DNS 설정하기&lt;/h1&gt;
+&lt;p&gt;이제 구매한 도메인을 &lt;strong&gt;GitHub Pages로 배포한 사이트에 연결&lt;/strong&gt;할 차례!&lt;/p&gt;
+&lt;p&gt;이 부분에 관해서는 Namecheap에서 제공하는 GitHub Pages link 공식 자료를 참고했다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages/&quot;&gt;How do I link my domain to GitHub Pages | Namecheap&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;위의 자료를 바탕으로 설정한 순서를 짚어보자면 ↓&lt;/p&gt;
+&lt;p&gt;먼저 DNS를 설정해주어야하는데, Namecheap의 상단 메뉴 &lt;code class=&quot;language-text&quot;&gt;Account &gt; Dashboard &gt; 구매한 도메인 옆에 있는 MANAGE 버튼 클릭 &gt; Advanced DNS&lt;/code&gt;순으로 메뉴를 이동하자.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;HOST RECORDS&lt;/code&gt; 섹션에 아래의 정보를 바탕으로 DNS 레코드를 추가해주면 끝.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Host&lt;/th&gt;
+&lt;th&gt;Value&lt;/th&gt;
+&lt;th&gt;TTL&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A Record&lt;/td&gt;
+&lt;td&gt;@&lt;/td&gt;
+&lt;td&gt;185.199.108.153&lt;/td&gt;
+&lt;td&gt;30 min&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A Record&lt;/td&gt;
+&lt;td&gt;@&lt;/td&gt;
+&lt;td&gt;185.199.109.153&lt;/td&gt;
+&lt;td&gt;Automatic&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A Record&lt;/td&gt;
+&lt;td&gt;@&lt;/td&gt;
+&lt;td&gt;185.199.110.153&lt;/td&gt;
+&lt;td&gt;Automatic&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A Record&lt;/td&gt;
+&lt;td&gt;@&lt;/td&gt;
+&lt;td&gt;185.199.111.153&lt;/td&gt;
+&lt;td&gt;Automatic&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CNAME Record&lt;/td&gt;
+&lt;td&gt;www&lt;/td&gt;
+&lt;td&gt;username.github.io&lt;/td&gt;
+&lt;td&gt;30 min&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ce46a580b6b77ae4196d94b7f908e721/373fb/image13.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.55696202531645%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB/0lEQVQ4y4VSTWsUQRDdfyLiQQkScvCsp6CIZ4MJ4jEB/4N/w39gdpIIKvG0OXkVbyt4cMBDMM7uZrZ7+rt7Zp5UZWayhgUHHtUfNa9evepRo0q4X1Mo45BiBNCiaRo45+C9Z1hr4UOE1xJOLBC0gNQWc2nhuzzKTylh9Pn0FI+3t7G/f4DZ/BKlUFhKCSklRA8heC+rCoIgKz5T1cqdlIgxYvT+4yc8ePgIrw5ew6gC+vI75qWEsRZN26JuGo5XaBhoW9BHdz1SXaNtW4y+5j/xJsvwdnKGFDWM/I2lrKC0YkWVUlgKiaUQg/IveY4P0ykuyhLOWlRao65rLjLKjk+wsbmFnd09aGNxUSxQVUSoMVssUMorMiIWHeGPosC383OUSiGQx85dE47HGe7e28DznRcwxuBPUQzDoD0113Qt/u/jlo+OT3B/cwu7ey+ZgM1WCtoYhBB44mQ2JfdoVtCfDYTvDse4dfsOnjx9xqN3IcB6j1jXvKZoQ4CPkddpBXSWqGBKXJhbzvMc4+wIk8kZ+0CJISWuRtOjmDryft+DJwsghMhdMOFNHwJVJYM7QopUgFSvkhF8ZwVZMxCSVHrhdfeOiKxX0vQKUxp+XgW3SpFEpLReIV3G4K9bprPOr38IqZt1hCR3QIyopICYz6CMgXYO2tr1uHHnaJAh4C8ukNTciwx/dAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;DNS&quot;
+        title=&quot;DNS&quot;
+        src=&quot;/static/ce46a580b6b77ae4196d94b7f908e721/f058b/image13.png&quot;
+        srcset=&quot;/static/ce46a580b6b77ae4196d94b7f908e721/c26ae/image13.png 158w,
+/static/ce46a580b6b77ae4196d94b7f908e721/6bdcf/image13.png 315w,
+/static/ce46a580b6b77ae4196d94b7f908e721/f058b/image13.png 630w,
+/static/ce46a580b6b77ae4196d94b7f908e721/40601/image13.png 945w,
+/static/ce46a580b6b77ae4196d94b7f908e721/78612/image13.png 1260w,
+/static/ce46a580b6b77ae4196d94b7f908e721/373fb/image13.png 2068w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;위의 캡쳐처럼 설정해주었다. 저장까지 잊지 않기.&lt;/p&gt;
+&lt;h1&gt;6. GitHub Pages 설정하기&lt;/h1&gt;
+&lt;p&gt;이제 마지막 단계!👏&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/3e992/image14.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 63.291139240506325%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABu0lEQVQ4y4WT2XLbMAxF9Sm1JWrjvkiUqFh2ljZp3/r/H3M7hKrEcdzpwxlQGA14cUEUelzh0wtCeoYKC46NQtnq/5L/O9TyC0WtE1p3QWdmdHpEzR0aseM3ZECrhi3Kgc4191T0loI5BfkwQK8zzDlBrQv69Qx+WsHXM/oloYn2M+MW2+g+mBxqb1EwbdE4h9ru0aGyHowIYPlbK7CM0WDG3McaVEqjsOMZOpzA9YRORXAzQZiJYq9GtCK3GVHyGcfW48AEDkz+kyIPJT39wnz5CRPPFMPyTOdM2UhUnUHZORxpGPKud+8e2rginr7DDCf0JqLXG6RQR1RyRtkHHGpBU7wtcJsrVHhAXH8grq80vZzMikhVa3BsDQ6NvvtE9mLXRQvpE0J6gvILFcnJb0xs760zYH+LX1N2drPgvsKFWs4xK/TzIx7ffsP6BG0n9NT6iE5lBrQygImRrDi+K/945AXrLRoRkGNWxriD9AvKfDsTlLtl81PcHwo3EW66QA8n2oK8AXSJDGjkvh2elOUOqt5+Wr8vBbMn3M7UmnAJws2kMHubz9wl9OGCVk20hnQhd+Tv9VD2lv8Av9+L13aOlcAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ghpages1&quot;
+        title=&quot;ghpages1&quot;
+        src=&quot;/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/f058b/image14.png&quot;
+        srcset=&quot;/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/c26ae/image14.png 158w,
+/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/6bdcf/image14.png 315w,
+/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/f058b/image14.png 630w,
+/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/40601/image14.png 945w,
+/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/78612/image14.png 1260w,
+/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/3e992/image14.png 1902w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;GitHub의 연결할 블로그 레포지토리 &gt; Settings &gt; Pages&lt;/code&gt;로 이동해서 &lt;strong&gt;Custom domain에 구매한 도메인을 입력 후, 보안을 위해 &lt;code class=&quot;language-text&quot;&gt;Enforce HTTPS&lt;/code&gt;를 반드시 선택하고 Save&lt;/strong&gt;를 클릭하자.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8bec6c4ae621b40e53cba84f2b3f7ef5/36eca/image15.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 78.48101265822784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAACNklEQVQ4y21UV3bjMAzUUdZWFzspkSq2FKe+zf3vM/sA2YmT9cc8QgQFzqAwc+kJw+kd6fyG1kQcKoW8MTg2Zl/rn8i/9jWf/Y2s0hNqt6GzExo9oBIetdzRqB71FeRjW5Id+dyx0hz4HlnpNdRpgFkn2G2GXhd05xVi3dBOEU2yaJJHndwPNITRs48xeZTOIiuNRR08au/RBI/KkSOg9D0Ka1EYjcIYlFajtIZ/+g92XwtlkLm4wQ4rhB3R6gTpJkg7QtiEziQ0iqQm5GLCsXE4lBKHUj0G5dAMZ8zPn5gvf+HGJ8yXT/TLC9s2bchrhaK1yFvPhTrW6r+8/cihjStXmAITo1ZHBjGk5BdyRN4FHCrJDH4H+L2X6f6EtH5g3D44ELUEMbqBZdbmQYt8X3AfNFNhxrC8wPQnlJ3b5VGvUbDWohKOW6Rgn+OV5BPrxwzDgrS+QfcLWjPAxBPi+o55vuC8PKMl6apHqwcG2YUYUIj4sLmzW/cfSo0/pUTeWNRqQCMDWhn4EO3fsDNR38W5TtXxOj1Z2XkIlyCGETJOEP24szERrUlcHGop4UZ0Jj6cjhuIWEaFCKcn2O0MuYxQy4TOJR418jUsc/gavVJ4VCLwCFYycH7pm4iR2qzgxAdUXUDZel55Tu9vv5O0Pw722puW7W8YZJRkKghNCD8Mar95fxQiKjV8Vfq2T8EfvTScQ5JDkxHmZ54OP17gpx12eoWZ3iDjK1o77vKv0ondfR/eqvwPdDznhCoshYcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ghpages2&quot;
+        title=&quot;ghpages2&quot;
+        src=&quot;/static/8bec6c4ae621b40e53cba84f2b3f7ef5/f058b/image15.png&quot;
+        srcset=&quot;/static/8bec6c4ae621b40e53cba84f2b3f7ef5/c26ae/image15.png 158w,
+/static/8bec6c4ae621b40e53cba84f2b3f7ef5/6bdcf/image15.png 315w,
+/static/8bec6c4ae621b40e53cba84f2b3f7ef5/f058b/image15.png 630w,
+/static/8bec6c4ae621b40e53cba84f2b3f7ef5/40601/image15.png 945w,
+/static/8bec6c4ae621b40e53cba84f2b3f7ef5/78612/image15.png 1260w,
+/static/8bec6c4ae621b40e53cba84f2b3f7ef5/36eca/image15.png 1526w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;이렇게 바로 밑에 프로그레스 바가 등장해서 처리 중임을 알려준다.
+약 5~10분 정도 기다린 후에 연결이 완료되면!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2ad35f1b556c01aa452d318f7bc38ad4/3e992/image16.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.49367088607595%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAABqUlEQVQoz3WT63KjMAyF8yoEY2Pw3THgkALtdra77/9AZ8fKtUn3xzcyAmTpSNr1PiOdfiPkd/hxRd3aC+7h/MpeWFRcv7Br1IA2bGjthM4O4CqCqwBR0BFCH4jWpG/n8t1emBd2zBj0c4RdMtx6hF1n9MuCft0g54x29GgnDzF+5+wPd3IAjx47phy4D2isA3eebG09mI1gxqFceMfS+zuWYFerLHY6HHHIHyi2dxk6zDBxhvKZaHVCqwcwlVHLiKpRqBr9M0XDzo0Yly/k7Q/csNA5nT5h0xv8tKFuzbkR0mNPzdA/anfTUIWMvH4h5nf0bkJbRNeJGiTNAKYn1H2i2/f8NVj15NuVIHn7S5QSi7OW95GphENFI6IexkPdninQQ1AKmE6/4IeFMqKxuIyH0AnSJPKXrMmnIhqVKPPbLF4yJQ15H2DTCdIOYJ1D5wfE+RPjtGHOG4Q6gEkP1l1xZz1luGT1VHLnj3DjCh2PYKVUadH0AbzzEJ2nLMpPtTBPm/KfpnB1gElv0HFGWcPOTSidL1ZebVggzIhSDe8j2XL5VcPH1fsH13BtjAW1YjsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ghpages3&quot;
+        title=&quot;ghpages3&quot;
+        src=&quot;/static/2ad35f1b556c01aa452d318f7bc38ad4/f058b/image16.png&quot;
+        srcset=&quot;/static/2ad35f1b556c01aa452d318f7bc38ad4/c26ae/image16.png 158w,
+/static/2ad35f1b556c01aa452d318f7bc38ad4/6bdcf/image16.png 315w,
+/static/2ad35f1b556c01aa452d318f7bc38ad4/f058b/image16.png 630w,
+/static/2ad35f1b556c01aa452d318f7bc38ad4/40601/image16.png 945w,
+/static/2ad35f1b556c01aa452d318f7bc38ad4/78612/image16.png 1260w,
+/static/2ad35f1b556c01aa452d318f7bc38ad4/3e992/image16.png 1902w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Your site is published at &lt;a href=&quot;https://hayoung.life/&quot;&gt;https://hayoung.life/&lt;/a&gt;!&lt;br&gt;
+배포가 완료되었다. 바로 커스텀 도메인에 접속해 확인해보자 ===33&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/403df9cad4eafa30725b74bd07357b82/d9ed5/image17.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.30379746835443%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABQUlEQVQoz42RXUsCQRSG99ek5aqLuJKGXvTxl+22NLzxwsibSsJ1nQkCQ10/92PmCVelkjU6zMuZ4fA+5xzGOC+XqNWuuby6oVypYmYtUmmTTNYim7Pidy5fIGPmOUmdxUqfmuSsInbpgqJtY9k2dsGmUqliuK5g4Lo4zoB+34n19tLloXnP3X2DRqNJvX5Lq9XCHQ5xHAfXdRFCIuU7UgqGUiCFRAiBQWJohoMenc4j3e4T7XYbKeW2ojVhGHEsDKUUP7WJTefR5xilNb4foDX4vs98PsfzZszmC6Io4tC7kbHpuO+8v/denxkISRCpGBQEAWEYxpAt6NtzmBOBM18hxks+psujqyX5jgKn3ozReMJqHSQak6B/AsMwwFusmawWKK1+mcJI4S39OP97wvgnI0WgIjSa+OxqaldTR1b+AsZtjblUDhfBAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Done1&quot;
+        title=&quot;Done1&quot;
+        src=&quot;/static/403df9cad4eafa30725b74bd07357b82/f058b/image17.png&quot;
+        srcset=&quot;/static/403df9cad4eafa30725b74bd07357b82/c26ae/image17.png 158w,
+/static/403df9cad4eafa30725b74bd07357b82/6bdcf/image17.png 315w,
+/static/403df9cad4eafa30725b74bd07357b82/f058b/image17.png 630w,
+/static/403df9cad4eafa30725b74bd07357b82/40601/image17.png 945w,
+/static/403df9cad4eafa30725b74bd07357b82/78612/image17.png 1260w,
+/static/403df9cad4eafa30725b74bd07357b82/d9ed5/image17.png 2880w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;성공적으로 배포가 완료되었다!🎉&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/081d0f922876fa1b959fdf428d9bfd8f/569c6/image18.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACcklEQVQ4y41TTW8SURTlX1gU7QdfHRhmYIACDnQG0YUmJi20NnFlrdqWFhv5E4QNJF30x9SaFFcuTVlomhhZqC3gAKkFyszAad5r2nQsRG9yct97987JuR9j4m12MNwUvLyIuJyAJMmQ448QCIbh9QVhdzCYnLJjYtIG8+27GDNbDLg1RnAHZrOFxk3Ly6/wYnkFq2ubePzkKSJiFBExBpeHg4NxU9ic03C5OczNpZBMPcN8chHJ1CL1qYUlLC09x/z8Ao2bcM3SbzOwsgy4gB9cQIDHL8A7E4TL58WsFEelUqF5qqpSDAYDtNttHB0dXXGYyGO/36eXrXdZhO5HIckPIcYSiIgSQiER/kAIYnQWuVwO29vbKBQK2NnZQbFYRD6fRzabxcHBwU3CzY0MfF4/hEAYnBABywngeB+mGRaS9ACKolBFnU6H5pP75ZlwEC4D4fpaGizLwx8Mwc1ydCBkOB5eQDQmoaEoGGaEY2jJb1bXYXMwCIVFcLwAJ8NS73C6aQ/LXw5RU5qoVmv4+esY1VodSqOJRrMFRWngt9IwEqY3MmBcHgj+GVomORNYbU7IcgJfv/9AW+0TSegPBlTZ3zD2MLMFF8tjJnwxCLIqrMcLu9MFOZ5ArV6/mLKmY5QZCF+uvMa9cSstk/jxCStdaItlHL5AGKXPh/j0rY5K/cTQuxsKLwPlchl7ex+wXyphf/8CpdJH7O6+p2g2m+jrOnRdM5AZFA6b1DBTNQ1qr0fR6/auqrpBeF0hSdKpAiPIX9HtnqHb03F6puJEPx0pwjSsD9dBTNM0/Dlto37SwXGrjUavZfhmJOG/lvZ/3s8BmCGgEKn0M6EAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Done1&quot;
+        title=&quot;Done1&quot;
+        src=&quot;/static/081d0f922876fa1b959fdf428d9bfd8f/f058b/image18.png&quot;
+        srcset=&quot;/static/081d0f922876fa1b959fdf428d9bfd8f/c26ae/image18.png 158w,
+/static/081d0f922876fa1b959fdf428d9bfd8f/6bdcf/image18.png 315w,
+/static/081d0f922876fa1b959fdf428d9bfd8f/f058b/image18.png 630w,
+/static/081d0f922876fa1b959fdf428d9bfd8f/40601/image18.png 945w,
+/static/081d0f922876fa1b959fdf428d9bfd8f/78612/image18.png 1260w,
+/static/081d0f922876fa1b959fdf428d9bfd8f/569c6/image18.png 1674w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;GitHub Pages 덕분에, HTTPS도 잘 적용된 모습!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[이전에 사용하던 블로그들 링크↓↓ velog tistory 요즘따라 나만의 커스터마이즈를 한 블로그를 만들고 싶었다. 
+그래서 velog와 tistory…]]></description><link>https://iamhayoung.github.io/hello-world/</link><guid isPermaLink="false">https://iamhayoung.github.io/hello-world/</guid><pubDate>Tue, 05 Oct 2021 00:09:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
@@ -32,6 +773,11 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;이전에 사용하던 블로그들 링크↓↓&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://velog.io/@iamhayoung&quot;&gt;velog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://iamhayoung.tistory.com/&quot;&gt;tistory&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;요즘따라 나만의 커스터마이즈를 한 블로그를 만들고 싶었다. &lt;br /&gt;
 그래서 velog와 tistory를 짧게 나마 사용해본 결과…&lt;/p&gt;
 &lt;p&gt;정착하지 못함.&lt;/p&gt;
@@ -53,5 +799,5 @@ React 기반의 정적 페이지 생성 프레임워크인 Gatsby로 블로그�
 &lt;/ul&gt;
 &lt;p&gt;utterances를 활용한 GitHub 댓글 기능에 관해서는 본격적으로 블로그를 커스텀하는 과정에 포스팅을 할 예정이다.&lt;/p&gt;
 &lt;p&gt;Gatsby에 대해 하나하나 알아가면서, 내가 원하는 블로그를 만들 때까지 조금씩 조금씩 꾸며가자.&lt;/p&gt;
-&lt;p&gt;드디어 보금자리를 찾은 것 같아 기쁘다. 꾸준히 만들어나가야지. &lt;br /&gt;
+&lt;p&gt;드디어 보금자리를 찾은 것 같아 기쁘다. 꾸준히 채워나가야지. &lt;br /&gt;
 화이팅!&lt;/p&gt;</content:encoded></item></channel></rss>
