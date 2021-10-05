@@ -34,11 +34,6 @@ jobs:
       - run: npm run format
       - run: npm run build
 
-      - name: file copy
-        run: |
-          cp CNAME public/
-          cp google632f381a6ad98753.html public/
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/source' }}
