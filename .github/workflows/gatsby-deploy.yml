@@ -5,16 +5,14 @@ on:
     # branches: source 브랜치에 push를 할 때마다 아래의 jobs를 실행
     branches:
       - source
+  pull_request:
 
 jobs:
   deploy:
-    name: deploy
-    # runs-on: 실행 환경을 ubuntu-latest로 설정
-    runs-on: ubuntu-latest
-
-    # steps: 일련의 실행 jobs를 아래에 기재. 위에서 아래로 actions가 실행
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Setup Node
@@ -37,6 +35,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/source' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: main
