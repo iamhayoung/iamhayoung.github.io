@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung.life]]></title><description><![CDATA[배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝]]></description><link>https://iamhayoung.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Oct 2021 18:03:10 GMT</lastBuildDate><item><title><![CDATA[백준 #3052 | Node.js | 나머지]]></title><description><![CDATA[문제 https://www.acmicpc.net/problem/3052 두 자연수 A와 B가 있을 때, A%B는 A를 B로 나눈 나머지 이다. 예를 들어, 7, 14, 27, 38을 3으로 나눈 나머지는 1, 2, 0, 2이다. 수 1…]]></description><link>https://iamhayoung.github.io/boj-3052/</link><guid isPermaLink="false">https://iamhayoung.github.io/boj-3052/</guid><pubDate>Wed, 06 Oct 2021 02:55:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung.life]]></title><description><![CDATA[배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝]]></description><link>https://iamhayoung.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Oct 2021 18:26:26 GMT</lastBuildDate><item><title><![CDATA[백준 #3052 | Node.js | 나머지]]></title><description><![CDATA[문제 https://www.acmicpc.net/problem/3052 두 자연수 A와 B가 있을 때, A%B는 A를 B로 나눈 나머지 이다. 예를 들어, 7, 14, 27, 38을 3으로 나눈 나머지는 1, 2, 0, 2이다. 수 1…]]></description><link>https://iamhayoung.github.io/boj-3052/</link><guid isPermaLink="false">https://iamhayoung.github.io/boj-3052/</guid><pubDate>Wed, 06 Oct 2021 02:55:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
@@ -164,7 +164,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;p&gt;이 블로그는 &lt;strong&gt;GitHub Pages&lt;/strong&gt;로 배포되어 있는데, GitHub Pages로 배포한 웹은 기본적으로 도메인이 &lt;a href=&quot;https://iamhayoung.github.io&quot;&gt;iamhayoung.github.io&lt;/a&gt;와 같은 형태로 이루어져있다.&lt;/p&gt;
 &lt;p&gt;지금 이 글을 쓰고 있는 블로그는 &lt;strong&gt;앞으로 공부하면서 배운 것들을 기록해나감과 동시에, 간단한 일기장으로써 나의 생각과 생활의 일부분을 담아갈 예정&lt;/strong&gt;이다. 따라서, 이 블로그만큼은 &lt;strong&gt;의미를 함축한, 간편한 도메인&lt;/strong&gt;으로 설정하고 싶었다.&lt;/p&gt;
 &lt;p&gt;결과적으로 현재 이 블로그의 도메인을 &lt;strong&gt;&lt;a href=&quot;https://hayoung.life&quot;&gt;hayoung.life&lt;/a&gt;&lt;/strong&gt; 로 정했다. &lt;strong&gt;내 생활, 삶을 담는 장소라는 의미&lt;/strong&gt;를 담았다😊&lt;/p&gt;
-&lt;p&gt;해당 포스팅은 이 블로그의 &lt;strong&gt;도메인을 구매하고 연결하는 과정&lt;/strong&gt;을 기록했다.&lt;/p&gt;
+&lt;p&gt;해당 포스팅은 이 블로그의 &lt;strong&gt;도메인을 구매하고 연결하는 과정&lt;/strong&gt;을 기록해보았다.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1&gt;1. 도메인 업체 고르기&lt;/h1&gt;
 &lt;p&gt;커스텀 도메인을 설정하기 위해서는 먼저 도메인을 구매해야한다.
@@ -180,7 +180,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;/blockquote&gt;
 &lt;p&gt;결과적으로, 위의 기준을 모두 만족한 &lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap&lt;/a&gt;이라는 해외 도메인 업체를 선택했다.&lt;/p&gt;
 &lt;p&gt;Namecheap은 해외에서 꽤 인지도 있는 유명한 회사였다. (여기서 일단 큰 점수++) 그럼에도 비용도 대체적으로 저렴한 편에 속했다. 그리고 여러 블로그 후기를 찾아보니 유저 평가가 꽤 좋은 업체라 Namecheap을 선택하게 되었다!&lt;/p&gt;
-&lt;h1&gt;2. 도메인을 고르기&lt;/h1&gt;
+&lt;h1&gt;2. 도메인 고르기&lt;/h1&gt;
 &lt;p&gt;커스텀 도메인을 설정하고자 한다면 어느 정도 희망하는 도메인이 있을 것이다. &lt;strong&gt;희망하는 도메인이 이미 사용중인지, 비용은 어떤지, 혹시 이미 사용중이라면 다른 도메인들은 무엇 무엇이 있는지 살펴봐야한다.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap&lt;/a&gt; 사이트에 접속&lt;/strong&gt;해서 도메인을 골라보자.&lt;/p&gt;
 &lt;p&gt;아, 도메인을 둘러보기 전에 나는 먼저 회원 가입이 되어있는 상태였고, 로그인을 한 후에 둘러봤다.
@@ -767,6 +767,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;이렇게 바로 밑에 프로그레스 바가 등장해서 처리 중임을 알려준다.
 약 5~10분 정도 기다린 후에 연결이 완료되면!&lt;/p&gt;
+&lt;h1&gt;7. Done!&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
@@ -801,7 +802,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Your site is published at &lt;a href=&quot;https://hayoung.life/&quot;&gt;https://hayoung.life/&lt;/a&gt;!&lt;br&gt;
-배포가 완료되었다. 바로 커스텀 도메인에 접속해 확인해보자 ===33&lt;/p&gt;
+&lt;strong&gt;배포가 완료&lt;/strong&gt;되었다. 바로 설정했던 커스텀 도메인에 접속해 확인해보자 ===33&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
@@ -835,7 +836,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;성공적으로 배포가 완료되었다!🎉&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;성공적으로 배포가 완료&lt;/strong&gt;되었다!🎉&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
@@ -869,7 +870,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;GitHub Pages 덕분에, HTTPS도 잘 적용된 모습!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[이전에 사용하던 블로그들 링크↓↓ velog tistory 요즘따라 나만의 커스터마이즈를 한 블로그를 만들고 싶었다. 
+&lt;p&gt;GitHub Pages 덕분에, &lt;strong&gt;HTTPS&lt;/strong&gt;도 잘 적용된 모습!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[이전에 사용하던 블로그들 링크↓↓ velog tistory 요즘따라 나만의 커스터마이즈를 한 블로그를 만들고 싶었다. 
 그래서 velog와 tistory…]]></description><link>https://iamhayoung.github.io/hello-world/</link><guid isPermaLink="false">https://iamhayoung.github.io/hello-world/</guid><pubDate>Tue, 05 Oct 2021 00:09:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
