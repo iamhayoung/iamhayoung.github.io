@@ -3,8 +3,7 @@ name: gatsby deploy
 on:
   push:
     # branches: source 브랜치에 push를 할 때마다 아래의 jobs를 실행
-    branches:
-      - source
+    branches: [source]
 
 jobs:
   deploy:
