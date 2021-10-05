@@ -1,4 +1,133 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung.life]]></title><description><![CDATA[배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝]]></description><link>https://iamhayoung.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Oct 2021 16:26:15 GMT</lastBuildDate><item><title><![CDATA[Namecheap에서 도메인 구매, 연결하기 (Feat. GitHub Pages)]]></title><description><![CDATA[이 블로그는 GitHub Pages로 배포되어 있는데, GitHub Pages로 배포한 웹은 기본적으로 도메인이 iamhayoung.github.io…]]></description><link>https://iamhayoung.github.io/new-domain/</link><guid isPermaLink="false">https://iamhayoung.github.io/new-domain/</guid><pubDate>Tue, 05 Oct 2021 23:02:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung.life]]></title><description><![CDATA[배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝]]></description><link>https://iamhayoung.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Oct 2021 17:57:01 GMT</lastBuildDate><item><title><![CDATA[백준 #3052 | Node.js | 나머지]]></title><description><![CDATA[문제 두 자연수 A와 B가 있을 때, A%B는 A를 B로 나눈 나머지 이다. 예를 들어, 7, 14, 27, 38을 3으로 나눈 나머지는 1, 2, 0, 2이다. 수 10개를 입력받은 뒤, 이를 4…]]></description><link>https://iamhayoung.github.io/boj-3052/</link><guid isPermaLink="false">https://iamhayoung.github.io/boj-3052/</guid><pubDate>Wed, 06 Oct 2021 02:55:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b6c97a9a2603c5207e211c61efe5ea1b/45249/thumbnail.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.93670886075949%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAABK0lEQVQoz4WR3VLCMBCFef+n0Au9dYRhFEehooKgjIBUaJomTcpPaVr6CIdJ6Z+2gxdnsrOz++3ZTePZcqFlrDiyuLfi6Fsu+kSc3rJIUZP1lXsbWVCGzcUGvlLwAwVfhfBVhL0KE+ncToX44uscWtYv4GkSRxAdsPEkmOOACQnq7SGFC5dzcM6x8RW2KkR3+Q8wc2itd4jjGFF0wD4IECiVSMdhFOEQx1jI7Xmg8ecmQyrxTiXGbI0R8zByUlGJgS2SweWeMyunTvV0ItD+nOOy/YCLVgf30yUMK4MVw8vgyso5NH27JsXtYILmcILej5PX6B9/JS7ebBcvpOirAOtO8PhN8GTauRsN65gM1x8UV2OK5owluVqHtW6JqOT0h7RmDDdTB3eLAngELDJ1k1ZSeTMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;백준 3052번 문제 나머지. Node.js 풀이&quot;
+        title=&quot;백준 3052번 문제 나머지. Node.js 풀이&quot;
+        src=&quot;/static/b6c97a9a2603c5207e211c61efe5ea1b/f058b/thumbnail.png&quot;
+        srcset=&quot;/static/b6c97a9a2603c5207e211c61efe5ea1b/c26ae/thumbnail.png 158w,
+/static/b6c97a9a2603c5207e211c61efe5ea1b/6bdcf/thumbnail.png 315w,
+/static/b6c97a9a2603c5207e211c61efe5ea1b/f058b/thumbnail.png 630w,
+/static/b6c97a9a2603c5207e211c61efe5ea1b/40601/thumbnail.png 945w,
+/static/b6c97a9a2603c5207e211c61efe5ea1b/78612/thumbnail.png 1260w,
+/static/b6c97a9a2603c5207e211c61efe5ea1b/45249/thumbnail.png 2363w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;문제&lt;/h2&gt;
+&lt;p&gt;두 자연수 A와 B가 있을 때, A%B는 A를 B로 나눈 나머지 이다. 예를 들어, 7, 14, 27, 38을 3으로 나눈 나머지는 1, 2, 0, 2이다.&lt;/p&gt;
+&lt;p&gt;수 10개를 입력받은 뒤, 이를 42로 나눈 나머지를 구한다. 그 다음 서로 다른 값이 몇 개 있는지 출력하는 프로그램을 작성하시오.&lt;/p&gt;
+&lt;h2&gt;문제 난이도&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&quot;color: #ad5600&quot;&gt;브론즈 Ⅱ&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;제한&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;시간 제한&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;메모리 제한&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1초&lt;/td&gt;
+&lt;td&gt;128 MB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;알고리즘 분류&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;수학&lt;/li&gt;
+&lt;li&gt;사칙연산&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;입력&lt;/h2&gt;
+&lt;p&gt;첫째 줄부터 열번째 줄 까지 숫자가 한 줄에 하나씩 주어진다. 이 숫자는 1,000보다 작거나 같고, 음이 아닌 정수이다.&lt;/p&gt;
+&lt;h2&gt;출력&lt;/h2&gt;
+&lt;p&gt;첫째 줄에, 42로 나누었을 때, 서로 다른 나머지가 몇 개 있는지 출력한다.&lt;/p&gt;
+&lt;h2&gt;예제 입력 1&lt;/h2&gt;
+&lt;p&gt;각 수를 42로 나눈 나머지는 1, 2, 3, 4, 5, 6, 7, 8, 9, 10이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;예제 출력 1&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;10&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;예제 입력 2&lt;/h2&gt;
+&lt;p&gt;모든 수를 42로 나눈 나머지는 0이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;42
+84
+252
+420
+840
+126
+42
+84
+420
+126&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;예제 출력 2&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;예제 입력 3&lt;/h2&gt;
+&lt;p&gt;각 수를 42로 나눈 나머지는 39, 40, 41, 0, 1, 2, 40, 41, 0, 1이다. 서로 다른 값은 6개가 있다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;39
+40
+41
+42
+43
+44
+82
+83
+84
+85&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;예제 출력 3&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;6&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;풀이&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; input &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;fs&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;readFileSync&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/dev/stdin&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;trim&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; restSet &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;input&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;restSet&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;result&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이번 문제는 입력값에 42를 나눈 나머지 값들 중에서 중복되지 않는 값의 수를 구하는 것이였다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;%&lt;/code&gt; 연산자로 나머지를 구해서 결과 값을 배열에 담음&lt;/li&gt;
+&lt;li&gt;유일한 값만을 저장하는 특성을 가진 &lt;code class=&quot;language-text&quot;&gt;Set&lt;/code&gt;에 1번에서 만든 배열을 넘겨서 중복 값 제거&lt;/li&gt;
+&lt;li&gt;유일한 값만이 남은 &lt;code class=&quot;language-text&quot;&gt;resetSet&lt;/code&gt;에 spread operator를 이용하여 값을 빈 배열(&lt;code class=&quot;language-text&quot;&gt;result&lt;/code&gt;)에 펼쳐줌&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;result&lt;/code&gt;의 길이를 출력&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Comment&lt;/h2&gt;
+&lt;p&gt;다양한 자료와 메소드를 알고 있는 것이 빠른 문제 해결의 길을 찾을 수 있다는 것을 느꼈다!&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder&quot;&gt;나머지 연산자(%)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set&quot;&gt;Set&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax&quot;&gt;Spread Operator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Namecheap에서 도메인 구매, 연결하기 (Feat. GitHub Pages)]]></title><description><![CDATA[이 블로그는 GitHub Pages로 배포되어 있는데, GitHub Pages로 배포한 웹은 기본적으로 도메인이 iamhayoung.github.io…]]></description><link>https://iamhayoung.github.io/new-domain/</link><guid isPermaLink="false">https://iamhayoung.github.io/new-domain/</guid><pubDate>Tue, 05 Oct 2021 23:02:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
