@@ -26,7 +26,7 @@ jobs:
         run: npm install
 
       - name: gatsby build
-        run: npm build
+        run: npm run build
         env:
           # API_KEY 에는 자신이 secret을 생성할 때 설정한 이름으로 넣기
           GH_API_KEY: ${{ secrets.API_KEY }}
@@ -36,9 +36,8 @@ jobs:
         run: cp CNAME public/
 
       - name: deploy
-        uses: maxheld83/ghpages@v0.2.1
+        uses: peaceiris/actions-gh-pages@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # API_KEY 에는 자신이 secret을 생성할 때 설정한 이름으로 넣기
-          GH_PAT: ${{ secrets.API_KEY }}
-          BUILD_DIR: "public/"
+          publish_dir: ./public
