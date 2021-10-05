@@ -34,6 +34,11 @@ jobs:
       - run: npm run format
       - run: npm run build
 
+      - name: file copy
+        run: |
+          cp CNAME public/
+          cp navere58778c9423cd58e1254c6b63414cfdf.html public/
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/source' }}

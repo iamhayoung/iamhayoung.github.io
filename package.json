@@ -56,7 +56,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "copy": "cp CNAME public/",
+    "copy": "cp CNAME public/ && cp navere58778c9423cd58e1254c6b63414cfdf.html public/",
     "deploy": "gatsby build && npm run copy && gh-pages -d public -b main"
   }
 }
