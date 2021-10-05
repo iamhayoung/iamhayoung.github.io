@@ -16,7 +16,7 @@ Gatsby.js를 기반으로 개발되었습니다.
 ## Branches
 
 ```
-master         // Github Pages에 반영되는 static files
+main           // Github Pages에 반영되는 static files
 source         // Default branch. Blog source code
     └── docs   // History of README.md
 ```
@@ -31,7 +31,7 @@ gatsby develop
 
 ### 1. GitHub Actions
 
-`source` 브랜치에 push 시, deploy jobs가 실행
+`source` 브랜치로 push 시, deploy jobs가 실행되어 `main` 브랜치로 빌드됨
 
 ### 2. Scripts
 
@@ -41,13 +41,13 @@ npm run deploy
 
 ```json
 "scripts": {
-    "deploy": "gatsby build && npm run copy && gh-pages -d public -b master"
+    "deploy": "gatsby build && npm run copy && gh-pages -d public -b main"
 }
 ```
 
 1. 정적 파일 생성
 2. 도메인 정보를 담은 `CNAME` 파일 복사
-3. `/public` 디렉토리 내부에 생성된 정적 파일들을 `master` 브랜치에 배포
+3. `/public` 디렉토리 내부에 생성된 정적 파일들을 `main` 브랜치에 배포
 
 ---
 
