@@ -7,8 +7,8 @@ function GlobalFooter() {
       <div className="footer-container">
         <p className="footer-copyright">
           © {new Date().getFullYear()}{" "}
-          <a className="link" href="https://github.com/iamhayoung">
-            iamhayoung
+          <a className="link" href="https://hayoung.life">
+            hayoung.life
           </a>
           <span className="icon-heart">💚</span>
         </p>

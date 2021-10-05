@@ -1,7 +1,7 @@
 {
-  "name": "hayoung-log",
+  "name": "hayoung-life",
   "private": true,
-  "description": "hayoung-log is a devlog, built with Gatsby.js",
+  "description": "hayoung-life is a devlog, built with Gatsby.js",
   "version": "0.1.0",
   "author": "iamhayoung <hahhyoung@gmail.com>",
   "bugs": {
