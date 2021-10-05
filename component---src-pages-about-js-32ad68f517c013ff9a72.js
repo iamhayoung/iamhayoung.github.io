@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkhayoung_life=self.webpackChunkhayoung_life||[]).push([[682],{5518:function(e,t,a){a.r(t);var l=a(7294),n=a(3384),u=a(3751);t.default=function(e){var t=e.data,a=e.location,i=t.site.siteMetadata.title;return l.createElement(n.Z,{location:a,title:i},l.createElement(u.Z,{title:"About"}),l.createElement("h1",null,"About"),l.createElement("p",null,"작성 중입니다. 잠시만 기다려주세요🙇‍♀️"))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-32ad68f517c013ff9a72.js.map
