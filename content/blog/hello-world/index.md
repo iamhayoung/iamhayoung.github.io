@@ -6,6 +6,11 @@ description: "Gatsby 블로그 첫 포스팅!"
 
 ![People](./people.jpg)
 
+이전에 사용하던 블로그들 링크↓↓
+
+- [velog](https://velog.io/@iamhayoung)
+- [tistory](https://iamhayoung.tistory.com/)
+
 요즘따라 나만의 커스터마이즈를 한 블로그를 만들고 싶었다. <br />
 그래서 velog와 tistory를 짧게 나마 사용해본 결과...
 
@@ -36,5 +41,5 @@ utterances를 활용한 GitHub 댓글 기능에 관해서는 본격적으로 블
 
 Gatsby에 대해 하나하나 알아가면서, 내가 원하는 블로그를 만들 때까지 조금씩 조금씩 꾸며가자.
 
-드디어 보금자리를 찾은 것 같아 기쁘다. 꾸준히 만들어나가야지. <br />
+드디어 보금자리를 찾은 것 같아 기쁘다. 꾸준히 채워나가야지. <br />
 화이팅!
