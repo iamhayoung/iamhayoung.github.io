@@ -1,4 +1,4 @@
-name: gatsby deploy
+name: Gatsby deploy
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
       - name: Setup Node
         uses: actions/setup-node@v2
@@ -35,8 +35,8 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/source' }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: main
           publish_dir: ./public
           cname: hayoung.life
