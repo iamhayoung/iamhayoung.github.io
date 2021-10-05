@@ -5,7 +5,7 @@ module.exports = {
       name: `iamhayoung`,
       summary: `who write and build stuff on internet 🌏`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `배움을 즐기는 프론트엔드 개발자 iamhayoung의 devlog입니다!`,
     siteUrl: `https://iamhayoung.github.io/`,
     social: {
       github: `iamhayoung`,
