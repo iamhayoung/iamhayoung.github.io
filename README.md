@@ -1,11 +1,13 @@
-# [hayoung_log](https://iamhayoung.github.io/)
+# [hayoung.life](https://hayoung.life)
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fiamhayoung%2Fiamhayoung.github.io&count_bg=%23BB7E8C&title_bg=%23434343&icon=github.svg&icon_color=%23FFFFFF&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-Welcome to my devlog 👋  
-Gatsby.js를 기반으로 한 기술 블로그입니다.
+## Welcome to [hayoung.life](https://hayoung.life) 👋
 
-🛠 2021.10 현재 개발 진행중
+프론트엔드 개발자인 저만의 삶을 담아 나갈 기술 블로그입니다.  
+Gatsby.js를 기반으로 개발되었습니다.
+
+🛠 2021.10 현재 개발 진행중...
 
 ## Wiki
 
