@@ -3,39 +3,42 @@ name: gatsby deploy
 on:
   push:
     # branches: source 브랜치에 push를 할 때마다 아래의 jobs를 실행
-    branches: [source]
+    branches:
+      - source
 
 jobs:
   deploy:
-    # name: 일련의 jobs flow를 정의하는데 해당 jobs의 이름을 deploy로 명명
     name: deploy
     # runs-on: 실행 환경을 ubuntu-latest로 설정
     runs-on: ubuntu-latest
 
     # steps: 일련의 실행 jobs를 아래에 기재. 위에서 아래로 actions가 실행
     steps:
-      # name: 실행되는 job의 이름
-      # uses: 이미 만들어진 액션을 사용
-      # run: 실행시킬 명령어 (cmd)
-      # env: 환경 변수
-      - name: checkout code
+      - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: packages install
-        run: npm install
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
 
-      - name: gatsby build
-        run: npm run build
-        env:
-          # API_KEY 에는 자신이 secret을 생성할 때 설정한 이름으로 넣기
-          GH_API_KEY: ${{ secrets.API_KEY }}
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
-      - name: CNAME copy
-        # 커스텀 도메인 값을 담은 CNAME 파일을 public 디렉토리에 복사
-        run: cp CNAME public/
+      - run: npm ci
+      - run: npm run format
+      - run: npm run test
+      - run: npm run build
 
-      - name: deploy
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: main
           publish_dir: ./public
+          cname: hayoung.life
