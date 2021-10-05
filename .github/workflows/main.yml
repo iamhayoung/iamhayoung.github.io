@@ -30,6 +30,10 @@ jobs:
           # API_KEY 에는 자신이 secret을 생성할 때 설정한 이름으로 넣어야 한다
           GH_API_KEY: ${{ secrets.API_KEY }}
 
+      - name: CNAME copy
+        # build와 deploy 과정 사이에 CNAME 파일을 public 디렉토리에 복사.
+        run: cp CNAME public/
+
       - name: deploy
         uses: maxheld83/ghpages@v0.2.1
         env:
