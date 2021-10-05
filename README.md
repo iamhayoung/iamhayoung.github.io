@@ -4,7 +4,7 @@
 
 ## Welcome to [hayoung.life](https://hayoung.life) 👋
 
-프론트엔드 개발자인 저만의 삶을 담아 나갈 기술 블로그입니다.  
+프론트엔드 개발자인 저만의 삶을 담아 나갈 기술 블로그입니다.
 Gatsby.js를 기반으로 개발되었습니다.
 
 🛠 2021.10 현재 개발 진행중...
@@ -16,9 +16,9 @@ Gatsby.js를 기반으로 개발되었습니다.
 ## Branches
 
 ```
-└─── master             // Github pages에 필요한 static files
-      └── source        // Default branch. Blog source code
-    	     └── docs   // History of README.md
+master         // Github Pages에 반영되는 static files
+source         // Default branch. Blog source code
+    └── docs   // History of README.md
 ```
 
 ## Run
