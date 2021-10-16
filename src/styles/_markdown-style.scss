@@ -39,9 +39,10 @@
     }
   }
 
-  .language-text {
+  :not(pre) > code[class*="language-"] {
+    // inline code text style
     background-color: var(--color-code-text-background-color);
     color: var(--color-text);
-    padding: 0.1em 0.4em;
+    padding: 0.13rem var(--spacing-1);
   }
 }
