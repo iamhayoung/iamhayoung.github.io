@@ -7,6 +7,7 @@ import Seo from "../components/seo";
 import Utterances from "../components/utterances";
 
 import { formatReadingTime } from "../utils/helpers";
+import "./blog-post.scss";
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark;
