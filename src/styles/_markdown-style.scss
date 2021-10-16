@@ -11,6 +11,14 @@
   list-style-type: decimal;
 }
 
+.markdown .gatsby-resp-image-wrapper + em {
+  display: block;
+  margin-top: var(--spacing-1);
+  color: var(--color-text-light);
+  font-size: var(--fontSize-0);
+  text-align: center;
+}
+
 .markdown blockquote {
   color: var(--color-text-light);
   margin-left: var(--spacing-0);
