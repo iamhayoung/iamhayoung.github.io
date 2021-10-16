@@ -5,6 +5,8 @@ import Bio from "../components/bio";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 
+import { formatReadingTime } from "../utils/helpers";
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`;
   const posts = data.allMarkdownRemark.nodes;
@@ -44,7 +46,10 @@ const BlogIndex = ({ data, location }) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <small>
+                    {post.frontmatter.date}
+                    {` • ${formatReadingTime(post.timeToRead)}`}
+                  </small>
                 </header>
                 <section>
                   <p
@@ -78,6 +83,7 @@ export const pageQuery = graphql`
         fields {
           slug
         }
+        timeToRead
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title

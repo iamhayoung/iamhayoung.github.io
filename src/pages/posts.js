@@ -1,7 +1,10 @@
 import * as React from "react";
 import { Link, graphql } from "gatsby";
+
 import Layout from "../components/layout";
 import Seo from "../components/seo";
+
+import { formatReadingTime } from "../utils/helpers";
 
 function Posts({ data, location }) {
   const siteTitle = data.site.siteMetadata.title;
@@ -41,7 +44,10 @@ function Posts({ data, location }) {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <small>
+                    {post.frontmatter.date}
+                    {` • ${formatReadingTime(post.timeToRead)}`}
+                  </small>
                 </header>
                 <section>
                   <p
@@ -75,6 +81,7 @@ export const pageQuery = graphql`
         fields {
           slug
         }
+        timeToRead
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title
