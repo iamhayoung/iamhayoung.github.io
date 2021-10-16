@@ -39,10 +39,25 @@
     }
   }
 
+  /* Code Blocks */
+  .gatsby-highlight {
+    margin-bottom: var(--spacing-8);
+  }
+
   :not(pre) > code[class*="language-"] {
     // inline code text style
     background-color: var(--color-code-text-background-color);
     color: var(--color-text);
     padding: 0.13rem var(--spacing-1);
+  }
+
+  code[class*="language-"],
+  pre[class*="language-"] {
+    font-size: 0.9rem;
+  }
+
+  pre[class*="language-"] {
+    padding: var(--spacing-5) var(--spacing-5);
+    border-radius: 10px;
   }
 }
