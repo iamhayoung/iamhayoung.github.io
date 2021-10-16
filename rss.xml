@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung.life]]></title><description><![CDATA[배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝]]></description><link>https://hayoung.life</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 Oct 2021 13:09:45 GMT</lastBuildDate><item><title><![CDATA[백준 #3052 | Node.js | 나머지]]></title><description><![CDATA[문제 https://www.acmicpc.net/problem/3052 두 자연수 A와 B가 있을 때, A%B는 A를 B로 나눈 나머지 이다. 예를 들어, 7, 14, 27, 38을 3으로 나눈 나머지는 1, 2, 0, 2이다. 수 1…]]></description><link>https://hayoung.life/boj-3052/</link><guid isPermaLink="false">https://hayoung.life/boj-3052/</guid><pubDate>Wed, 06 Oct 2021 02:55:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung.life]]></title><description><![CDATA[배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝]]></description><link>https://hayoung.life</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 Oct 2021 16:06:11 GMT</lastBuildDate><item><title><![CDATA[백준 #3052 | Node.js | 나머지]]></title><description><![CDATA[문제 https://www.acmicpc.net/problem/3052 두 자연수 A와 B가 있을 때, A%B는 A를 B로 나눈 나머지 이다. 예를 들어, 7, 14, 27, 38을 3으로 나눈 나머지는 1, 2, 0, 2이다. 수 1…]]></description><link>https://hayoung.life/boj-3052/</link><guid isPermaLink="false">https://hayoung.life/boj-3052/</guid><pubDate>Wed, 06 Oct 2021 02:55:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/b6c97a9a2603c5207e211c61efe5ea1b/45249/thumbnail.png&quot;
+    href=&quot;/static/b6c97a9a2603c5207e211c61efe5ea1b/df305/thumbnail.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -17,13 +17,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;백준 3052번 문제 나머지. Node.js 풀이&quot;
         title=&quot;백준 3052번 문제 나머지. Node.js 풀이&quot;
-        src=&quot;/static/b6c97a9a2603c5207e211c61efe5ea1b/f058b/thumbnail.png&quot;
-        srcset=&quot;/static/b6c97a9a2603c5207e211c61efe5ea1b/c26ae/thumbnail.png 158w,
-/static/b6c97a9a2603c5207e211c61efe5ea1b/6bdcf/thumbnail.png 315w,
-/static/b6c97a9a2603c5207e211c61efe5ea1b/f058b/thumbnail.png 630w,
-/static/b6c97a9a2603c5207e211c61efe5ea1b/40601/thumbnail.png 945w,
-/static/b6c97a9a2603c5207e211c61efe5ea1b/78612/thumbnail.png 1260w,
-/static/b6c97a9a2603c5207e211c61efe5ea1b/45249/thumbnail.png 2363w&quot;
+        src=&quot;/static/b6c97a9a2603c5207e211c61efe5ea1b/984b6/thumbnail.png&quot;
+        srcset=&quot;/static/b6c97a9a2603c5207e211c61efe5ea1b/4d6f2/thumbnail.png 158w,
+/static/b6c97a9a2603c5207e211c61efe5ea1b/3c1ae/thumbnail.png 315w,
+/static/b6c97a9a2603c5207e211c61efe5ea1b/984b6/thumbnail.png 630w,
+/static/b6c97a9a2603c5207e211c61efe5ea1b/e7d8e/thumbnail.png 945w,
+/static/b6c97a9a2603c5207e211c61efe5ea1b/58c38/thumbnail.png 1260w,
+/static/b6c97a9a2603c5207e211c61efe5ea1b/df305/thumbnail.png 2363w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -134,7 +134,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/d55d0a16fa43c4518bc513c44d654fcd/45249/thumbnail.png&quot;
+    href=&quot;/static/d55d0a16fa43c4518bc513c44d654fcd/df305/thumbnail.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -147,13 +147,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Register Your Domain Name&quot;
         title=&quot;Register Your Domain Name&quot;
-        src=&quot;/static/d55d0a16fa43c4518bc513c44d654fcd/f058b/thumbnail.png&quot;
-        srcset=&quot;/static/d55d0a16fa43c4518bc513c44d654fcd/c26ae/thumbnail.png 158w,
-/static/d55d0a16fa43c4518bc513c44d654fcd/6bdcf/thumbnail.png 315w,
-/static/d55d0a16fa43c4518bc513c44d654fcd/f058b/thumbnail.png 630w,
-/static/d55d0a16fa43c4518bc513c44d654fcd/40601/thumbnail.png 945w,
-/static/d55d0a16fa43c4518bc513c44d654fcd/78612/thumbnail.png 1260w,
-/static/d55d0a16fa43c4518bc513c44d654fcd/45249/thumbnail.png 2363w&quot;
+        src=&quot;/static/d55d0a16fa43c4518bc513c44d654fcd/984b6/thumbnail.png&quot;
+        srcset=&quot;/static/d55d0a16fa43c4518bc513c44d654fcd/4d6f2/thumbnail.png 158w,
+/static/d55d0a16fa43c4518bc513c44d654fcd/3c1ae/thumbnail.png 315w,
+/static/d55d0a16fa43c4518bc513c44d654fcd/984b6/thumbnail.png 630w,
+/static/d55d0a16fa43c4518bc513c44d654fcd/e7d8e/thumbnail.png 945w,
+/static/d55d0a16fa43c4518bc513c44d654fcd/58c38/thumbnail.png 1260w,
+/static/d55d0a16fa43c4518bc513c44d654fcd/df305/thumbnail.png 2363w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -191,7 +191,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/99cb49fe34231cc0a1197add481f6ae5/8733b/image1.png&quot;
+    href=&quot;/static/99cb49fe34231cc0a1197add481f6ae5/c9f96/image1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -204,13 +204,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Browse Domain&quot;
         title=&quot;Browse Domain&quot;
-        src=&quot;/static/99cb49fe34231cc0a1197add481f6ae5/f058b/image1.png&quot;
-        srcset=&quot;/static/99cb49fe34231cc0a1197add481f6ae5/c26ae/image1.png 158w,
-/static/99cb49fe34231cc0a1197add481f6ae5/6bdcf/image1.png 315w,
-/static/99cb49fe34231cc0a1197add481f6ae5/f058b/image1.png 630w,
-/static/99cb49fe34231cc0a1197add481f6ae5/40601/image1.png 945w,
-/static/99cb49fe34231cc0a1197add481f6ae5/78612/image1.png 1260w,
-/static/99cb49fe34231cc0a1197add481f6ae5/8733b/image1.png 1495w&quot;
+        src=&quot;/static/99cb49fe34231cc0a1197add481f6ae5/984b6/image1.png&quot;
+        srcset=&quot;/static/99cb49fe34231cc0a1197add481f6ae5/4d6f2/image1.png 158w,
+/static/99cb49fe34231cc0a1197add481f6ae5/3c1ae/image1.png 315w,
+/static/99cb49fe34231cc0a1197add481f6ae5/984b6/image1.png 630w,
+/static/99cb49fe34231cc0a1197add481f6ae5/e7d8e/image1.png 945w,
+/static/99cb49fe34231cc0a1197add481f6ae5/58c38/image1.png 1260w,
+/static/99cb49fe34231cc0a1197add481f6ae5/c9f96/image1.png 1495w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -225,7 +225,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a4d59e20bd4d14d7ab15d9888811ebc6/95e59/image2.png&quot;
+    href=&quot;/static/a4d59e20bd4d14d7ab15d9888811ebc6/a2906/image2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -238,13 +238,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Search Result&quot;
         title=&quot;Search Result&quot;
-        src=&quot;/static/a4d59e20bd4d14d7ab15d9888811ebc6/f058b/image2.png&quot;
-        srcset=&quot;/static/a4d59e20bd4d14d7ab15d9888811ebc6/c26ae/image2.png 158w,
-/static/a4d59e20bd4d14d7ab15d9888811ebc6/6bdcf/image2.png 315w,
-/static/a4d59e20bd4d14d7ab15d9888811ebc6/f058b/image2.png 630w,
-/static/a4d59e20bd4d14d7ab15d9888811ebc6/40601/image2.png 945w,
-/static/a4d59e20bd4d14d7ab15d9888811ebc6/78612/image2.png 1260w,
-/static/a4d59e20bd4d14d7ab15d9888811ebc6/95e59/image2.png 1460w&quot;
+        src=&quot;/static/a4d59e20bd4d14d7ab15d9888811ebc6/984b6/image2.png&quot;
+        srcset=&quot;/static/a4d59e20bd4d14d7ab15d9888811ebc6/4d6f2/image2.png 158w,
+/static/a4d59e20bd4d14d7ab15d9888811ebc6/3c1ae/image2.png 315w,
+/static/a4d59e20bd4d14d7ab15d9888811ebc6/984b6/image2.png 630w,
+/static/a4d59e20bd4d14d7ab15d9888811ebc6/e7d8e/image2.png 945w,
+/static/a4d59e20bd4d14d7ab15d9888811ebc6/58c38/image2.png 1260w,
+/static/a4d59e20bd4d14d7ab15d9888811ebc6/a2906/image2.png 1460w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -260,7 +260,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/c09176e8f0214dedfa3174dc9b6964ee/0d40b/image3.png&quot;
+    href=&quot;/static/c09176e8f0214dedfa3174dc9b6964ee/bf24a/image3.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -273,12 +273,12 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Search Filter&quot;
         title=&quot;Search Filter&quot;
-        src=&quot;/static/c09176e8f0214dedfa3174dc9b6964ee/f058b/image3.png&quot;
-        srcset=&quot;/static/c09176e8f0214dedfa3174dc9b6964ee/c26ae/image3.png 158w,
-/static/c09176e8f0214dedfa3174dc9b6964ee/6bdcf/image3.png 315w,
-/static/c09176e8f0214dedfa3174dc9b6964ee/f058b/image3.png 630w,
-/static/c09176e8f0214dedfa3174dc9b6964ee/40601/image3.png 945w,
-/static/c09176e8f0214dedfa3174dc9b6964ee/0d40b/image3.png 1175w&quot;
+        src=&quot;/static/c09176e8f0214dedfa3174dc9b6964ee/984b6/image3.png&quot;
+        srcset=&quot;/static/c09176e8f0214dedfa3174dc9b6964ee/4d6f2/image3.png 158w,
+/static/c09176e8f0214dedfa3174dc9b6964ee/3c1ae/image3.png 315w,
+/static/c09176e8f0214dedfa3174dc9b6964ee/984b6/image3.png 630w,
+/static/c09176e8f0214dedfa3174dc9b6964ee/e7d8e/image3.png 945w,
+/static/c09176e8f0214dedfa3174dc9b6964ee/bf24a/image3.png 1175w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -293,7 +293,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a630216434ebd8a146b85104fa3c6e82/cecac/image4.png&quot;
+    href=&quot;/static/a630216434ebd8a146b85104fa3c6e82/0b3a5/image4.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -306,11 +306,11 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Cart&quot;
         title=&quot;Cart&quot;
-        src=&quot;/static/a630216434ebd8a146b85104fa3c6e82/f058b/image4.png&quot;
-        srcset=&quot;/static/a630216434ebd8a146b85104fa3c6e82/c26ae/image4.png 158w,
-/static/a630216434ebd8a146b85104fa3c6e82/6bdcf/image4.png 315w,
-/static/a630216434ebd8a146b85104fa3c6e82/f058b/image4.png 630w,
-/static/a630216434ebd8a146b85104fa3c6e82/cecac/image4.png 728w&quot;
+        src=&quot;/static/a630216434ebd8a146b85104fa3c6e82/984b6/image4.png&quot;
+        srcset=&quot;/static/a630216434ebd8a146b85104fa3c6e82/4d6f2/image4.png 158w,
+/static/a630216434ebd8a146b85104fa3c6e82/3c1ae/image4.png 315w,
+/static/a630216434ebd8a146b85104fa3c6e82/984b6/image4.png 630w,
+/static/a630216434ebd8a146b85104fa3c6e82/0b3a5/image4.png 728w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -330,7 +330,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ee62794a253b4b74bca00b46646752b1/afd61/image5.png&quot;
+    href=&quot;/static/ee62794a253b4b74bca00b46646752b1/9f605/image5.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -343,13 +343,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Checkout&quot;
         title=&quot;Checkout&quot;
-        src=&quot;/static/ee62794a253b4b74bca00b46646752b1/f058b/image5.png&quot;
-        srcset=&quot;/static/ee62794a253b4b74bca00b46646752b1/c26ae/image5.png 158w,
-/static/ee62794a253b4b74bca00b46646752b1/6bdcf/image5.png 315w,
-/static/ee62794a253b4b74bca00b46646752b1/f058b/image5.png 630w,
-/static/ee62794a253b4b74bca00b46646752b1/40601/image5.png 945w,
-/static/ee62794a253b4b74bca00b46646752b1/78612/image5.png 1260w,
-/static/ee62794a253b4b74bca00b46646752b1/afd61/image5.png 1431w&quot;
+        src=&quot;/static/ee62794a253b4b74bca00b46646752b1/984b6/image5.png&quot;
+        srcset=&quot;/static/ee62794a253b4b74bca00b46646752b1/4d6f2/image5.png 158w,
+/static/ee62794a253b4b74bca00b46646752b1/3c1ae/image5.png 315w,
+/static/ee62794a253b4b74bca00b46646752b1/984b6/image5.png 630w,
+/static/ee62794a253b4b74bca00b46646752b1/e7d8e/image5.png 945w,
+/static/ee62794a253b4b74bca00b46646752b1/58c38/image5.png 1260w,
+/static/ee62794a253b4b74bca00b46646752b1/9f605/image5.png 1431w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -374,7 +374,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4ea1bdd4559a3a96723af6e29f2e4348/1e2b7/image6.png&quot;
+    href=&quot;/static/4ea1bdd4559a3a96723af6e29f2e4348/dabbe/image6.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -387,13 +387,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Contact Info&quot;
         title=&quot;Contact Info&quot;
-        src=&quot;/static/4ea1bdd4559a3a96723af6e29f2e4348/f058b/image6.png&quot;
-        srcset=&quot;/static/4ea1bdd4559a3a96723af6e29f2e4348/c26ae/image6.png 158w,
-/static/4ea1bdd4559a3a96723af6e29f2e4348/6bdcf/image6.png 315w,
-/static/4ea1bdd4559a3a96723af6e29f2e4348/f058b/image6.png 630w,
-/static/4ea1bdd4559a3a96723af6e29f2e4348/40601/image6.png 945w,
-/static/4ea1bdd4559a3a96723af6e29f2e4348/78612/image6.png 1260w,
-/static/4ea1bdd4559a3a96723af6e29f2e4348/1e2b7/image6.png 1483w&quot;
+        src=&quot;/static/4ea1bdd4559a3a96723af6e29f2e4348/984b6/image6.png&quot;
+        srcset=&quot;/static/4ea1bdd4559a3a96723af6e29f2e4348/4d6f2/image6.png 158w,
+/static/4ea1bdd4559a3a96723af6e29f2e4348/3c1ae/image6.png 315w,
+/static/4ea1bdd4559a3a96723af6e29f2e4348/984b6/image6.png 630w,
+/static/4ea1bdd4559a3a96723af6e29f2e4348/e7d8e/image6.png 945w,
+/static/4ea1bdd4559a3a96723af6e29f2e4348/58c38/image6.png 1260w,
+/static/4ea1bdd4559a3a96723af6e29f2e4348/dabbe/image6.png 1483w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -408,7 +408,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7dd2b494746ccb4da0930e0702bcddbd/6c99d/image7.png&quot;
+    href=&quot;/static/7dd2b494746ccb4da0930e0702bcddbd/ef92a/image7.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -421,13 +421,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Whois Info1&quot;
         title=&quot;Whois Info1&quot;
-        src=&quot;/static/7dd2b494746ccb4da0930e0702bcddbd/f058b/image7.png&quot;
-        srcset=&quot;/static/7dd2b494746ccb4da0930e0702bcddbd/c26ae/image7.png 158w,
-/static/7dd2b494746ccb4da0930e0702bcddbd/6bdcf/image7.png 315w,
-/static/7dd2b494746ccb4da0930e0702bcddbd/f058b/image7.png 630w,
-/static/7dd2b494746ccb4da0930e0702bcddbd/40601/image7.png 945w,
-/static/7dd2b494746ccb4da0930e0702bcddbd/78612/image7.png 1260w,
-/static/7dd2b494746ccb4da0930e0702bcddbd/6c99d/image7.png 1447w&quot;
+        src=&quot;/static/7dd2b494746ccb4da0930e0702bcddbd/984b6/image7.png&quot;
+        srcset=&quot;/static/7dd2b494746ccb4da0930e0702bcddbd/4d6f2/image7.png 158w,
+/static/7dd2b494746ccb4da0930e0702bcddbd/3c1ae/image7.png 315w,
+/static/7dd2b494746ccb4da0930e0702bcddbd/984b6/image7.png 630w,
+/static/7dd2b494746ccb4da0930e0702bcddbd/e7d8e/image7.png 945w,
+/static/7dd2b494746ccb4da0930e0702bcddbd/58c38/image7.png 1260w,
+/static/7dd2b494746ccb4da0930e0702bcddbd/ef92a/image7.png 1447w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -442,7 +442,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7b5ca57e8e61f36a3a3febf484e2aff3/da994/image8.png&quot;
+    href=&quot;/static/7b5ca57e8e61f36a3a3febf484e2aff3/d539b/image8.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -455,13 +455,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Whois Info2&quot;
         title=&quot;Whois Info2&quot;
-        src=&quot;/static/7b5ca57e8e61f36a3a3febf484e2aff3/f058b/image8.png&quot;
-        srcset=&quot;/static/7b5ca57e8e61f36a3a3febf484e2aff3/c26ae/image8.png 158w,
-/static/7b5ca57e8e61f36a3a3febf484e2aff3/6bdcf/image8.png 315w,
-/static/7b5ca57e8e61f36a3a3febf484e2aff3/f058b/image8.png 630w,
-/static/7b5ca57e8e61f36a3a3febf484e2aff3/40601/image8.png 945w,
-/static/7b5ca57e8e61f36a3a3febf484e2aff3/78612/image8.png 1260w,
-/static/7b5ca57e8e61f36a3a3febf484e2aff3/da994/image8.png 1487w&quot;
+        src=&quot;/static/7b5ca57e8e61f36a3a3febf484e2aff3/984b6/image8.png&quot;
+        srcset=&quot;/static/7b5ca57e8e61f36a3a3febf484e2aff3/4d6f2/image8.png 158w,
+/static/7b5ca57e8e61f36a3a3febf484e2aff3/3c1ae/image8.png 315w,
+/static/7b5ca57e8e61f36a3a3febf484e2aff3/984b6/image8.png 630w,
+/static/7b5ca57e8e61f36a3a3febf484e2aff3/e7d8e/image8.png 945w,
+/static/7b5ca57e8e61f36a3a3febf484e2aff3/58c38/image8.png 1260w,
+/static/7b5ca57e8e61f36a3a3febf484e2aff3/d539b/image8.png 1487w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -478,7 +478,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4de632c45e9d47b910ff710fd857e0dc/e8814/image9.png&quot;
+    href=&quot;/static/4de632c45e9d47b910ff710fd857e0dc/e9bec/image9.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -491,13 +491,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Payment1&quot;
         title=&quot;Payment1&quot;
-        src=&quot;/static/4de632c45e9d47b910ff710fd857e0dc/f058b/image9.png&quot;
-        srcset=&quot;/static/4de632c45e9d47b910ff710fd857e0dc/c26ae/image9.png 158w,
-/static/4de632c45e9d47b910ff710fd857e0dc/6bdcf/image9.png 315w,
-/static/4de632c45e9d47b910ff710fd857e0dc/f058b/image9.png 630w,
-/static/4de632c45e9d47b910ff710fd857e0dc/40601/image9.png 945w,
-/static/4de632c45e9d47b910ff710fd857e0dc/78612/image9.png 1260w,
-/static/4de632c45e9d47b910ff710fd857e0dc/e8814/image9.png 1392w&quot;
+        src=&quot;/static/4de632c45e9d47b910ff710fd857e0dc/984b6/image9.png&quot;
+        srcset=&quot;/static/4de632c45e9d47b910ff710fd857e0dc/4d6f2/image9.png 158w,
+/static/4de632c45e9d47b910ff710fd857e0dc/3c1ae/image9.png 315w,
+/static/4de632c45e9d47b910ff710fd857e0dc/984b6/image9.png 630w,
+/static/4de632c45e9d47b910ff710fd857e0dc/e7d8e/image9.png 945w,
+/static/4de632c45e9d47b910ff710fd857e0dc/58c38/image9.png 1260w,
+/static/4de632c45e9d47b910ff710fd857e0dc/e9bec/image9.png 1392w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -512,7 +512,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/04447dd9f906a0a81442874702b19cf4/e0202/image10.png&quot;
+    href=&quot;/static/04447dd9f906a0a81442874702b19cf4/49379/image10.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -525,13 +525,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Payment2&quot;
         title=&quot;Payment2&quot;
-        src=&quot;/static/04447dd9f906a0a81442874702b19cf4/f058b/image10.png&quot;
-        srcset=&quot;/static/04447dd9f906a0a81442874702b19cf4/c26ae/image10.png 158w,
-/static/04447dd9f906a0a81442874702b19cf4/6bdcf/image10.png 315w,
-/static/04447dd9f906a0a81442874702b19cf4/f058b/image10.png 630w,
-/static/04447dd9f906a0a81442874702b19cf4/40601/image10.png 945w,
-/static/04447dd9f906a0a81442874702b19cf4/78612/image10.png 1260w,
-/static/04447dd9f906a0a81442874702b19cf4/e0202/image10.png 1395w&quot;
+        src=&quot;/static/04447dd9f906a0a81442874702b19cf4/984b6/image10.png&quot;
+        srcset=&quot;/static/04447dd9f906a0a81442874702b19cf4/4d6f2/image10.png 158w,
+/static/04447dd9f906a0a81442874702b19cf4/3c1ae/image10.png 315w,
+/static/04447dd9f906a0a81442874702b19cf4/984b6/image10.png 630w,
+/static/04447dd9f906a0a81442874702b19cf4/e7d8e/image10.png 945w,
+/static/04447dd9f906a0a81442874702b19cf4/58c38/image10.png 1260w,
+/static/04447dd9f906a0a81442874702b19cf4/49379/image10.png 1395w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -546,7 +546,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/78c4263c068459b3a200c6bcad1ab19f/84f4d/image11.png&quot;
+    href=&quot;/static/78c4263c068459b3a200c6bcad1ab19f/047c3/image11.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -559,12 +559,12 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Confirm&quot;
         title=&quot;Confirm&quot;
-        src=&quot;/static/78c4263c068459b3a200c6bcad1ab19f/f058b/image11.png&quot;
-        srcset=&quot;/static/78c4263c068459b3a200c6bcad1ab19f/c26ae/image11.png 158w,
-/static/78c4263c068459b3a200c6bcad1ab19f/6bdcf/image11.png 315w,
-/static/78c4263c068459b3a200c6bcad1ab19f/f058b/image11.png 630w,
-/static/78c4263c068459b3a200c6bcad1ab19f/40601/image11.png 945w,
-/static/78c4263c068459b3a200c6bcad1ab19f/84f4d/image11.png 1208w&quot;
+        src=&quot;/static/78c4263c068459b3a200c6bcad1ab19f/984b6/image11.png&quot;
+        srcset=&quot;/static/78c4263c068459b3a200c6bcad1ab19f/4d6f2/image11.png 158w,
+/static/78c4263c068459b3a200c6bcad1ab19f/3c1ae/image11.png 315w,
+/static/78c4263c068459b3a200c6bcad1ab19f/984b6/image11.png 630w,
+/static/78c4263c068459b3a200c6bcad1ab19f/e7d8e/image11.png 945w,
+/static/78c4263c068459b3a200c6bcad1ab19f/047c3/image11.png 1208w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -583,7 +583,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ec29ccf0bf9fb015abf37e30327555d2/71ba4/image12.png&quot;
+    href=&quot;/static/ec29ccf0bf9fb015abf37e30327555d2/c0ee7/image12.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -596,13 +596,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Confirm&quot;
         title=&quot;Confirm&quot;
-        src=&quot;/static/ec29ccf0bf9fb015abf37e30327555d2/f058b/image12.png&quot;
-        srcset=&quot;/static/ec29ccf0bf9fb015abf37e30327555d2/c26ae/image12.png 158w,
-/static/ec29ccf0bf9fb015abf37e30327555d2/6bdcf/image12.png 315w,
-/static/ec29ccf0bf9fb015abf37e30327555d2/f058b/image12.png 630w,
-/static/ec29ccf0bf9fb015abf37e30327555d2/40601/image12.png 945w,
-/static/ec29ccf0bf9fb015abf37e30327555d2/78612/image12.png 1260w,
-/static/ec29ccf0bf9fb015abf37e30327555d2/71ba4/image12.png 1870w&quot;
+        src=&quot;/static/ec29ccf0bf9fb015abf37e30327555d2/984b6/image12.png&quot;
+        srcset=&quot;/static/ec29ccf0bf9fb015abf37e30327555d2/4d6f2/image12.png 158w,
+/static/ec29ccf0bf9fb015abf37e30327555d2/3c1ae/image12.png 315w,
+/static/ec29ccf0bf9fb015abf37e30327555d2/984b6/image12.png 630w,
+/static/ec29ccf0bf9fb015abf37e30327555d2/e7d8e/image12.png 945w,
+/static/ec29ccf0bf9fb015abf37e30327555d2/58c38/image12.png 1260w,
+/static/ec29ccf0bf9fb015abf37e30327555d2/c0ee7/image12.png 1870w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -668,7 +668,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ce46a580b6b77ae4196d94b7f908e721/373fb/image13.png&quot;
+    href=&quot;/static/ce46a580b6b77ae4196d94b7f908e721/698bb/image13.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -681,13 +681,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;DNS&quot;
         title=&quot;DNS&quot;
-        src=&quot;/static/ce46a580b6b77ae4196d94b7f908e721/f058b/image13.png&quot;
-        srcset=&quot;/static/ce46a580b6b77ae4196d94b7f908e721/c26ae/image13.png 158w,
-/static/ce46a580b6b77ae4196d94b7f908e721/6bdcf/image13.png 315w,
-/static/ce46a580b6b77ae4196d94b7f908e721/f058b/image13.png 630w,
-/static/ce46a580b6b77ae4196d94b7f908e721/40601/image13.png 945w,
-/static/ce46a580b6b77ae4196d94b7f908e721/78612/image13.png 1260w,
-/static/ce46a580b6b77ae4196d94b7f908e721/373fb/image13.png 2068w&quot;
+        src=&quot;/static/ce46a580b6b77ae4196d94b7f908e721/984b6/image13.png&quot;
+        srcset=&quot;/static/ce46a580b6b77ae4196d94b7f908e721/4d6f2/image13.png 158w,
+/static/ce46a580b6b77ae4196d94b7f908e721/3c1ae/image13.png 315w,
+/static/ce46a580b6b77ae4196d94b7f908e721/984b6/image13.png 630w,
+/static/ce46a580b6b77ae4196d94b7f908e721/e7d8e/image13.png 945w,
+/static/ce46a580b6b77ae4196d94b7f908e721/58c38/image13.png 1260w,
+/static/ce46a580b6b77ae4196d94b7f908e721/698bb/image13.png 2068w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -704,7 +704,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/3e992/image14.png&quot;
+    href=&quot;/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/cb670/image14.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -717,13 +717,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;ghpages1&quot;
         title=&quot;ghpages1&quot;
-        src=&quot;/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/f058b/image14.png&quot;
-        srcset=&quot;/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/c26ae/image14.png 158w,
-/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/6bdcf/image14.png 315w,
-/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/f058b/image14.png 630w,
-/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/40601/image14.png 945w,
-/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/78612/image14.png 1260w,
-/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/3e992/image14.png 1902w&quot;
+        src=&quot;/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/984b6/image14.png&quot;
+        srcset=&quot;/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/4d6f2/image14.png 158w,
+/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/3c1ae/image14.png 315w,
+/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/984b6/image14.png 630w,
+/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/e7d8e/image14.png 945w,
+/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/58c38/image14.png 1260w,
+/static/5da1cde4c4ecf29fe63b6e2e3d0d0042/cb670/image14.png 1902w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -738,7 +738,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8bec6c4ae621b40e53cba84f2b3f7ef5/36eca/image15.png&quot;
+    href=&quot;/static/8bec6c4ae621b40e53cba84f2b3f7ef5/2fa46/image15.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -751,13 +751,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;ghpages2&quot;
         title=&quot;ghpages2&quot;
-        src=&quot;/static/8bec6c4ae621b40e53cba84f2b3f7ef5/f058b/image15.png&quot;
-        srcset=&quot;/static/8bec6c4ae621b40e53cba84f2b3f7ef5/c26ae/image15.png 158w,
-/static/8bec6c4ae621b40e53cba84f2b3f7ef5/6bdcf/image15.png 315w,
-/static/8bec6c4ae621b40e53cba84f2b3f7ef5/f058b/image15.png 630w,
-/static/8bec6c4ae621b40e53cba84f2b3f7ef5/40601/image15.png 945w,
-/static/8bec6c4ae621b40e53cba84f2b3f7ef5/78612/image15.png 1260w,
-/static/8bec6c4ae621b40e53cba84f2b3f7ef5/36eca/image15.png 1526w&quot;
+        src=&quot;/static/8bec6c4ae621b40e53cba84f2b3f7ef5/984b6/image15.png&quot;
+        srcset=&quot;/static/8bec6c4ae621b40e53cba84f2b3f7ef5/4d6f2/image15.png 158w,
+/static/8bec6c4ae621b40e53cba84f2b3f7ef5/3c1ae/image15.png 315w,
+/static/8bec6c4ae621b40e53cba84f2b3f7ef5/984b6/image15.png 630w,
+/static/8bec6c4ae621b40e53cba84f2b3f7ef5/e7d8e/image15.png 945w,
+/static/8bec6c4ae621b40e53cba84f2b3f7ef5/58c38/image15.png 1260w,
+/static/8bec6c4ae621b40e53cba84f2b3f7ef5/2fa46/image15.png 1526w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -774,7 +774,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/2ad35f1b556c01aa452d318f7bc38ad4/3e992/image16.png&quot;
+    href=&quot;/static/2ad35f1b556c01aa452d318f7bc38ad4/cb670/image16.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -787,13 +787,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;ghpages3&quot;
         title=&quot;ghpages3&quot;
-        src=&quot;/static/2ad35f1b556c01aa452d318f7bc38ad4/f058b/image16.png&quot;
-        srcset=&quot;/static/2ad35f1b556c01aa452d318f7bc38ad4/c26ae/image16.png 158w,
-/static/2ad35f1b556c01aa452d318f7bc38ad4/6bdcf/image16.png 315w,
-/static/2ad35f1b556c01aa452d318f7bc38ad4/f058b/image16.png 630w,
-/static/2ad35f1b556c01aa452d318f7bc38ad4/40601/image16.png 945w,
-/static/2ad35f1b556c01aa452d318f7bc38ad4/78612/image16.png 1260w,
-/static/2ad35f1b556c01aa452d318f7bc38ad4/3e992/image16.png 1902w&quot;
+        src=&quot;/static/2ad35f1b556c01aa452d318f7bc38ad4/984b6/image16.png&quot;
+        srcset=&quot;/static/2ad35f1b556c01aa452d318f7bc38ad4/4d6f2/image16.png 158w,
+/static/2ad35f1b556c01aa452d318f7bc38ad4/3c1ae/image16.png 315w,
+/static/2ad35f1b556c01aa452d318f7bc38ad4/984b6/image16.png 630w,
+/static/2ad35f1b556c01aa452d318f7bc38ad4/e7d8e/image16.png 945w,
+/static/2ad35f1b556c01aa452d318f7bc38ad4/58c38/image16.png 1260w,
+/static/2ad35f1b556c01aa452d318f7bc38ad4/cb670/image16.png 1902w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -809,7 +809,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/403df9cad4eafa30725b74bd07357b82/d9ed5/image17.png&quot;
+    href=&quot;/static/403df9cad4eafa30725b74bd07357b82/f9c26/image17.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -822,13 +822,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Done1&quot;
         title=&quot;Done1&quot;
-        src=&quot;/static/403df9cad4eafa30725b74bd07357b82/f058b/image17.png&quot;
-        srcset=&quot;/static/403df9cad4eafa30725b74bd07357b82/c26ae/image17.png 158w,
-/static/403df9cad4eafa30725b74bd07357b82/6bdcf/image17.png 315w,
-/static/403df9cad4eafa30725b74bd07357b82/f058b/image17.png 630w,
-/static/403df9cad4eafa30725b74bd07357b82/40601/image17.png 945w,
-/static/403df9cad4eafa30725b74bd07357b82/78612/image17.png 1260w,
-/static/403df9cad4eafa30725b74bd07357b82/d9ed5/image17.png 2880w&quot;
+        src=&quot;/static/403df9cad4eafa30725b74bd07357b82/984b6/image17.png&quot;
+        srcset=&quot;/static/403df9cad4eafa30725b74bd07357b82/4d6f2/image17.png 158w,
+/static/403df9cad4eafa30725b74bd07357b82/3c1ae/image17.png 315w,
+/static/403df9cad4eafa30725b74bd07357b82/984b6/image17.png 630w,
+/static/403df9cad4eafa30725b74bd07357b82/e7d8e/image17.png 945w,
+/static/403df9cad4eafa30725b74bd07357b82/58c38/image17.png 1260w,
+/static/403df9cad4eafa30725b74bd07357b82/f9c26/image17.png 2880w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -843,7 +843,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/081d0f922876fa1b959fdf428d9bfd8f/569c6/image18.png&quot;
+    href=&quot;/static/081d0f922876fa1b959fdf428d9bfd8f/a1898/image18.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -856,13 +856,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Done1&quot;
         title=&quot;Done1&quot;
-        src=&quot;/static/081d0f922876fa1b959fdf428d9bfd8f/f058b/image18.png&quot;
-        srcset=&quot;/static/081d0f922876fa1b959fdf428d9bfd8f/c26ae/image18.png 158w,
-/static/081d0f922876fa1b959fdf428d9bfd8f/6bdcf/image18.png 315w,
-/static/081d0f922876fa1b959fdf428d9bfd8f/f058b/image18.png 630w,
-/static/081d0f922876fa1b959fdf428d9bfd8f/40601/image18.png 945w,
-/static/081d0f922876fa1b959fdf428d9bfd8f/78612/image18.png 1260w,
-/static/081d0f922876fa1b959fdf428d9bfd8f/569c6/image18.png 1674w&quot;
+        src=&quot;/static/081d0f922876fa1b959fdf428d9bfd8f/984b6/image18.png&quot;
+        srcset=&quot;/static/081d0f922876fa1b959fdf428d9bfd8f/4d6f2/image18.png 158w,
+/static/081d0f922876fa1b959fdf428d9bfd8f/3c1ae/image18.png 315w,
+/static/081d0f922876fa1b959fdf428d9bfd8f/984b6/image18.png 630w,
+/static/081d0f922876fa1b959fdf428d9bfd8f/e7d8e/image18.png 945w,
+/static/081d0f922876fa1b959fdf428d9bfd8f/58c38/image18.png 1260w,
+/static/081d0f922876fa1b959fdf428d9bfd8f/a1898/image18.png 1674w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -877,7 +877,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/42cc95187be89867e9ad74cff19d4936/4b319/people.jpg&quot;
+    href=&quot;/static/42cc95187be89867e9ad74cff19d4936/d8bb0/people.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -890,13 +890,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;People&quot;
         title=&quot;People&quot;
-        src=&quot;/static/42cc95187be89867e9ad74cff19d4936/828fb/people.jpg&quot;
-        srcset=&quot;/static/42cc95187be89867e9ad74cff19d4936/ff44c/people.jpg 158w,
-/static/42cc95187be89867e9ad74cff19d4936/a6688/people.jpg 315w,
-/static/42cc95187be89867e9ad74cff19d4936/828fb/people.jpg 630w,
-/static/42cc95187be89867e9ad74cff19d4936/0ede0/people.jpg 945w,
-/static/42cc95187be89867e9ad74cff19d4936/3ac88/people.jpg 1260w,
-/static/42cc95187be89867e9ad74cff19d4936/4b319/people.jpg 5472w&quot;
+        src=&quot;/static/42cc95187be89867e9ad74cff19d4936/af1fa/people.jpg&quot;
+        srcset=&quot;/static/42cc95187be89867e9ad74cff19d4936/ab180/people.jpg 158w,
+/static/42cc95187be89867e9ad74cff19d4936/ba98e/people.jpg 315w,
+/static/42cc95187be89867e9ad74cff19d4936/af1fa/people.jpg 630w,
+/static/42cc95187be89867e9ad74cff19d4936/23301/people.jpg 945w,
+/static/42cc95187be89867e9ad74cff19d4936/78e18/people.jpg 1260w,
+/static/42cc95187be89867e9ad74cff19d4936/d8bb0/people.jpg 5472w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
