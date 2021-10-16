@@ -38,4 +38,10 @@
       list-style-position: inside;
     }
   }
+
+  .language-text {
+    background-color: var(--color-code-text-background-color);
+    color: var(--color-text);
+    padding: 0.1em 0.4em;
+  }
 }
