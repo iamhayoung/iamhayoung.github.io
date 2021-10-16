@@ -1,14 +1,11 @@
 .markdown {
-  ol,
   ul {
     padding-left: var(--spacing-8);
-  }
-
-  ul {
     list-style-type: disc;
   }
 
   ol {
+    padding-left: var(--spacing-6);
     list-style-type: decimal;
   }
 
@@ -32,10 +29,6 @@
 
     & > :last-child {
       margin-bottom: var(--spacing-0);
-    }
-
-    & > ol {
-      list-style-position: inside;
     }
   }
 
