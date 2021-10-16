@@ -48,6 +48,7 @@
   }
 
   pre[class*="language-"] {
+    max-height: 750px;
     padding: var(--spacing-5) var(--spacing-5);
     border-radius: 10px;
   }
