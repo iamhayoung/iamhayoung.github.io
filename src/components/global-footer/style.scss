@@ -3,6 +3,8 @@
 footer {
   padding: var(--spacing-6) var(--spacing-0);
   font-size: 15px;
+  font-family: var(--font-heading);
+  font-weight: 500;
 
   .footer-container {
     @include flex(space-between, center);
