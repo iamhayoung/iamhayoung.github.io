@@ -1,7 +1,8 @@
 import * as React from "react";
-import GlobalHeader from "./global-header";
-import PageHeader from "./page-header";
-import GlobalFooter from "./global-footer";
+import GlobalHeader from "../global-header";
+import PageHeader from "../page-header";
+import GlobalFooter from "../global-footer";
+import "./style.scss";
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`;
