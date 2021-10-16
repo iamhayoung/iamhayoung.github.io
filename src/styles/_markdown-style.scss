@@ -1,4 +1,10 @@
 .markdown {
+  img {
+    display: block;
+    max-width: 632px;
+    margin: 0 auto;
+  }
+
   ul {
     padding-left: var(--spacing-8);
     list-style-type: disc;
