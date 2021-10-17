@@ -1,9 +1,12 @@
-:root {
+body {
+  --color-background: #fff;
+  --color-text: #000;
+  --color-text-2: #1d1d1d;
+  --color-text-3: #696969;
+  --color-text-4: #2e353f;
+  --color-text-5: #4f5969;
+
   --color-primary: #005b99;
-  --color-text: #2e353f;
-  --color-text-light: #4f5969;
-  --color-heading: #1a202c;
-  --color-black: #000;
   --color-accent: #d1dce5;
   --color-code-text-background-color: #eee;
 }

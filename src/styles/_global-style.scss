@@ -68,7 +68,7 @@ html {
 }
 
 body {
-  color: var(--color-text);
+  color: var(--color-text-4);
   background: var(--color-background);
   font-family: Poppins, "Spoqa Han Sans Neo", "Spoqa Han Sans JP", system-ui,
     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
@@ -103,13 +103,13 @@ h4,
 h5,
 h6 {
   font-weight: var(--fontWeight-bold);
-  color: var(--color-heading);
+  color: var(--color-text-2);
 }
 
 h1 {
   font-weight: var(--fontWeight-black);
   font-size: var(--fontSize-6);
-  color: var(--color-black);
+  color: var(--color-text);
 }
 
 h2 {

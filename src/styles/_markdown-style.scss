@@ -1,6 +1,6 @@
 .markdown {
   p {
-    color: var(--color-black);
+    color: var(--color-text);
     font-weight: var(--fontWeight-light);
   }
 
@@ -23,7 +23,7 @@
   .gatsby-resp-image-wrapper + em {
     display: block;
     margin-top: var(--spacing-1);
-    color: var(--color-text-light);
+    color: var(--color-text-5);
     font-size: var(--fontSize-0);
     text-align: center;
   }
@@ -31,7 +31,7 @@
   blockquote {
     margin: 0 auto var(--spacing-10);
     padding: var(--spacing-3) var(--spacing-6) var(--spacing-3) var(--spacing-3);
-    color: var(--color-text-light);
+    color: var(--color-text-5);
     font-size: 15px;
     border: 3px solid;
     border-radius: 7px;
@@ -49,7 +49,7 @@
   :not(pre) > code[class*="language-"] {
     // inline code text style
     background-color: var(--color-code-text-background-color);
-    color: var(--color-text);
+    color: var(--color-text-4);
     padding: 0.13rem var(--spacing-1);
   }
 
