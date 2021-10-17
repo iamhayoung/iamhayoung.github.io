@@ -1,4 +1,9 @@
 .markdown {
+  p {
+    color: var(--color-heading-black);
+    font-weight: var(--fontWeight-light);
+  }
+
   img {
     display: block;
     max-width: 632px;
