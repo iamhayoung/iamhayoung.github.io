@@ -231,11 +231,3 @@ a:focus {
     font-weight: var(--fontWeight-medium);
   }
 }
-
-/* Media queries */
-
-@media (max-width: 42rem) {
-  ol {
-    list-style-position: inside;
-  }
-}
