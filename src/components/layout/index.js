@@ -1,6 +1,6 @@
 import * as React from "react";
 import GlobalHeader from "../globalHeader";
-import GlobalFooter from "../global-footer";
+import GlobalFooter from "../globalFooter";
 import "./style.scss";
 
 const Layout = ({ title, children }) => {
