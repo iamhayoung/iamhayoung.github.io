@@ -1,0 +1,11 @@
+.logo {
+  margin: 0;
+  font-size: var(--fontSize-4);
+  font-weight: var(--fontWeight-bold);
+  text-align: center;
+
+  &:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s;
+  }
+}

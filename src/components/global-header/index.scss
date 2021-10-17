@@ -1,0 +1,23 @@
+@use "../../styles/mixins" as *;
+
+.global-header {
+  margin-bottom: var(--spacing-12);
+
+  &__inner {
+    width: 100%;
+    padding: 25px 30px;
+    @include flex(space-between, center);
+  }
+}
+
+.left-section {
+  flex: 1 33%;
+}
+
+.middle-section {
+  flex: 1 34%;
+}
+
+.right-section {
+  flex: 1 0 33%;
+}

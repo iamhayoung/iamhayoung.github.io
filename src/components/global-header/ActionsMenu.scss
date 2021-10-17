@@ -1,0 +1,25 @@
+@use "../../styles/mixins" as *;
+
+.actions-menu {
+  @include flex(flex-end, center);
+
+  &__link {
+    width: 23px;
+    height: 23px;
+
+    svg {
+      width: 100%;
+      height: 100%;
+      color: var(--color-text);
+    }
+
+    &:hover {
+      opacity: 0.5;
+      transition: opacity 0.3s;
+    }
+
+    &:not(:last-child) {
+      margin-right: 25px;
+    }
+  }
+}
