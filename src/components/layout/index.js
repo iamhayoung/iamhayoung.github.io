@@ -1,5 +1,5 @@
 import * as React from "react";
-import GlobalHeader from "../global-header";
+import GlobalHeader from "../globalHeader";
 import GlobalFooter from "../global-footer";
 import "./style.scss";
 

@@ -1,3 +1,5 @@
+@use "../../styles/media-queries" as *;
+
 .logo {
   margin: 0;
   font-size: var(--fontSize-4);
@@ -7,5 +9,10 @@
   &:hover {
     opacity: 0.5;
     transition: opacity 0.3s;
+  }
+
+  @include sm {
+    font-size: var(--fontSize-3);
+    text-align: left;
   }
 }
