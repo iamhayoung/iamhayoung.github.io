@@ -1,4 +1,4 @@
-import "typeface-montserrat";
+import "typeface-poppins";
 import "./src/styles/main.scss";
 
 // Highlighting for code blocks

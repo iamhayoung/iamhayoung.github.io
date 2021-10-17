@@ -28,12 +28,6 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --fontFamily-spoqa: "Spoqa Han Sans Neo", "Spoqa Han Sans JP", sans-serif;
-  --font-body: var(--fontFamily-spoqa);
-  --font-heading: var(--fontFamily-sans);
   --fontWeight-thin: 100;
   --fontWeight-light: 300;
   --fontWeight-regular: 400;
@@ -74,9 +68,13 @@ html {
 }
 
 body {
-  font-family: var(--font-body);
-  font-size: var(--fontSize-1);
   color: var(--color-text);
+  background: var(--color-background);
+  font-family: Poppins, "Spoqa Han Sans Neo", "Spoqa Han Sans JP", system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: var(--fontSize-1);
 }
 
 hr {
@@ -93,7 +91,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-heading);
   margin-top: var(--spacing-12);
   margin-bottom: var(--spacing-6);
   line-height: var(--lineHeight-tight);
@@ -231,7 +228,6 @@ a:focus {
   }
 
   small {
-    font-family: var(--font-heading);
     font-weight: var(--fontWeight-medium);
   }
 }
