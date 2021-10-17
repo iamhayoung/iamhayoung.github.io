@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import HamburgerButton from "./HamburgerButton";
 
 function MobileNav() {
-  return <HamburgerButton />;
+  const [isOpen, setOpen] = useState(false);
+
+  const toggleMenu = () => setOpen(!isOpen);
+
+  return <HamburgerButton isOpen={isOpen} toggleMenu={toggleMenu} />;
 }
 
 export default MobileNav;

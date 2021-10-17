@@ -1,15 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "./HamburgerButton.scss";
 
-function HamburgerButton() {
-  const [isOpen, setOpen] = useState(false);
-
-  const toggleMenu = () => (isOpen ? setOpen(false) : setOpen(true));
-
+function HamburgerButton({ isOpen, toggleMenu }) {
   return (
     <div
-      className={`hamburger-button ${isOpen ? "burger--active" : ""}`}
       onClick={toggleMenu}
+      className={`hamburger-button ${isOpen ? "burger--active" : ""}`}
     >
       <div className="hamburger-button__inner">
         <div className="top-bun"></div>
