@@ -1,5 +1,11 @@
+@use "../../styles/media-queries" as *;
+
 .global-wrapper {
-  margin: var(--spacing-0) auto;
+  margin: 80px auto var(--spacing-0);
   max-width: var(--maxWidth-wrapper);
   padding: var(--spacing-10) var(--spacing-5);
+
+  @include sm {
+    margin: 75px auto var(--spacing-0);
+  }
 }
