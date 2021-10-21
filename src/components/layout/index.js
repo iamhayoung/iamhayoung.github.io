@@ -1,15 +1,15 @@
 import * as React from "react";
-import GlobalHeader from "../globalHeader";
-import GlobalFooter from "../globalFooter";
+import Header from "../header";
+import Footer from "../footer";
 import "./style.scss";
 
 const Layout = ({ title, children }) => {
   return (
     <>
-      <GlobalHeader siteTitle={title || `Title`} />
+      <Header siteTitle={title || `Title`} />
       <div className="global-wrapper">
         <main>{children}</main>
-        <GlobalFooter />
+        <Footer />
       </div>
     </>
   );

@@ -1,9 +1,9 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
-import "./ActionsMenu.scss";
+import "./PcActionsMenu.scss";
 
-function ActionsMenu() {
+function PcActionsMenu() {
   return (
     <div className="actions-menu">
       <a className="actions-menu__link" href="https://github.com/iamhayoung">
@@ -16,4 +16,4 @@ function ActionsMenu() {
   );
 }
 
-export default ActionsMenu;
+export default PcActionsMenu;

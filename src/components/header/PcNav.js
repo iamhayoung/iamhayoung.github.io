@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
-import "./Nav.scss";
+import "./PcNav.scss";
 
-function Nav() {
+function PcNav() {
   return (
     <nav className="nav">
       <Link className="nav__link" to="/about">
@@ -15,4 +15,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default PcNav;

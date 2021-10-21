@@ -1,30 +1,30 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
-import Nav from "./Nav";
+import PcNav from "./PcNav";
 import Logo from "./Logo";
-import ActionsMenu from "./ActionsMenu";
-import MobileNav from "../mobileNav";
+import PcActionsMenu from "./PcActionsMenu";
+import MobileHamburgerMenu from "../mobileHamburgerMenu";
 import { BREAKPOINTS } from "../../constants/constants";
 import "./index.scss";
 
-function GlobalHeader({ siteTitle }) {
+function Header({ siteTitle }) {
   const isMobile = useMediaQuery({ maxWidth: BREAKPOINTS.sm });
 
   return (
-    <header className="global-header">
-      <div className="global-header__inner">
+    <header className="header">
+      <div className="header__inner">
         <div className="left-section">
-          {!isMobile && <Nav />}
+          {!isMobile && <PcNav />}
           {isMobile && <Logo siteTitle={siteTitle} />}
         </div>
         {!isMobile && <Logo siteTitle={siteTitle} />}
         <div className="right-section">
-          {!isMobile && <ActionsMenu />}
-          {isMobile && <MobileNav />}
+          {!isMobile && <PcActionsMenu />}
+          {isMobile && <MobileHamburgerMenu />}
         </div>
       </div>
     </header>
   );
 }
 
-export default GlobalHeader;
+export default Header;
