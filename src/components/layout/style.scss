@@ -6,6 +6,7 @@
   padding: var(--spacing-10) var(--spacing-5);
 
   @include sm {
-    margin: 75px auto var(--spacing-0);
+    margin: 57px auto var(--spacing-0);
+    padding: var(--spacing-5);
   }
 }

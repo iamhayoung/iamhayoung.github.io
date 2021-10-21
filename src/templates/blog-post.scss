@@ -1,3 +1,5 @@
+@use "../styles/media-queries" as *;
+
 .blog-post {
   header {
     h1 {
@@ -14,4 +16,18 @@
 
 .blog-post-nav ul {
   margin: var(--spacing-0);
+}
+
+@include sm {
+  .blog-post {
+    header {
+      h1 {
+        font-size: var(--fontSize-4);
+      }
+
+      p {
+        font-size: var(--fontSize-1);
+      }
+    }
+  }
 }

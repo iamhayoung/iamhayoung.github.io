@@ -1,3 +1,5 @@
+@use "./media-queries" as *;
+
 .markdown {
   p {
     color: var(--color-text);
@@ -124,5 +126,19 @@
   pre[class="language-javascript"]::before {
     content: "js";
     background: #f7df1e;
+  }
+
+  @include sm {
+    h1 {
+      font-size: var(--fontSize-3);
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    img {
+      max-width: 100%;
+    }
   }
 }

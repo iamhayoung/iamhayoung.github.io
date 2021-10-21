@@ -9,7 +9,10 @@
 
   &__item {
     position: relative;
-    margin: 23px 0;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
   }
 
   &__link {

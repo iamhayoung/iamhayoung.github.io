@@ -1,5 +1,6 @@
-/* CSS Custom Properties Definitions */
+@use "./media-queries" as *;
 
+/* CSS Custom Properties Definitions */
 :root {
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
@@ -225,5 +226,24 @@ a:focus {
   small {
     font-size: 13px;
     font-weight: var(--fontWeight-medium);
+  }
+
+  @include sm {
+    margin: var(--spacing-5) 0;
+
+    h2 {
+      margin: var(--spacing-0) 0 var(--spacing-2);
+      font-size: var(--fontSize-3);
+    }
+
+    header {
+      margin-bottom: var(--spacing-2);
+    }
+  }
+}
+
+@include sm {
+  ol li {
+    margin-bottom: var(--spacing-6);
   }
 }

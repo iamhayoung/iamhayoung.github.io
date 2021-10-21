@@ -1,3 +1,5 @@
+@use "../../styles/media-queries" as *;
+
 .global-wrapper[data-is-root-path="true"] .bio {
   margin-bottom: var(--spacing-20);
 }
@@ -19,5 +21,9 @@
     margin-bottom: var(--spacing-0);
     min-width: 50px;
     border-radius: 100%;
+  }
+
+  @include sm {
+    margin-bottom: var(--spacing-8);
   }
 }
