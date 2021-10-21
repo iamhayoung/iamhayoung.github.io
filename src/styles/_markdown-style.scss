@@ -4,6 +4,11 @@
     font-weight: var(--fontWeight-light);
   }
 
+  b,
+  strong {
+    font-weight: var(--fontWeight-medium);
+  }
+
   img {
     display: block;
     max-width: 632px;
@@ -11,13 +16,31 @@
   }
 
   ul {
+    margin-top: var(--spacing-3);
     padding-left: var(--spacing-8);
     list-style-type: disc;
+    line-height: 1.5;
   }
 
   ol {
+    margin-top: var(--spacing-4);
     padding-left: var(--spacing-6);
     list-style-type: decimal;
+    line-height: 1.5;
+  }
+
+  table tr,
+  table th {
+    padding: 1px;
+  }
+
+  table th {
+    font-weight: var(--fontWeight-bold);
+    line-height: 1.5;
+  }
+
+  table td {
+    line-height: 1.7;
   }
 
   .gatsby-resp-image-wrapper + em {
