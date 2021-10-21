@@ -4,3 +4,9 @@
 @use "global-style";
 @use "markdown-style";
 @use "media-queries";
+
+body {
+  &.modal-open {
+    overflow: hidden;
+  }
+}
