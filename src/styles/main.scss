@@ -8,5 +8,11 @@
 body {
   &.modal-open {
     overflow: hidden;
+
+    header.blur {
+      background: var(--color-background);
+      box-shadow: none;
+      backdrop-filter: none;
+    }
   }
 }
