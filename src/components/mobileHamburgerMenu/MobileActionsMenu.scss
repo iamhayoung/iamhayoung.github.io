@@ -1,0 +1,16 @@
+@use "../../styles/mixins" as *;
+
+.mobile-actions-menu {
+  @include flex(center, center);
+  flex: 0 1;
+  margin-bottom: 8vh;
+
+  &__link {
+    color: var(--color-text);
+    font-size: 26px;
+
+    &:not(:last-child) {
+      margin-right: 25px;
+    }
+  }
+}
