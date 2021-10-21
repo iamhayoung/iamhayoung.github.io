@@ -2,8 +2,8 @@
 
 .logo {
   margin: 0;
-  font-size: var(--fontSize-4);
-  font-weight: var(--fontWeight-bold);
+  font-size: var(--fontSize-2);
+  font-weight: var(--fontWeight-semibold);
   text-align: center;
 
   &:hover {
@@ -12,7 +12,6 @@
   }
 
   @include sm {
-    font-size: var(--fontSize-2);
     text-align: left;
   }
 }
