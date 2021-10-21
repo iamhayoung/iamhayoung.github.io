@@ -7,7 +7,7 @@
   left: 0;
   width: 100%;
   background: var(--color-header-background);
-  transition: 0.1s linear;
+  transition: 0.2s ease-in-out;
   z-index: 99;
 
   &.blur {
