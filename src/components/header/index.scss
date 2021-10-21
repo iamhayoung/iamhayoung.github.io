@@ -6,8 +6,14 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--color-background);
+  background: var(--color-header-background);
+  transition: 0.1s linear;
   z-index: 99;
+
+  &.blur {
+    box-shadow: rgb(0 0 0 / 5%) 0px 0px 13px;
+    backdrop-filter: saturate(180%) blur(20px);
+  }
 
   &__inner {
     width: 100%;
