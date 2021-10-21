@@ -3,7 +3,6 @@ import { useMediaQuery } from "react-responsive";
 import PcNav from "./PcNav";
 import Logo from "./Logo";
 import PcActionsMenu from "./PcActionsMenu";
-import MobileHamburgerMenu from "../mobileHamburgerMenu";
 import { BREAKPOINTS } from "../../constants/constants";
 import "./index.scss";
 
@@ -27,10 +26,7 @@ function Header({ siteTitle }) {
           {isMobile && <Logo siteTitle={siteTitle} />}
         </div>
         {!isMobile && <Logo siteTitle={siteTitle} />}
-        <div className="right-section">
-          {!isMobile && <PcActionsMenu />}
-          {isMobile && <MobileHamburgerMenu />}
-        </div>
+        <div className="right-section">{!isMobile && <PcActionsMenu />}</div>
       </div>
     </header>
   );
