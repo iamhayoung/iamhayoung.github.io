@@ -3,12 +3,12 @@
 .markdown {
   p {
     color: var(--color-text);
-    font-weight: var(--fontWeight-light);
+    font-weight: var(--fontWeight-regular);
   }
 
   b,
   strong {
-    font-weight: var(--fontWeight-medium);
+    font-weight: var(--fontWeight-semibold);
   }
 
   img {
