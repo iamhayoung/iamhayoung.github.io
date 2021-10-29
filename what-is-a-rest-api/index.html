@@ -53,18 +53,18 @@
 <p>REST에는 3가지의 구성 요소가 존재한다. 이 3가지의 구성 요소가 REST API 디자인의 근간을 이룬다.</p>
 <blockquote>
 <ol>
-<li>자원 (Resource) : URI</li>
-<li>행위 (Verb) : HTTP Method</li>
-<li>표현 (Representations)</li>
+<li><strong>자원</strong> (Resource) : URI</li>
+<li><strong>행위</strong> (Verb) : HTTP Method</li>
+<li><strong>표현</strong> (Representations)</li>
 </ol>
 </blockquote>
 <h2>1. 자원 (Resource) : URI</h2>
 <p><strong>URI(Uniform Resource Identifier)</strong> 는 <strong>정보의 자원을 표현</strong>해야 한다.</p>
 <p>URI는 <strong>단순하고 직관적인 구조</strong>이어야 하며, 모든 자원은 각 자원을 구별하기 위한 <strong>Unique ID</strong>를 가진다.</p>
-<p>URI의 설계 디자인에 관한 자세한 내용은 후술.</p>
+<p>URI의 설계 디자인에 관한 자세한 내용은 후술한다.</p>
 <h2>2. 행위 (Verb) : HTTP Method</h2>
 <p><strong>자원에 대한 행위</strong>는 HTTP 프로토콜의 Method(<strong>GET, POST, PUT, DELETE</strong>)으로 표현한다.</p>
-<p>HTTP 메소드에 관한 자세한 내용은 후술.</p>
+<p>HTTP 메소드에 관한 자세한 내용은 후술한다.</p>
 <h2>3. 표현 (Representations)</h2>
 <p>클라이언트가 자원에 대해 요청을 하면 <strong>서버는 이에 적절한 표현 (Representation), 즉 응답 (Response)</strong> 을 보내야 한다.
 응답 데이터는 JSON, XML, HTML 등 여러 형태로 나타낼 수 있다. 최근에는 Key, Value를 가진 형태의 <strong>JSON</strong>을 통해 응답 데이터를 전달받는 것이 일반적이다.</p>
@@ -73,12 +73,12 @@
 <p>이론상 REST에는 6가지의 아키텍처 원칙이 있다.</p>
 <blockquote>
 <ol>
-<li>Uniform Interface (균일한 인터페이스)</li>
-<li>Client-Server 구조</li>
-<li>Stateless (무상태성)</li>
-<li>Cacheable (캐싱 처리 가능)</li>
-<li>Layered System (계층형 시스템 구조)</li>
-<li>Code-On-Demand (optional)</li>
+<li><strong>Uniform Interface</strong> (균일한 인터페이스)</li>
+<li><strong>Client-Server 구조</strong></li>
+<li><strong>Stateless</strong> (무상태성)</li>
+<li><strong>Cacheable</strong> (캐싱 처리 가능)</li>
+<li><strong>Layered System</strong> (계층형 시스템 구조)</li>
+<li><strong>Code-On-Demand</strong> (optional)</li>
 </ol>
 </blockquote>
 <h2>1. Uniform Interface (균일한 인터페이스)</h2>
@@ -117,15 +117,15 @@
 <p>결국, REST라는 개념의 포인트는</p>
 <blockquote>
 <ol>
-<li>URI는 정보의 자원을 표현하되, URI의 형태 자체만으로 어떤 동작이나 정보를 제공하는지 스스로를 설명해야 함</li>
-<li>자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현함</li>
-<li>응답 데이터는 상황에 따라 포맷이 다르지만 JSON이 보편적. Status Code도 반환 필수</li>
+<li><strong>URI는 정보의 자원을 표현</strong>하되, URI의 형태 자체만으로 <strong>어떤 동작이나 정보를 제공하는지 스스로를 표현</strong>할 수 있어야 함</li>
+<li>자원에 대한 <strong>행위는 HTTP Method</strong>(GET, POST, PUT, DELETE)로 표현함</li>
+<li>응답 데이터는 상황에 따라 포맷이 다르지만 <strong>JSON</strong>이 보편적. Status Code도 반환 필수</li>
 </ol>
 </blockquote>
 <p>를 관통하게 되는 것 같다.</p>
-<p>이제 REST 요소와 원칙, 개념을 의식하며 REST API를 설계해보자.</p>
+<p>REST 요소와 원칙, 개념을 의식하며 REST API를 설계해보자.</p>
 <h2>URI는 정보의 자원을 표현해야 한다</h2>
-<p>다음은 자원을 구체적으로 URI로 표현하는 규칙이다.</p>
+<p>다음은 자원을 구체적으로 URI로 표현하기 위한 규칙이다.</p>
 <h3>1. URI는 동사보다 명사를, 대문자는 사용하지 않으며 소문자만 사용한다</h3>
 <p><span
       class="gatsby-resp-image-wrapper"
@@ -185,16 +185,16 @@
 /update-post/2
 /delete-post/2</code></pre></div>
 <p>한눈에 보기에도 직관적이지 않고 장황하다. 이것을 지양하기 위한 REST 규칙 중 하나로 URI는 동사가 아닌 명사들로만 이루어져야 한다는 것이 있다.</p>
-<p>그 대신, <strong>자원에 대한 행위는 HTTP 메소드로 표현</strong>한다. HTTP 메소드가 무엇일까?</p>
+<p>그 대신, <strong>자원에 대한 행위는 <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">HTTP 메소드</a>로 표현</strong>한다.</p>
 <p>클라이언트가 서버에 REST API로 요청을 보낼 때는 <strong>HTTP라는 프로토콜에 따라 요청을 전송</strong>한다.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">HTTP 통신 환경에는 여러 가지 요청 메소드들이 존재</a>하는데, 이 메소드들은 엄밀히 특정 용도에 제한되어 있지는 않다. 아래와 같이 POST라는 메소드만으로 데이터를 읽고 쓰고 수정하고 삭제까지 가능하다.</p>
+<p>HTTP 통신 환경에는 여러 가지 요청 메소드들이 존재하는데, 이 메소드들은 엄밀히 특정 용도에 제한되어 있지는 않다. 아래와 같이 POST라는 메소드만으로 데이터를 읽고 쓰고 수정하고 삭제까지 가능하다.</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token comment"># Bad Example</span>
 POST /post/2
 POST /post/2
 POST /post/2
 POST /post/2</code></pre></div>
-<p>모두 똑같이 생겼지만, 사실은 모두 읽고 쓰고 지우고 갱신하기 위한 API이다. 이런 방식으로 URI를 설계해도 문제 없이 동작은 하겠지만, <strong>POST라는 메소드만으로는 정확히 이 API가 어떤 처리를 행하는지 파악하기가 힘들다</strong>. 또한, 주로 팀으로 진행되는 개발 환경에서는 원<strong>활한 협업을 위해 팀 구성원이 모두 이해할 수 있는 형태로 프로그래밍을 하는 것이 중요</strong>하다.</p>
-<p>따라서, <strong>누구든 요청을 보내는 URI만으로도 각 요청의 의도를 쉽게 파악</strong>할 수 있도록 설계해야한다. 즉, RESTful하게 API를 만들기 위해서는 이 메소드들을 목적에 따라 구분해서 사용해야 한다. HTTP 메소드를 알맞은 역할대로 나눈 것이 <strong>CRUD</strong>이다.</p>
+<p>모두 똑같이 생겼지만, 사실은 모두 읽고 쓰고 지우고 갱신하기 위한 API이다. 이런 방식으로 URI를 설계해도 문제 없이 동작은 하겠지만, <strong>POST라는 메소드만으로는 정확히 이 API가 어떤 처리를 행하는지 파악하기가 힘들다</strong>. 또한, 주로 팀으로 진행되는 개발 환경에서는 <strong>원활한 협업을 위해 팀 구성원이 모두 이해할 수 있는 형태로 프로그래밍을 하는 것이 중요</strong>하다.</p>
+<p>따라서, <strong>요청을 보내는 URI만으로도 누구든지 각 요청의 의도를 쉽게 파악할 수 있도록 설계</strong>해야한다. RESTful하게 API를 만들기 위해서는 <strong>HTTP 메소드를 목적에 따라 구분해서 사용</strong>해야 한다. HTTP 메소드를 알맞은 역할대로 나눈 것이 <strong>CRUD</strong>이다.</p>
 <table>
 <thead>
 <tr>
@@ -275,7 +275,7 @@ GET /posts/what-is-a-rest-api</code></pre></div>
 /posts/2/hello.txt
 /posts/2/hello.csv</code></pre></div>
 <p>두 가지의 API를 준비해야하며, 서버에는 <code class="language-text">hello.txt</code>, <code class="language-text">hello.csv</code> 두 개의 파일로 존재할 것이다. 위의 두 URI은 분명히 다른 자원을 식별하는 URI이지만, <strong>실제로는 하나의 자원</strong>을 가리키고 있다. 이것은 <strong>비효율적</strong>인 방법이다. <strong>자원이 하나라면 URI도 하나</strong>여야 한다.</p>
-<p>따라서, REST API에서는 URI에 파일 확장자를 포함시키지 않고 해당 요청이 왔을 때 Accept header를 적절히 파싱해서 클라이언트가 요청한대로 응답해주면 된다. Accept header은 클라이언트가 자신이 선호하는 media type을 서버에 보내는 것이다.</p>
+<p>따라서, REST API에서는 URI에 파일 확장자를 포함시키지 않고 해당 요청이 왔을 때 Accept header를 적절히 파싱해서 클라이언트가 요청한대로 응답해주면 된다.</p>
 <p>RESTful하게 API를 설계하면 아래와 같다.</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token comment"># Good Example</span>
 GET /posts/2/hello HTTP/1.1
@@ -286,12 +286,12 @@ GET /posts/2/hello HTTP/1.1
 Host: example.com
 Accept: text/csv</code></pre></div>
 <h3>7. 필터를 위해 쿼리 파라미터를 사용한다</h3>
-<p>자원에 대한 세부적인 정렬, 페이징, 필터링 등은 신규 API를 생성하지 않고 쿼리 파라미터를 사용한다.</p>
+<p>자원에 대한 <strong>세부적인 정렬, 페이징, 필터링</strong> 등은 신규 API를 생성하지 않고 <strong>쿼리 파라미터를 사용</strong>한다.</p>
 <div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// 장르가 2(로맨스)이고 status가 1(상영중)인 영화 중, 3번 index부터 5개의 영화를 조회</span>
 <span class="token constant">GET</span> <span class="token operator">/</span>movies<span class="token operator">?</span>genres<span class="token operator">=</span><span class="token number">2</span><span class="token operator">&amp;</span>offset<span class="token operator">=</span><span class="token number">1</span><span class="token operator">&amp;</span>limit<span class="token operator">=</span><span class="token number">5</span><span class="token operator">&amp;</span>status<span class="token operator">=</span><span class="token number">1</span></code></pre></div>
 <h3>8. 리소스 간에는 연관 관계가 있는 경우</h3>
-<p>REST 리소스 간에는 연관 관계가 있을 수 있다. 예를 들어 유저가 로그인 중인 디바이스 목록이나 유저가 좋아하는 영화 등이 예가 될 수 있다. 유저-디바이스 또는 유저-영화 등과 같이 각각의 자원 간의 관계를 표현해야 한다.</p>
-<p>이런 경우 <code class="language-text">/자원명/자원 ID/관계가 있는 자원명</code>과 같은 표현 방법으로 사용한다.</p>
+<p>REST 리소스 간에는 연관 관계가 있을 수 있다. 예를 들어 유저가 로그인 중인 디바이스 목록이나 유저가 좋아하는 영화 등과 같은 관계를 말한다. <code class="language-text">유저-디바이스</code> 또는 <code class="language-text">유저-영화</code> 등과 같이 각각의 자원 간의 관계를 표현해야 한다.</p>
+<p>이런 경우 REST API에서는 <code class="language-text">/자원명/자원 ID/관계가 있는 자원명</code>과 같은 표현 방법으로 사용한다.</p>
 <p>예를 들어, 유저가 로그인 중인 디바이스 목록을 표현해보면 아래와 같다.</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">GET /users/<span class="token punctuation">{</span>userid<span class="token punctuation">}</span>/devices
 GET /users/hayoung/devices</code></pre></div>
@@ -313,7 +313,7 @@ GET /users/hayoung/likes/movies</code></pre></div>
 </blockquote>
 <p>세부적인 상태 코드는 <a href="https://www.whatap.io/ko/blog/40/">이 블로그</a>가 자세하니 참고.</p>
 <h1>마치며</h1>
-<p>결국 REST API란, HTTP 요청을 보낼 때 위의 규칙들로 구성된 URI에 적절한 HTTP 메소드를 사용할 것인지에 대해 개발자들 사이에서 널리 지켜지고 있는 약속이다. REST 원칙을 기반으로 암묵적으로 통용되고 있는 형식인 것이다. 따라서 <strong>명확한 표준이 없기 때문에</strong>, REST에 대한 이해를 바탕으로 현재 우리 조직의 스펙과 시스템에 맞춰서 표준화된 가이드라인을 가지고 준수하도록 노력해야한다.</p>
+<p>결국 REST API란, HTTP 요청을 보낼 때 위의 규칙들로 구성된 URI에 적절한 HTTP 메소드를 사용할 것인지에 대해 개발자들 사이에서 널리 지켜지고 있는 약속이다. REST 원칙을 기반으로 암묵적으로 통용되고 있는 형식인 것이다. 따라서 <strong>명확한 표준이 없기 때문에</strong>, REST에 대한 이해를 바탕으로 현재 우리 조직의 <strong>스펙과 시스템에 맞춰서 표준화된 가이드라인을 가지고 그것을 구성원 모두가 준수하도록 노력</strong>해야한다.</p>
 <h1>References</h1>
 <ul>
 <li><a href="https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html">https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html</a></li>
