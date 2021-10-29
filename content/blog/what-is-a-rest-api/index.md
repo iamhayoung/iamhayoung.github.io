@@ -376,10 +376,11 @@ GET /users/hayoung/likes/movies
 
 # References
 
-- [https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)
-- [https://meetup.toast.com/posts/92](https://meetup.toast.com/posts/92)
-- [https://wallees.wordpress.com/2018/04/19/rest-api-hateoas/](https://wallees.wordpress.com/2018/04/19/rest-api-hateoas/)
-- [https://en.wikipedia.org/wiki/Representational_state_transfer](https://en.wikipedia.org/wiki/Representational_state_transfer)
-- [https://www.youtube.com/watch?v=PmY3dWcCxXI](https://www.youtube.com/watch?v=PmY3dWcCxXI)
-- [https://jaweb.tistory.com/entry/REST-RestFul%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80](https://jaweb.tistory.com/entry/REST-RestFul%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
-- [https://developer.mozilla.org/ko/docs/Web/HTTP/Status](https://developer.mozilla.org/ko/docs/Web/HTTP/Status)
+- [Roy Fielding의 2000년 박사 학위 논문 중 Representational State Transfer (REST)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+- [[Network] REST란? REST API란? RESTful이란?](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)
+- [REST API 제대로 알고 사용하기 | NHN Cloud Meetup](https://meetup.toast.com/posts/92)
+- [REST API의 이상향, HATEOAS](https://wallees.wordpress.com/2018/04/19/rest-api-hateoas/)
+- [Representational state transfer | Wikipedia](https://en.wikipedia.org/wiki/Representational_state_transfer)
+- [기계들의 대화법 - REST API | 생활코딩](https://www.youtube.com/watch?v=PmY3dWcCxXI)
+- [[REST] RestFul이란 무엇인가?](https://jaweb.tistory.com/entry/REST-RestFul%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
+- [HTTP 상태 코드 | MDN](https://developer.mozilla.org/ko/docs/Web/HTTP/Status)
