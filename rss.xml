@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung.life]]></title><description><![CDATA[배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝]]></description><link>https://hayoung.life</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 29 Oct 2021 10:47:17 GMT</lastBuildDate><item><title><![CDATA[REST API란?]]></title><description><![CDATA[REST는 HTTP의 주요 저자인 Roy Fielding의 2000년 박사 학위 논문에서 소개된 네트워크 아키텍처 설계 지침이다. “REST”라는 단어를 떠올리면 바로 REST API가 떠오르는데, 사실 REST는 “API…]]></description><link>https://hayoung.life/what-is-a-rest-api/</link><guid isPermaLink="false">https://hayoung.life/what-is-a-rest-api/</guid><pubDate>Fri, 29 Oct 2021 19:33:00 GMT</pubDate><content:encoded>&lt;p&gt;REST는 HTTP의 주요 저자인 &lt;a href=&quot;https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm&quot;&gt;Roy Fielding의 2000년 박사 학위 논문&lt;/a&gt;에서 소개된 네트워크 아키텍처 설계 지침이다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung.life]]></title><description><![CDATA[배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝]]></description><link>https://hayoung.life</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 29 Oct 2021 11:01:44 GMT</lastBuildDate><item><title><![CDATA[REST API란?]]></title><description><![CDATA[REST는 HTTP의 주요 저자인 Roy Fielding의 2000년 박사 학위 논문에서 소개된 네트워크 아키텍처 설계 지침이다. “REST”라는 단어를 떠올리면 바로 REST API가 떠오르는데, 사실 REST는 “API…]]></description><link>https://hayoung.life/what-is-a-rest-api/</link><guid isPermaLink="false">https://hayoung.life/what-is-a-rest-api/</guid><pubDate>Fri, 29 Oct 2021 19:33:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/591ebfd2771753cb56220800e4e7797a/df305/thumbnail.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.93670886075949%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAABHElEQVQoz4VSTU/CQBDlV+Bf6o/wZPw5XjioiReuxZMXYmJDomcxKh8BiV6It3a7UrdIu20fmYFtNluIm7xMZ2fmzevMtkoUKCoNY20cirl5dg6h5RblRYZMb6DLnO8qlPxN9r+mNaF9aR+5ihEMAowm7xi+PGP2MdtHqtraZA2FpMzv+bi6vsR8MeeCUIRIVAIhIyRqxTTDt1fc9ftYfH2yry21NSEVq7WC53lot0/Qu/X3KiViKRCJkON0brpdnJ6d4z54YJ/GdFAhYfm9xHg6wXqT8tyITMQRhBT4TRMmGDw94qLTwWg63iks86ZCY9M/Bfkj6q6Z3i2JfLMo+nUC5bovoEFIRVTsDtuGyTENjm7ZJXGfyLEc224BoIyyeLJrWLMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;REST API&quot;
+        title=&quot;REST API&quot;
+        src=&quot;/static/591ebfd2771753cb56220800e4e7797a/984b6/thumbnail.png&quot;
+        srcset=&quot;/static/591ebfd2771753cb56220800e4e7797a/4d6f2/thumbnail.png 158w,
+/static/591ebfd2771753cb56220800e4e7797a/3c1ae/thumbnail.png 315w,
+/static/591ebfd2771753cb56220800e4e7797a/984b6/thumbnail.png 630w,
+/static/591ebfd2771753cb56220800e4e7797a/e7d8e/thumbnail.png 945w,
+/static/591ebfd2771753cb56220800e4e7797a/58c38/thumbnail.png 1260w,
+/static/591ebfd2771753cb56220800e4e7797a/df305/thumbnail.png 2363w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;REST는 HTTP의 주요 저자인 &lt;a href=&quot;https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm&quot;&gt;Roy Fielding의 2000년 박사 학위 논문&lt;/a&gt;에서 소개된 네트워크 아키텍처 설계 지침이다.&lt;/p&gt;
 &lt;p&gt;“REST”라는 단어를 떠올리면 바로 REST API가 떠오르는데, 사실 REST는 “API”만을 설계하기 위한 지침이 아니다. 첫 문장에서 소개했듯, 네트워크에서 통신을 구성하기 위한 설계 지침이다. 훨씬 넓은 대상 범위를 가진 가이드라인이다.&lt;/p&gt;
 &lt;p&gt;REST라는 개념이 REST API로 보편화된 이유는, &lt;strong&gt;현 시대의 네트워크에서 HTTP 기반의 통신이 큰 비중을 차지하기 때문&lt;/strong&gt;인 것 같다. HTTP 기반의 통신 환경에서 API를 개발하는 것에 있어서 REST를 준수함으로써 얻게 되는 이점이 많기 때문인 듯 하다.&lt;/p&gt;
 &lt;p&gt;그만큼 HTTP 기반의 통신 환경에서 사용되는 API의 대다수는 REST 아키텍처의 원칙을 지향 (준수)하고 있다.&lt;/p&gt;
