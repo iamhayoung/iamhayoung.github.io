@@ -1,4 +1,329 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung.life]]></title><description><![CDATA[배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝]]></description><link>https://hayoung.life</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 28 Oct 2021 18:03:55 GMT</lastBuildDate><item><title><![CDATA[JavaScript의 이벤트 전파 (이벤트 캡쳐링, 이벤트 버블링) 그리고 이벤트 위임]]></title><description><![CDATA[…]]></description><link>https://hayoung.life/js-event-delegation/</link><guid isPermaLink="false">https://hayoung.life/js-event-delegation/</guid><pubDate>Sun, 17 Oct 2021 04:45:03 GMT</pubDate><content:encoded>&lt;p&gt;이벤트가 발생하면 이벤트에 대한 다양한 정보를 담고 있는 &lt;code class=&quot;language-text&quot;&gt;event&lt;/code&gt; 객체가 생성되고, 생성된 &lt;code class=&quot;language-text&quot;&gt;event&lt;/code&gt; 객체는 이벤트 핸들러의 첫 번째 인수로 전달된다. &lt;code class=&quot;language-text&quot;&gt;event&lt;/code&gt; 객체 내부에는 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Event#properties&quot;&gt;다양한 프로퍼티&lt;/a&gt;들이 존재하지만, 그 중 단연 자주 사용하는 프로퍼티를 말해보자면 &lt;code class=&quot;language-text&quot;&gt;event.target&lt;/code&gt;이 아닐까 싶다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung.life]]></title><description><![CDATA[배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝]]></description><link>https://hayoung.life</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 29 Oct 2021 10:36:01 GMT</lastBuildDate><item><title><![CDATA[REST API란?]]></title><description><![CDATA[REST는 HTTP의 주요 저자인 Roy Fielding의 2000년 박사 학위 논문에서 소개된 네트워크 아키텍처 설계 지침이다. “REST”라는 단어를 떠올리면 바로 REST API가 떠오르는데, 사실 REST는 “API…]]></description><link>https://hayoung.life/what-is-a-rest-api/</link><guid isPermaLink="false">https://hayoung.life/what-is-a-rest-api/</guid><pubDate>Fri, 29 Oct 2021 19:33:00 GMT</pubDate><content:encoded>&lt;p&gt;REST는 HTTP의 주요 저자인 &lt;a href=&quot;https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm&quot;&gt;Roy Fielding의 2000년 박사 학위 논문&lt;/a&gt;에서 소개된 네트워크 아키텍처 설계 지침이다.&lt;/p&gt;
+&lt;p&gt;“REST”라는 단어를 떠올리면 바로 REST API가 떠오르는데, 사실 REST는 “API”만을 설계하기 위한 지침이 아니다. 첫 문장에서 소개했듯, 네트워크에서 통신을 구성하기 위한 설계 지침이다. 훨씬 넓은 대상 범위를 가진 가이드라인이다.&lt;/p&gt;
+&lt;p&gt;REST라는 개념이 REST API로 보편화된 이유는, &lt;strong&gt;현 시대의 네트워크에서 HTTP 기반의 통신이 큰 비중을 차지하기 때문&lt;/strong&gt;인 것 같다. HTTP 기반의 통신 환경에서 API를 개발하는 것에 있어서 REST를 준수함으로써 얻게 되는 이점이 많기 때문인 듯 하다.&lt;/p&gt;
+&lt;p&gt;그만큼 HTTP 기반의 통신 환경에서 사용되는 API의 대다수는 REST 아키텍처의 원칙을 지향 (준수)하고 있다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;✅ 따라서, 이 글에서는 흔히 HTTP 기반의 API 개발에서 통용되는 REST에 대해 정리해볼 생각이다. &lt;strong&gt;REST의 원론적인 개념에 대해 깊은 이해가 필요하다면, REST를 제안한 &lt;a href=&quot;https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm&quot;&gt;Roy Fielding의 2000년 박사 학위 논문&lt;/a&gt;를 참고&lt;/strong&gt;하는 것을 추천한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;REST API&lt;/strong&gt;는 &lt;strong&gt;REST 원칙을 준수하여 개발한 API&lt;/strong&gt;를 말한다. REST의 원칙을 성실히 지킨 아키텍처를 “RESTful하다” 라고 표현한다.&lt;/p&gt;
+&lt;h1&gt;REST?&lt;/h1&gt;
+&lt;p&gt;REST는 「&lt;strong&gt;RE&lt;/strong&gt;presentational &lt;strong&gt;S&lt;/strong&gt;tate &lt;strong&gt;T&lt;/strong&gt;ransfer」의 약자이다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Representational&lt;/strong&gt; : 구상적인&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;State&lt;/strong&gt;: 상태의&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transfer&lt;/strong&gt;: 전송 (환승)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cc0b40a2f40da449fd9e6c946133435d/ad973/representational.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 42.405063291139236%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAABRElEQVQoz52RwXKcMBBE+VN/Vj4jN39DbvExWzbLbkI2sICQkEBIAj2XZGMfckmlq7q6NaOaGrWKvu85nX7QNB0mBu5q4HR+xu4ez4aLAUd41w0bPSuBR/nEQ/mFNihqLzhQzGam/dMipURbw295p2prunmkM++cR/pFZt/qgUYPfB9Kvt6+0Zsx0y4Ly7JQaGdoTc+kJpRSNE2Ttes6xDgihCC94na7IUbBYhfmeSZYBy6yLpa7FvRKYLSmmHeLCIrNB3zwGGPw3mOtzZq4rita6+wPRCJ73LNfd0/Yt7cnp1W7puVfEWP8i8TPXuFC5HJ3dINkUurtwn/gGF445/nZSKrrL15enjmfz1wuF+q6pizLrAerqsq1Q6/Xa842RfKx4RYCUipGKXN+KatpmnLwySem30vn1E+9o56Y6tu2fQx8BcUoZ6YPViKaAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Representational의 한국어&quot;
+        title=&quot;Representational의 한국어&quot;
+        src=&quot;/static/cc0b40a2f40da449fd9e6c946133435d/984b6/representational.png&quot;
+        srcset=&quot;/static/cc0b40a2f40da449fd9e6c946133435d/4d6f2/representational.png 158w,
+/static/cc0b40a2f40da449fd9e6c946133435d/3c1ae/representational.png 315w,
+/static/cc0b40a2f40da449fd9e6c946133435d/984b6/representational.png 630w,
+/static/cc0b40a2f40da449fd9e6c946133435d/ad973/representational.png 722w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;“구상적”이라는 단어는 한국어로도 어렵다.&lt;/p&gt;
+&lt;p&gt;나는 &lt;a href=&quot;https://ko.dict.naver.com/#/search?query=%EA%B5%AC%EC%83%81%EC%A0%81&quot;&gt;네이버 국어사전&lt;/a&gt;에 정의된 뜻을 통해, “구상적”을 “무언가를 &lt;strong&gt;인지하고 이해할 수 있도록 형태와 성질을 갖추고 있는 것&lt;/strong&gt;“으로 이해했다.&lt;/p&gt;
+&lt;p&gt;따라서 REST라는 단어 자체를 ”&lt;strong&gt;이해하기 용이한 형태로 상태가 표현된 정보 간의 교환&lt;/strong&gt;“으로 직역해서 이해했다. (오역이라면 지적 부탁드립니다.)&lt;/p&gt;
+&lt;h1&gt;REST의 구성 요소&lt;/h1&gt;
+&lt;p&gt;REST에는 3가지의 구성 요소가 존재한다. 이 3가지의 구성 요소가 REST API 디자인의 근간을 이룬다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;자원 (Resource) : URI&lt;/li&gt;
+&lt;li&gt;행위 (Verb) : HTTP Method&lt;/li&gt;
+&lt;li&gt;표현 (Representations)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;1. 자원 (Resource) : URI&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;URI(Uniform Resource Identifier)&lt;/strong&gt; 는 &lt;strong&gt;정보의 자원을 표현&lt;/strong&gt;해야 한다.&lt;/p&gt;
+&lt;p&gt;URI는 &lt;strong&gt;단순하고 직관적인 구조&lt;/strong&gt;이어야 하며, 모든 자원은 각 자원을 구별하기 위한 &lt;strong&gt;Unique ID&lt;/strong&gt;를 가진다.&lt;/p&gt;
+&lt;p&gt;URI의 설계 디자인에 관한 자세한 내용은 후술.&lt;/p&gt;
+&lt;h2&gt;2. 행위 (Verb) : HTTP Method&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;자원에 대한 행위&lt;/strong&gt;는 HTTP 프로토콜의 Method(&lt;strong&gt;GET, POST, PUT, DELETE&lt;/strong&gt;)으로 표현한다.&lt;/p&gt;
+&lt;p&gt;HTTP 메소드에 관한 자세한 내용은 후술.&lt;/p&gt;
+&lt;h2&gt;3. 표현 (Representations)&lt;/h2&gt;
+&lt;p&gt;클라이언트가 자원에 대해 요청을 하면 &lt;strong&gt;서버는 이에 적절한 표현 (Representation), 즉 응답 (Response)&lt;/strong&gt; 을 보내야 한다.
+응답 데이터는 JSON, XML, HTML 등 여러 형태로 나타낼 수 있다. 최근에는 Key, Value를 가진 형태의 &lt;strong&gt;JSON&lt;/strong&gt;을 통해 응답 데이터를 전달받는 것이 일반적이다.&lt;/p&gt;
+&lt;p&gt;또한, &lt;strong&gt;요청에 대한 응답의 Status Code를 적절하게 전달&lt;/strong&gt;해주어야 한다.&lt;/p&gt;
+&lt;h1&gt;REST 아키텍처의 6원칙&lt;/h1&gt;
+&lt;p&gt;이론상 REST에는 6가지의 아키텍처 원칙이 있다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Uniform Interface (균일한 인터페이스)&lt;/li&gt;
+&lt;li&gt;Client-Server 구조&lt;/li&gt;
+&lt;li&gt;Stateless (무상태성)&lt;/li&gt;
+&lt;li&gt;Cacheable (캐싱 처리 가능)&lt;/li&gt;
+&lt;li&gt;Layered System (계층형 시스템 구조)&lt;/li&gt;
+&lt;li&gt;Code-On-Demand (optional)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;1. Uniform Interface (균일한 인터페이스)&lt;/h2&gt;
+&lt;p&gt;Uniform Interface는 요청이 어디에서 오는지와 무관하게, &lt;strong&gt;동일한 리소스에 대한 모든 API 요청은 동일하게 보여야 한다&lt;/strong&gt;는 것을 말한다.
+&lt;strong&gt;Uniform Interface의 4가지 제약 조건&lt;/strong&gt;은 다음과 같다.&lt;/p&gt;
+&lt;h3&gt;1-1. Resource identification in requests&lt;/h3&gt;
+&lt;p&gt;REST의 3요소 중 하나인 Resource (자원)는 &lt;strong&gt;요청을 통해서 식별&lt;/strong&gt;된다. REST API에서는 자원이 &lt;strong&gt;URI&lt;/strong&gt;로 표현되기 때문에, 각각의 &lt;strong&gt;자원은 URI을 통해 식별&lt;/strong&gt;된다.&lt;/p&gt;
+&lt;h3&gt;1-2. Resource manipulation through representations&lt;/h3&gt;
+&lt;p&gt;Representation (표현)을 통해 자원을 조작한다. 클라이언트가 어떤 자원에 대해 표현과 메타 데이터를 충분히 갖추고 있다면, 클라이언트는 해당 자원의 상태를 수정하거나 삭제할 수 있다.&lt;/p&gt;
+&lt;h3&gt;1-3. Self-descriptive messages&lt;/h3&gt;
+&lt;p&gt;REST의 가장 중요한 원칙 중 하나로, 각 요청의 메시지 (즉 URI) 모습 자체만으로 어떤 동작이나 정보를 제공하는지 스스로를 설명할 수 있어야 한다.&lt;/p&gt;
+&lt;h3&gt;1-4. Hypermedia as the engine of application state (HATEOAS)&lt;/h3&gt;
+&lt;p&gt;하이퍼 미디어(링크)를 &lt;strong&gt;애플리케이션의 상태를 전이&lt;/strong&gt;하기 위한 메커니즘으로 사용해야한다. 즉, 클라이언트가 서버에 어떠한 요청을 할 때, &lt;strong&gt;해당 요청과 관련된 (필요한) URI를 응답에 포함시켜 반환&lt;/strong&gt;해야한다. 따라서 클라이언트는 최소한의 API URI만 알면, 반환되는 자원과 관련하여 처리 가능한 API URI를 모두 찾아내서 사용할 수 있다. 이러한 응답 형식을 HAL(Hypertext Application Language)라고 한다.&lt;/p&gt;
+&lt;h2&gt;2. Client-Server 구조&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Client&lt;/strong&gt; : 자원을 Request하는 쪽. 유저 인증이나 context(세션, 쿠키, 로그인 정보) 등을 관리&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server&lt;/strong&gt; : 자원을 Response하는 쪽. API를 제공하고 비즈니스 로직 처리를 담당&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;서버와 클라이언트는 각각의 역할에 따라 확실히 구분되어 있기 때문에 독립적이며 서로 간에 의존성이 적어야 한다.&lt;/p&gt;
+&lt;h2&gt;3. Stateless (무상태성)&lt;/h2&gt;
+&lt;p&gt;HTTP 프로토콜은 Stateless Protocol이므로 REST를 준수하는 REST API 역시 &lt;strong&gt;무상태성&lt;/strong&gt;을 갖는다.&lt;/p&gt;
+&lt;p&gt;다시 말해 &lt;strong&gt;클라이언트 요청과 관련된 정보를 별도로 저장하고 관리하지 않는다&lt;/strong&gt;. 즉, 세션이나 쿠키와 같은 상태 관리를 별도로 행하지 않기 때문에 서버는 &lt;strong&gt;클라이언트를 식별하지 못한다&lt;/strong&gt;. 상태를 기억하지 않는다. 또한, 이전 요청이 다음 요청의 처리에 영향을 주어서는 안된다.&lt;/p&gt;
+&lt;p&gt;따라서 API 서버는 들어오는 요청만을 단순히 처리만 하면 된다. 때문에 서버에서 불필요한 상태 관리를 하지 않음으로써 &lt;strong&gt;구현이 단순&lt;/strong&gt;해진다.&lt;/p&gt;
+&lt;h2&gt;4. Cacheable (캐싱 처리 가능)&lt;/h2&gt;
+&lt;p&gt;HTTP가 가진 가장 강력한 특징 중 하나인 캐싱을 적용할 수 있다. 오래된 데이터나 부적절한 데이터를 제공하지 못하도록 클라이언트 또는 서버 측에서 캐싱 처리를 적용할 수 있다. 캐싱을 적용하면, 응답시간이 빨라지고 REST Server 트랜잭션이 발생하지 않기 때문에 &lt;strong&gt;전체 응답시간, 성능, 서버의 자원 이용률을 향상&lt;/strong&gt;시킬 수 있다.&lt;/p&gt;
+&lt;h2&gt;5. Layered System (계층형 시스템 구조)&lt;/h2&gt;
+&lt;p&gt;서버는 &lt;strong&gt;다중 계층&lt;/strong&gt;으로 구성될 수 있다. 서버는 &lt;strong&gt;부하 분산&lt;/strong&gt;을 위해 로드 밸런싱을 추가할 수도 있으며 앞단에 보안, 로드 밸런싱, 암호화, 사용자 인증 등을 추가하여 구조상의 유연성을 줄 수 있다. 또한 PROXY, 게이트웨이 같은 네트워크 기반의 중간 매체를 사용할 수 있다.&lt;/p&gt;
+&lt;h2&gt;6. Code-On-Demand (optional)&lt;/h2&gt;
+&lt;p&gt;옵션 사항이다. (반드시 충족할 필요는 없는 사항)&lt;/p&gt;
+&lt;p&gt;서버는 &lt;strong&gt;클라이언트에게 Java applets나 JavaScript 코드를 전송&lt;/strong&gt;하여 &lt;strong&gt;클라이언트 기능을 확장&lt;/strong&gt;할 수 있게 한다. 서버로부터 전송된 코드는 사전 구현에 필요한 기능의 수를 줄임으로써 클라이언트를 단순화한다. 서버는 코드의 형태로 클라이언트에 제공되는 기능의 일부를 제공할 수 있으며 클라이언트는 코드를 실행하기만 하면 된다.&lt;/p&gt;
+&lt;h1&gt;RESTful한 API 설계하기&lt;/h1&gt;
+&lt;p&gt;와, 지금까지 정말 딱딱한 개념들을 살펴본 것 같다👀&lt;/p&gt;
+&lt;p&gt;위에 소개된 개념들을 모두 완전히 이해하지는 못하더라도, REST API를 적절하게 설계하기 위해서는 한 번쯤은 읽어보는 것을 추천한다.&lt;/p&gt;
+&lt;p&gt;결국, REST라는 개념의 포인트는&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;URI는 정보의 자원을 표현하되, URI의 형태 자체만으로 어떤 동작이나 정보를 제공하는지 스스로를 설명해야 함&lt;/li&gt;
+&lt;li&gt;자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현함&lt;/li&gt;
+&lt;li&gt;응답 데이터는 상황에 따라 포맷이 다르지만 JSON이 보편적. Status Code도 반환 필수&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;를 관통하게 되는 것 같다.&lt;/p&gt;
+&lt;p&gt;이제 REST 요소와 원칙, 개념을 의식하며 REST API를 설계해보자.&lt;/p&gt;
+&lt;h2&gt;URI는 정보의 자원을 표현해야 한다&lt;/h2&gt;
+&lt;p&gt;다음은 자원을 구체적으로 URI로 표현하는 규칙이다.&lt;/p&gt;
+&lt;h3&gt;1. URI는 동사보다 명사를, 대문자는 사용하지 않으며 소문자만 사용한다&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dc61d879f7cffd2f3d9911c1d3f13b58/bc563/resource.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.79746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABhElEQVQoz42S227bMBBE/f9/lb4ngAvUCGK7aSvqQlGyRUoyb5JOIdmx09YpssBwF4vBcJbcFZeYpol78b7/Eed9rGbSG3Gz2fDl4YGnx0fW6zUhhKvQPdy7ZMUbAXDekwjBy3ZL23WMl/5Hvu6JruYjOIdrW0bniNZijYEYOWmNnfsxErUmNA2DtYTjkcG5m3tuwotgm2XooqBTiibPqZJkqbWUNGmKq2v6/Z5uu8WmKf1uhxWCaRz/cbuMbJXi5Bw+BnpraYxeaj8MWKMJWi8uR++JfU9wFt8ZhuCJY2QYh+u7Lg6l/El5LKiMoqhzMiVQjaRua2SVog4Zz+Uz+2rH6+GVr9majfyGaATfqx3GmT9HFvIHsilRuiIpBb9kQnGQ1N2RrBLUWiLbglxnpI1AtSVZI5Amp3Mtxmp6390+pc9TjMrp6pL+qOgPZ7SHEpMl+HnsKeKjO2PwS3bRYYNdMPeuglMcmHxgCuGcL/Vwmt+qYxxGPhPLyJ/Z/v8t99+L/hsmC1brHIBm5gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Resource&quot;
+        title=&quot;Resource&quot;
+        src=&quot;/static/dc61d879f7cffd2f3d9911c1d3f13b58/984b6/resource.png&quot;
+        srcset=&quot;/static/dc61d879f7cffd2f3d9911c1d3f13b58/4d6f2/resource.png 158w,
+/static/dc61d879f7cffd2f3d9911c1d3f13b58/3c1ae/resource.png 315w,
+/static/dc61d879f7cffd2f3d9911c1d3f13b58/984b6/resource.png 630w,
+/static/dc61d879f7cffd2f3d9911c1d3f13b58/bc563/resource.png 736w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;자원을 테이블로 표현한다면 위와 같은 형태가 된다.
+자원은 &lt;code class=&quot;language-text&quot;&gt;Collection&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;Element&lt;/code&gt;로 나누어 표현할 수 있다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Collection&lt;/strong&gt;: Element의 집합. &lt;strong&gt;복수형&lt;/strong&gt; 명사 사용&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Element&lt;/strong&gt;: 한 건 한 건의 개별 데이터. 기본적으로 id로 식별하지만, 문자로 식별할 때는 &lt;strong&gt;단수형&lt;/strong&gt; 명사 사용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;URI에는 동사(행위)를 포함하지 않는다. 행위를 나타내기 위해서는 후술할 HTTP 메소드들을 사용한다.
+따라서, 자원은 &lt;strong&gt;명사로 표현&lt;/strong&gt;하며 대문자가 아닌 &lt;strong&gt;소문자만 사용&lt;/strong&gt;한다. 대소문자에 따라 다른 자원으로 인식하게 되기 때문이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Bad Example&lt;/span&gt;
+/getPosts/2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Good Example&lt;/span&gt;
+/posts/2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;단, 컨트롤 자원을 의미하는 경우에는 예외적으로 동사를 허용한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Bad Example&lt;/span&gt;
+/posts/duplicating&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Good Example&lt;/span&gt;
+/posts/duplicate&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;2. 자원에 대한 행위는 HTTP Method로 표현한다&lt;/h3&gt;
+&lt;p&gt;URI에는 동사(행위)를 포함하지 않는다. 예를 들어 아래와 같은 URI가 존재한다고 하자.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Bad Example&lt;/span&gt;
+/create-post/2
+/get-post/2
+/update-post/2
+/delete-post/2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;한눈에 보기에도 직관적이지 않고 장황하다. 이것을 지양하기 위한 REST 규칙 중 하나로 URI는 동사가 아닌 명사들로만 이루어져야 한다는 것이 있다.&lt;/p&gt;
+&lt;p&gt;그 대신, &lt;strong&gt;자원에 대한 행위는 HTTP 메소드로 표현&lt;/strong&gt;한다. HTTP 메소드가 무엇일까?&lt;/p&gt;
+&lt;p&gt;클라이언트가 서버에 REST API로 요청을 보낼 때는 &lt;strong&gt;HTTP라는 프로토콜에 따라 요청을 전송&lt;/strong&gt;한다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods&quot;&gt;HTTP 통신 환경에는 여러 가지 요청 메소드들이 존재&lt;/a&gt;하는데, 이 메소드들은 엄밀히 특정 용도에 제한되어 있지는 않다. 아래와 같이 POST라는 메소드만으로 데이터를 읽고 쓰고 수정하고 삭제까지 가능하다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Bad Example&lt;/span&gt;
+POST /post/2
+POST /post/2
+POST /post/2
+POST /post/2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;모두 똑같이 생겼지만, 사실은 모두 읽고 쓰고 지우고 갱신하기 위한 API이다. 이런 방식으로 URI를 설계해도 문제 없이 동작은 하겠지만, &lt;strong&gt;POST라는 메소드만으로는 정확히 이 API가 어떤 처리를 행하는지 파악하기가 힘들다&lt;/strong&gt;. 또한, 주로 팀으로 진행되는 개발 환경에서는 원&lt;strong&gt;활한 협업을 위해 팀 구성원이 모두 이해할 수 있는 형태로 프로그래밍을 하는 것이 중요&lt;/strong&gt;하다.&lt;/p&gt;
+&lt;p&gt;따라서, &lt;strong&gt;누구든 요청을 보내는 URI만으로도 각 요청의 의도를 쉽게 파악&lt;/strong&gt;할 수 있도록 설계해야한다. 즉, RESTful하게 API를 만들기 위해서는 이 메소드들을 목적에 따라 구분해서 사용해야 한다. HTTP 메소드를 알맞은 역할대로 나눈 것이 &lt;strong&gt;CRUD&lt;/strong&gt;이다.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Method&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;th&gt;역할&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;POST&lt;/td&gt;
+&lt;td&gt;Create&lt;/td&gt;
+&lt;td&gt;새로운 자원을 추가, 생성&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;GET&lt;/td&gt;
+&lt;td&gt;Read&lt;/td&gt;
+&lt;td&gt;자원을 조회, 가져옴&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PUT&lt;/td&gt;
+&lt;td&gt;Update&lt;/td&gt;
+&lt;td&gt;해당 자원의 전체를 수정&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PATCH&lt;/td&gt;
+&lt;td&gt;Update&lt;/td&gt;
+&lt;td&gt;해당 자원의 일부만 수정&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DELETE&lt;/td&gt;
+&lt;td&gt;Delete&lt;/td&gt;
+&lt;td&gt;해당 자원을 삭제&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;위의 HTTP 메소드의 역할에 따라 다시 URI를 구성해보자.&lt;/p&gt;
+&lt;h4&gt;POST&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 새로운 포스팅 생성, 추가&lt;/span&gt;
+POST /posts/4&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;GET&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 모든 포스팅 조회&lt;/span&gt;
+GET /posts
+
+&lt;span class=&quot;token comment&quot;&gt;# 1번 포스팅 조회&lt;/span&gt;
+GET /posts/1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;PUT, PATCH&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# PUT: 모든 포스팅 정보 수정 (작성자, 날짜, 제목, ID 등 포스팅 관련 모든 정보를 수정할 때)&lt;/span&gt;
+PUT /posts/1
+
+&lt;span class=&quot;token comment&quot;&gt;# PATCH: 포스팅의 일부 정보 수정 (날짜만 수정할 때)&lt;/span&gt;
+PATCH /posts/1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;DELETE&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 2번 포스팅 삭제&lt;/span&gt;
+DELETE /posts/2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;3. 슬래시(/)는 계층 관계를 구분하기 위해 사용&lt;/h3&gt;
+&lt;p&gt;블로그 포스팅 관련 API의 URI을 구성한다고 하자. 위의 예시 일러스트에서 소개된 URI처럼 블로그의 포스팅 중 2번 포스팅의 글을 조회하는 경우에는 다음과 같이 표현한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;GET /posts/2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;/&lt;/code&gt;로 계층 관계를 구분&lt;/strong&gt;해서 posts라는 큰 범주 내에 존재하는 2번 포스팅이라는 것을 표현하고 있다.&lt;/p&gt;
+&lt;h3&gt;4. URI 마지막 문자로 슬래시(/)를 포함하지 않는다&lt;/h3&gt;
+&lt;p&gt;바로 위 2번에서 &lt;code class=&quot;language-text&quot;&gt;/&lt;/code&gt;는 계층 관계를 구분하기 위해 사용하는 것이기 때문에, 마지막에는 (더이상 계층이 없기 때문에) 슬래시를 사용하지 않는다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Bad Example&lt;/span&gt;
+POST /posts/2/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Good Example&lt;/span&gt;
+POST /posts/2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;5. 언더 바(_) 대신 하이픈(-) 사용&lt;/h3&gt;
+&lt;p&gt;언더바 (_)는 사용하지 않는다. 대신 &lt;strong&gt;하이픈 (-)을 사용&lt;/strong&gt;한다.&lt;/p&gt;
+&lt;p&gt;다만 가급적 하이픈의 사용도 최소화하며, &lt;strong&gt;URI 가독성을 높이기 위해 단어의 결합이 불가피한 경우&lt;/strong&gt;에 사용한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Bad Example&lt;/span&gt;
+GET /posts/what_is_a_rest_api&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Good Example&lt;/span&gt;
+GET /posts/what-is-a-rest-api&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;6. URI에는 파일 확장자를 포함시키지 않는다&lt;/h3&gt;
+&lt;p&gt;REST API에서는 메시지 바디 내용의 포맷을 나타내기 위한 &lt;strong&gt;파일 확장자를 URI 안에 포함시키지 않는다&lt;/strong&gt;. 그 대신 Accept header를 사용해 Context의 타입을 전달한다.&lt;/p&gt;
+&lt;p&gt;예를 들어 &lt;code class=&quot;language-text&quot;&gt;Hello,World&lt;/code&gt;라는 내용을 가진 파일이 있다고 가정하자.&lt;/p&gt;
+&lt;p&gt;이 파일을 &lt;code class=&quot;language-text&quot;&gt;txt&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;csv&lt;/code&gt;로 모두 제공하려면&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Bad Example&lt;/span&gt;
+/posts/2/hello.txt
+/posts/2/hello.csv&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;두 가지의 API를 준비해야하며, 서버에는 &lt;code class=&quot;language-text&quot;&gt;hello.txt&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;hello.csv&lt;/code&gt; 두 개의 파일로 존재할 것이다. 위의 두 URI은 분명히 다른 자원을 식별하는 URI이지만, &lt;strong&gt;실제로는 하나의 자원&lt;/strong&gt;을 가리키고 있다. 이것은 &lt;strong&gt;비효율적&lt;/strong&gt;인 방법이다. &lt;strong&gt;자원이 하나라면 URI도 하나&lt;/strong&gt;여야 한다.&lt;/p&gt;
+&lt;p&gt;따라서, REST API에서는 URI에 파일 확장자를 포함시키지 않고 해당 요청이 왔을 때 Accept header를 적절히 파싱해서 클라이언트가 요청한대로 응답해주면 된다. Accept header은 클라이언트가 자신이 선호하는 media type을 서버에 보내는 것이다.&lt;/p&gt;
+&lt;p&gt;RESTful하게 API를 설계하면 아래와 같다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Good Example&lt;/span&gt;
+GET /posts/2/hello HTTP/1.1
+Host: example.com
+Accept: text/plain
+
+GET /posts/2/hello HTTP/1.1
+Host: example.com
+Accept: text/csv&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;7. 필터를 위해 쿼리 파라미터를 사용한다&lt;/h3&gt;
+&lt;p&gt;자원에 대한 세부적인 정렬, 페이징, 필터링 등은 신규 API를 생성하지 않고 쿼리 파라미터를 사용한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 장르가 2(로맨스)이고 status가 1(상영중)인 영화 중, 3번 index부터 5개의 영화를 조회&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;GET&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;movies&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;genres&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;offset&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;limit&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;status&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;8. 리소스 간에는 연관 관계가 있는 경우&lt;/h3&gt;
+&lt;p&gt;REST 리소스 간에는 연관 관계가 있을 수 있다. 예를 들어 유저가 로그인 중인 디바이스 목록이나 유저가 좋아하는 영화 등이 예가 될 수 있다. 유저-디바이스 또는 유저-영화 등과 같이 각각의 자원 간의 관계를 표현해야 한다.&lt;/p&gt;
+&lt;p&gt;이런 경우 &lt;code class=&quot;language-text&quot;&gt;/자원명/자원 ID/관계가 있는 자원명&lt;/code&gt;과 같은 표현 방법으로 사용한다.&lt;/p&gt;
+&lt;p&gt;예를 들어, 유저가 로그인 중인 디바이스 목록을 표현해보면 아래와 같다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;GET /users/&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;userid&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;/devices
+GET /users/hayoung/devices&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;또한, 유저가 좋아하는 영화 목록을 표현해보면 아래와 같다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 일반적으로 소유 ‘has’의 관계를 표현&lt;/span&gt;
+GET /users/&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;userid&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;/likes/movies
+GET /users/hayoung/likes/movies&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;HTTP 응답 상태 코드&lt;/h2&gt;
+&lt;p&gt;마지막으로 REST API는 자원에 대한 적절한 응답을 반환해주는 것까지 포함되어야 한다. 정확한 응답의 상태 코드만으로 클라이언트는 응답에 대한 상태를 빠르게 파악할 수 있으며, 요청이 정상적으로 처리가 되었는지 파악할 수 있기 때문이다.&lt;/p&gt;
+&lt;p&gt;상태 코드는 5개의 그룹으로 나누어진다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1xx&lt;/strong&gt; (정보) : 요청을 받았으며 프로세스를 계속 진행할 것임&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2xx&lt;/strong&gt; (성공) : 요청을 정상적으로 받았으며 응답 성공&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3xx&lt;/strong&gt; (리다이렉션) : 클라이언트는 요청 완료하기 위해 추가적인 행동을 취해야 함&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4xx&lt;/strong&gt; (클라이언트 오류) : 클라이언트의 부적절한 요청. 요청의 문법이 잘못되었거나 요청을 처리할 수 없음&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;5xx&lt;/strong&gt; (서버 오류) : 서버 측의 오류 발생&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;세부적인 상태 코드는 &lt;a href=&quot;https://www.whatap.io/ko/blog/40/&quot;&gt;이 블로그&lt;/a&gt;가 자세하니 참고.&lt;/p&gt;
+&lt;h1&gt;마치며&lt;/h1&gt;
+&lt;p&gt;결국 REST API란, HTTP 요청을 보낼 때 위의 규칙들로 구성된 URI에 적절한 HTTP 메소드를 사용할 것인지에 대해 개발자들 사이에서 널리 지켜지고 있는 약속이다. REST 원칙을 기반으로 암묵적으로 통용되고 있는 형식인 것이다. 따라서 &lt;strong&gt;명확한 표준이 없기 때문에&lt;/strong&gt;, REST에 대한 이해를 바탕으로 현재 우리 조직의 스펙과 시스템에 맞춰서 표준화된 가이드라인을 가지고 준수하도록 노력해야한다.&lt;/p&gt;
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html&quot;&gt;https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://meetup.toast.com/posts/92&quot;&gt;https://meetup.toast.com/posts/92&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://wallees.wordpress.com/2018/04/19/rest-api-hateoas/&quot;&gt;https://wallees.wordpress.com/2018/04/19/rest-api-hateoas/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Representational_state_transfer&quot;&gt;https://en.wikipedia.org/wiki/Representational_state_transfer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PmY3dWcCxXI&quot;&gt;https://www.youtube.com/watch?v=PmY3dWcCxXI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jaweb.tistory.com/entry/REST-RestFul%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80&quot;&gt;https://jaweb.tistory.com/entry/REST-RestFul%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/HTTP/Status&quot;&gt;https://developer.mozilla.org/ko/docs/Web/HTTP/Status&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[JavaScript의 이벤트 전파 (이벤트 캡쳐링, 이벤트 버블링) 그리고 이벤트 위임]]></title><description><![CDATA[…]]></description><link>https://hayoung.life/js-event-delegation/</link><guid isPermaLink="false">https://hayoung.life/js-event-delegation/</guid><pubDate>Sun, 17 Oct 2021 04:45:03 GMT</pubDate><content:encoded>&lt;p&gt;이벤트가 발생하면 이벤트에 대한 다양한 정보를 담고 있는 &lt;code class=&quot;language-text&quot;&gt;event&lt;/code&gt; 객체가 생성되고, 생성된 &lt;code class=&quot;language-text&quot;&gt;event&lt;/code&gt; 객체는 이벤트 핸들러의 첫 번째 인수로 전달된다. &lt;code class=&quot;language-text&quot;&gt;event&lt;/code&gt; 객체 내부에는 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Event#properties&quot;&gt;다양한 프로퍼티&lt;/a&gt;들이 존재하지만, 그 중 단연 자주 사용하는 프로퍼티를 말해보자면 &lt;code class=&quot;language-text&quot;&gt;event.target&lt;/code&gt;이 아닐까 싶다.&lt;/p&gt;
 &lt;p&gt;우연히 &lt;code class=&quot;language-text&quot;&gt;event.target&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;event.currentTarget&lt;/code&gt;의 차이에 대해 조사를 하게 되었는데, 이 과정에서 이벤트가 어떤 방식으로 이벤트 타깃에 전달되는지에 대한 이해가 부족하다는 것을 깨달았다.&lt;/p&gt;
 &lt;p&gt;이번 기회에 JavaScript의 이벤트 전파, 이벤트 캡쳐링, 이벤트 버블링, 그리고 이벤트 위임에 대해 조사해보았고, 그 내용에 대해 정리해본다.&lt;/p&gt;
 &lt;h2&gt;DOM (Document Object Model)&lt;/h2&gt;
