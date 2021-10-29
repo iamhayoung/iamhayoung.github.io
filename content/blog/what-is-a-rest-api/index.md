@@ -1,7 +1,7 @@
 ---
 title: REST API란?
 date: "2021-10-29 19:33:00"
-description: "REST 원칙과 그 원칙에 따라 구현된 API인 REST API에 대해 알아보자"
+description: "REST 원칙과 그 원칙에 따라 구현된 API인 REST API를 설계하는 방법에 대해 알아보자."
 ---
 
 REST는 HTTP의 주요 저자인 [Roy Fielding의 2000년 박사 학위 논문](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)에서 소개된 네트워크 아키텍처 설계 지침이다.
