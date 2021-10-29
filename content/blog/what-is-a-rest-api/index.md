@@ -4,6 +4,8 @@ date: "2021-10-29 19:33:00"
 description: "REST 원칙과 그 원칙에 따라 구현된 API인 REST API를 설계하는 방법에 대해 알아보자."
 ---
 
+![REST API](./thumbnail.png)
+
 REST는 HTTP의 주요 저자인 [Roy Fielding의 2000년 박사 학위 논문](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)에서 소개된 네트워크 아키텍처 설계 지침이다.
 
 "REST"라는 단어를 떠올리면 바로 REST API가 떠오르는데, 사실 REST는 "API"만을 설계하기 위한 지침이 아니다. 첫 문장에서 소개했듯, 네트워크에서 통신을 구성하기 위한 설계 지침이다. 훨씬 넓은 대상 범위를 가진 가이드라인이다.
