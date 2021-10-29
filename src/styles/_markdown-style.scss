@@ -136,9 +136,16 @@
     background: #2565f1;
   }
 
+  pre[class="language-js"]::before,
   pre[class="language-javascript"]::before {
     content: "js";
     background: #f7df1e;
+  }
+
+  pre[class="language-bash"]::before,
+  pre[class="language-shell"]::before {
+    content: "bash";
+    background: #22dd26;
   }
 
   @include sm {
