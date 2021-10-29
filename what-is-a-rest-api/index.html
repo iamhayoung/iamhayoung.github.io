@@ -96,7 +96,7 @@
 <p>URI는 <strong>단순하고 직관적인 구조</strong>이어야 하며, 모든 자원은 각 자원을 구별하기 위한 <strong>Unique ID</strong>를 가진다.</p>
 <p>URI의 설계 디자인에 관한 자세한 내용은 후술한다.</p>
 <h2>2. 행위 (Verb) : HTTP Method</h2>
-<p><strong>자원에 대한 행위</strong>는 HTTP 프로토콜의 Method(<strong>GET, POST, PUT, DELETE</strong>)으로 표현한다.</p>
+<p><strong>자원에 대한 행위</strong>는 HTTP 프로토콜의 Method(<strong>GET, POST, PUT, PATCH, DELETE</strong>)으로 표현한다.</p>
 <p>HTTP 메소드에 관한 자세한 내용은 후술한다.</p>
 <h2>3. 표현 (Representations)</h2>
 <p>클라이언트가 자원에 대해 요청을 하면 <strong>서버는 이에 적절한 표현 (Representation), 즉 응답 (Response)</strong> 을 보내야 한다.
@@ -151,7 +151,7 @@
 <blockquote>
 <ol>
 <li><strong>URI는 정보의 자원을 표현</strong>하되, URI의 형태 자체만으로 <strong>어떤 동작이나 정보를 제공하는지 스스로를 표현</strong>할 수 있어야 함</li>
-<li>자원에 대한 <strong>행위는 HTTP Method</strong>(GET, POST, PUT, DELETE)로 표현함</li>
+<li>자원에 대한 <strong>행위는 HTTP Method</strong>(GET, POST, PUT, PATCH, DELETE)로 표현함</li>
 <li>응답 데이터는 상황에 따라 포맷이 다르지만 <strong>JSON</strong>이 보편적. Status Code도 반환 필수</li>
 </ol>
 </blockquote>
@@ -226,7 +226,7 @@ POST /post/2
 POST /post/2
 POST /post/2
 POST /post/2</code></pre></div>
-<p>모두 똑같이 생겼지만, 사실은 모두 읽고 쓰고 지우고 갱신하기 위한 API이다. 이런 방식으로 URI를 설계해도 문제 없이 동작은 하겠지만, <strong>POST라는 메소드만으로는 정확히 이 API가 어떤 처리를 행하는지 파악하기가 힘들다</strong>. 또한, 주로 팀으로 진행되는 개발 환경에서는 <strong>원활한 협업을 위해 팀 구성원이 모두 이해할 수 있는 형태로 프로그래밍을 하는 것이 중요</strong>하다.</p>
+<p>모두 똑같이 생겼지만, 사실은 모두 읽고 쓰고 지우고 갱신하기 위한 의도를 가진 API들이다. 이런 방식으로 URI를 설계해도 문제 없이 동작은 하겠지만, <strong>POST라는 메소드만으로는 정확히 이 API가 어떤 처리를 행하는지 파악하기가 힘들다</strong>. 또한, 이 API를 작성한 사람 외에는 구체적으로 API의 역할을 파악하기 힘들다. 주로 팀으로 진행되는 개발 환경에서는 <strong>원활한 협업을 위해 팀 구성원이 모두 이해할 수 있는 형태로 프로그래밍을 하는 것이 중요</strong>하다.</p>
 <p>따라서, <strong>요청을 보내는 URI만으로도 누구든지 각 요청의 의도를 쉽게 파악할 수 있도록 설계</strong>해야한다. RESTful하게 API를 만들기 위해서는 <strong>HTTP 메소드를 목적에 따라 구분해서 사용</strong>해야 한다. HTTP 메소드를 알맞은 역할대로 나눈 것이 <strong>CRUD</strong>이다.</p>
 <table>
 <thead>

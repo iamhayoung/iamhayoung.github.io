@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung.life]]></title><description><![CDATA[배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝]]></description><link>https://hayoung.life</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 29 Oct 2021 11:07:53 GMT</lastBuildDate><item><title><![CDATA[REST API란?]]></title><description><![CDATA[REST는 HTTP의 주요 저자인 Roy Fielding의 2000년 박사 학위 논문에서 소개된 네트워크 아키텍처 설계 지침이다. “REST”라는 단어를 떠올리면 바로 REST API가 떠오르는데, 사실 REST는 “API…]]></description><link>https://hayoung.life/what-is-a-rest-api/</link><guid isPermaLink="false">https://hayoung.life/what-is-a-rest-api/</guid><pubDate>Fri, 29 Oct 2021 19:33:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[✏️ hayoung.life]]></title><description><![CDATA[배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝]]></description><link>https://hayoung.life</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 29 Oct 2021 13:42:58 GMT</lastBuildDate><item><title><![CDATA[REST API란?]]></title><description><![CDATA[REST는 HTTP의 주요 저자인 Roy Fielding의 2000년 박사 학위 논문에서 소개된 네트워크 아키텍처 설계 지침이다. “REST”라는 단어를 떠올리면 바로 REST API가 떠오르는데, 사실 REST는 “API…]]></description><link>https://hayoung.life/what-is-a-rest-api/</link><guid isPermaLink="false">https://hayoung.life/what-is-a-rest-api/</guid><pubDate>Fri, 29 Oct 2021 19:33:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
@@ -96,7 +96,7 @@
 &lt;p&gt;URI는 &lt;strong&gt;단순하고 직관적인 구조&lt;/strong&gt;이어야 하며, 모든 자원은 각 자원을 구별하기 위한 &lt;strong&gt;Unique ID&lt;/strong&gt;를 가진다.&lt;/p&gt;
 &lt;p&gt;URI의 설계 디자인에 관한 자세한 내용은 후술한다.&lt;/p&gt;
 &lt;h2&gt;2. 행위 (Verb) : HTTP Method&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;자원에 대한 행위&lt;/strong&gt;는 HTTP 프로토콜의 Method(&lt;strong&gt;GET, POST, PUT, DELETE&lt;/strong&gt;)으로 표현한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;자원에 대한 행위&lt;/strong&gt;는 HTTP 프로토콜의 Method(&lt;strong&gt;GET, POST, PUT, PATCH, DELETE&lt;/strong&gt;)으로 표현한다.&lt;/p&gt;
 &lt;p&gt;HTTP 메소드에 관한 자세한 내용은 후술한다.&lt;/p&gt;
 &lt;h2&gt;3. 표현 (Representations)&lt;/h2&gt;
 &lt;p&gt;클라이언트가 자원에 대해 요청을 하면 &lt;strong&gt;서버는 이에 적절한 표현 (Representation), 즉 응답 (Response)&lt;/strong&gt; 을 보내야 한다.
@@ -151,7 +151,7 @@
 &lt;blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;URI는 정보의 자원을 표현&lt;/strong&gt;하되, URI의 형태 자체만으로 &lt;strong&gt;어떤 동작이나 정보를 제공하는지 스스로를 표현&lt;/strong&gt;할 수 있어야 함&lt;/li&gt;
-&lt;li&gt;자원에 대한 &lt;strong&gt;행위는 HTTP Method&lt;/strong&gt;(GET, POST, PUT, DELETE)로 표현함&lt;/li&gt;
+&lt;li&gt;자원에 대한 &lt;strong&gt;행위는 HTTP Method&lt;/strong&gt;(GET, POST, PUT, PATCH, DELETE)로 표현함&lt;/li&gt;
 &lt;li&gt;응답 데이터는 상황에 따라 포맷이 다르지만 &lt;strong&gt;JSON&lt;/strong&gt;이 보편적. Status Code도 반환 필수&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
@@ -226,7 +226,7 @@ POST /post/2
 POST /post/2
 POST /post/2
 POST /post/2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;모두 똑같이 생겼지만, 사실은 모두 읽고 쓰고 지우고 갱신하기 위한 API이다. 이런 방식으로 URI를 설계해도 문제 없이 동작은 하겠지만, &lt;strong&gt;POST라는 메소드만으로는 정확히 이 API가 어떤 처리를 행하는지 파악하기가 힘들다&lt;/strong&gt;. 또한, 주로 팀으로 진행되는 개발 환경에서는 &lt;strong&gt;원활한 협업을 위해 팀 구성원이 모두 이해할 수 있는 형태로 프로그래밍을 하는 것이 중요&lt;/strong&gt;하다.&lt;/p&gt;
+&lt;p&gt;모두 똑같이 생겼지만, 사실은 모두 읽고 쓰고 지우고 갱신하기 위한 의도를 가진 API들이다. 이런 방식으로 URI를 설계해도 문제 없이 동작은 하겠지만, &lt;strong&gt;POST라는 메소드만으로는 정확히 이 API가 어떤 처리를 행하는지 파악하기가 힘들다&lt;/strong&gt;. 또한, 이 API를 작성한 사람 외에는 구체적으로 API의 역할을 파악하기 힘들다. 주로 팀으로 진행되는 개발 환경에서는 &lt;strong&gt;원활한 협업을 위해 팀 구성원이 모두 이해할 수 있는 형태로 프로그래밍을 하는 것이 중요&lt;/strong&gt;하다.&lt;/p&gt;
 &lt;p&gt;따라서, &lt;strong&gt;요청을 보내는 URI만으로도 누구든지 각 요청의 의도를 쉽게 파악할 수 있도록 설계&lt;/strong&gt;해야한다. RESTful하게 API를 만들기 위해서는 &lt;strong&gt;HTTP 메소드를 목적에 따라 구분해서 사용&lt;/strong&gt;해야 한다. HTTP 메소드를 알맞은 역할대로 나눈 것이 &lt;strong&gt;CRUD&lt;/strong&gt;이다.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
