@@ -51,7 +51,9 @@ const BlogPostTemplate = ({ data, location }) => {
                 to={previous.fields.slug}
                 rel="prev"
               >
-                <span>{previous.frontmatter.title}</span>
+                <span className="blog-post-nav__text prev">
+                  {previous.frontmatter.title}
+                </span>
               </Link>
             )}
           </li>
@@ -62,7 +64,9 @@ const BlogPostTemplate = ({ data, location }) => {
                 to={next.fields.slug}
                 rel="next"
               >
-                <span>{next.frontmatter.title}</span>
+                <span className="blog-post-nav__text next">
+                  {next.frontmatter.title}
+                </span>
               </Link>
             )}
           </li>

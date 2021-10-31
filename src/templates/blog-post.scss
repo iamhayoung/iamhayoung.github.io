@@ -30,15 +30,44 @@
     text-decoration: none;
     @include flex(normal, center);
 
-    svg {
-      width: 30px;
-      height: 30px;
-      font-size: 15px;
-    }
-
     &.next {
       justify-content: flex-end;
       text-align: right;
+    }
+  }
+
+  &__text {
+    position: relative;
+    color: var(--color-text-4);
+
+    &:before {
+      position: absolute;
+      content: "";
+      top: 50%;
+      width: 8px;
+      height: 8px;
+      border-top: solid 1px var(--color-text-4);
+      border-right: solid 1px var(--color-text-4);
+    }
+
+    &.prev {
+      padding-left: 22px;
+
+      &:before {
+        left: 0;
+        margin-top: -4px;
+        transform: rotate(225deg);
+      }
+    }
+
+    &.next {
+      padding-right: 22px;
+
+      &:before {
+        right: 0;
+        margin-top: -4px;
+        transform: rotate(45deg);
+      }
     }
   }
 }
