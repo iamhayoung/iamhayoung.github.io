@@ -1,3 +1,4 @@
+@use "../styles/mixins" as *;
 @use "../styles/media-queries" as *;
 
 .blog-post {
@@ -14,8 +15,32 @@
   }
 }
 
-.blog-post-nav ul {
-  margin: var(--spacing-0);
+.blog-post-nav {
+  &__list {
+    margin: var(--spacing-0);
+    flex-wrap: wrap;
+    @include flex(space-between, center);
+  }
+
+  &__item {
+    width: 50%;
+  }
+
+  &__link {
+    text-decoration: none;
+    @include flex(normal, center);
+
+    svg {
+      width: 30px;
+      height: 30px;
+      font-size: 15px;
+    }
+
+    &.next {
+      justify-content: flex-end;
+      text-align: right;
+    }
+  }
 }
 
 @include sm {
