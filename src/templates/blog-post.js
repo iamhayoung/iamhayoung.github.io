@@ -44,7 +44,7 @@ const BlogPostTemplate = ({ data, location }) => {
       </article>
       <nav className="blog-post-nav">
         <ul className="blog-post-nav__list">
-          <li className="blog-post-nav__item">
+          <li className="blog-post-nav__item prev">
             {previous && (
               <Link
                 className="blog-post-nav__link prev"
@@ -57,7 +57,7 @@ const BlogPostTemplate = ({ data, location }) => {
               </Link>
             )}
           </li>
-          <li className="blog-post-nav__item">
+          <li className="blog-post-nav__item next">
             {next && (
               <Link
                 className="blog-post-nav__link next"
