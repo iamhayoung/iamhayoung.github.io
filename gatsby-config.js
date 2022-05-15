@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `✏️ hayoung.life`,
+    title: `✏️ iamhayoung.dev`,
     author: {
       name: `iamhayoung`,
       summary: `who write and build stuff on internet 🌏`,
     },
     description: `배움을 즐기는 프론트엔드 개발자 hayoung의 삶을 담은 블로그 📝`,
-    siteUrl: `https://hayoung.life`,
+    siteUrl: `https://iamhayoung.dev`,
     social: {
       github: `iamhayoung`,
     },
@@ -16,7 +16,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          "G-TPDWXRCQEL", // Google Analytics / GA
+          "G-04Z0QW7MYC", // Google Analytics / GA
           // "AW-CONVERSION_ID", // Google Ads / Adwords / AW
           // "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)],
         ],
@@ -121,9 +121,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `hayoung.life`,
-        short_name: `hayoung.life`,
-        description: `My name is Hayoung, I'm a Front-end Engineer based in South Korea 🇰🇷. I code, write and build stuff on internet 🌏.`,
+        name: `iamhayoung.dev`,
+        short_name: `iamhayoung.dev`,
+        description: `My name is Hayoung, I'm a Frontend Developer based in Seoul, Korea 🇰🇷. I code, write and build stuff on internet 🌏.`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `minimal-ui`,
@@ -133,8 +133,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://hayoung.life",
-        sitemap: "https://hayoung.life/sitemap.xml",
+        host: "https://iamhayoung.dev",
+        sitemap: "https://iamhayoung.dev/sitemap.xml",
         policy: [
           {
             userAgent: "*",

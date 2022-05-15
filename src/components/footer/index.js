@@ -11,7 +11,7 @@ function GlobalFooter() {
             className="link"
             href="https://github.com/iamhayoung/iamhayoung.github.io"
           >
-            hayoung.life
+            iamhayoung.dev
           </a>
           <span className="icon-heart">💚</span>
         </p>

@@ -10,7 +10,7 @@ description: "Namecheap에서 도메인 구입, GitHub Pages로 호스팅된 블
 
 지금 이 글을 쓰고 있는 블로그는 **앞으로 공부하면서 배운 것들을 기록해나감과 동시에, 간단한 일기장으로써 나의 생각과 생활의 일부분을 담아갈 예정**이다. 따라서, 이 블로그만큼은 **의미를 함축한, 간편한 도메인**으로 설정하고 싶었다.
 
-결과적으로 현재 이 블로그의 도메인을 **[hayoung.life](https://hayoung.life)** 로 정했다. **내 생활, 삶을 담는 장소라는 의미**를 담았다😊
+결과적으로 현재 이 블로그의 도메인을 **[iamhayoung.dev](https://iamhayoung.dev)** 로 정했다.
 
 해당 포스팅은 이 블로그의 **도메인을 구매하고 연결하는 과정**을 기록해보았다.
 
@@ -82,7 +82,7 @@ Namecheap 메인 화면에 들어가면, 이렇게 도메인을 검색할 수 �
 가격은 첫 해에는 약 4달러, 그 후에는 매년 10달러로 본 것 같다.
 
 **보안을 위해 `HTTPS` 대응은 필수이므로, SSL 인증서비스를 이용하는 것을 추천**한다.
-하지만 나는 **무료로 `HTTPS`를 제공해주는 GitHub Pages를 통해 정적 호스팅을 할 예정이기 때문에 선택하지 않았다!**
+하지만 나는 **무료로 `HTTPS`를 제공해주는 GitHub Pages를 통해 정적 호스팅을 할 예정이기 때문에 선택하지 않았다.**
 
 GitHub Pages를 이용해 호스팅할 예정이라면 SSL 인증서비스는 이용하지 않아도 될 듯.
 
@@ -172,7 +172,7 @@ Namecheap 계정의 이름, 연락처 등 개인 정보를 입력하는 폼이 �
 
 ![ghpages3](./images/image16.png)
 
-Your site is published at https://hayoung.life/!  
+Your site is published at https://iamhayoung.dev/!  
 **배포가 완료**되었다. 바로 설정했던 커스텀 도메인에 접속해 확인해보자 ===33
 
 ![Done1](./images/image17.png)

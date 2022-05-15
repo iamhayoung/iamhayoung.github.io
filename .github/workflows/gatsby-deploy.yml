@@ -37,7 +37,7 @@ jobs:
       - name: file copy
         run: |
           cp CNAME public/
-          cp navere58778c9423cd58e1254c6b63414cfdf.html public/
+          cp naver0d5bc95ca30f68bd972f4f4cd3f19de9.html public/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -46,4 +46,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: main
           publish_dir: ./public
-          cname: hayoung.life
+          cname: iamhayoung.dev
