@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://hayoung.life/sitemap.xml
-Host: https://hayoung.life
+Sitemap: https://iamhayoung.dev/sitemap.xml
+Host: https://iamhayoung.dev
