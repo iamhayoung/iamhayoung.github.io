@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "gatsby";
-import "./PcNav.scss";
+import React from 'react';
+import Link from 'next/link';
+import './PcNav.scss';
 
 function PcNav() {
   return (

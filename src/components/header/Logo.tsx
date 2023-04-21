@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "gatsby";
-import "./Logo.scss";
+import React from 'react';
+import Link from 'next/link';
+import './Logo.scss';
 
 function Logo({ siteTitle }) {
   return (

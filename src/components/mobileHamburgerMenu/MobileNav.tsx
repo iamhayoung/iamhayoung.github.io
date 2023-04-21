@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "gatsby";
-import "./MobileNav.scss";
+import React from 'react';
+import Link from 'next/link';
+import './MobileNav.scss';
 
 function MobileNav() {
   return (
