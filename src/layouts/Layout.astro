@@ -1,0 +1,38 @@
+---
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import "@/styles/global.css";
+
+interface Props {
+  pageTitle: string;
+}
+
+const { pageTitle } = Astro.props;
+
+const defaultTitle = "iamhayoung.dev";
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <title>{`${pageTitle} | ${defaultTitle}`}</title>
+  </head>
+  <body>
+    <Header />
+
+    <h1>{pageTitle}</h1>
+
+    <slot />
+
+    <Footer />
+
+    <script>
+      import "../scripts/menu.ts";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+---
+import type { MarkdownInstance } from "astro";
+import Layout from "@layouts/Layout.astro";
+import BlogPost from "@components/BlogPost.astro";
+
+const allPosts: MarkdownInstance<Record<string, any>>[] = Object.values(
+  import.meta.glob("@/pages/posts/*.md", { eager: true }),
+);
+
+const pageTitle = "Posts";
+---
+
+<Layout pageTitle={pageTitle}>
+  <p>여기서는 내가 Astro를 배워가는 여정을 보여드리겠습니다.</p>
+
+  <ul>
+    {
+      allPosts.map((post) => (
+        <BlogPost url={post.url as string} title={post.frontmatter.title} />
+      ))
+    }
+  </ul>
+</Layout>

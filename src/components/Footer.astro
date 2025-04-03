@@ -1,0 +1,97 @@
+---
+---
+
+<footer>
+  <p class="copyright">
+    © {new Date().getFullYear()}{" "}
+    <a
+      class="link"
+      href="https://github.com/iamhayoung/iamhayoung.github.io"
+    >
+      iamhayoung.dev</a>
+    <span class="icon-heart">💚</span>
+  </p>
+  <ul class="link-list">
+    <li>
+      <a class="link" href="https://github.com/iamhayoung">
+        GitHub
+      </a>
+    </li>
+    <li>
+      <a class="link" href="mailto:hahhyoung@gmail.com">
+        Mail
+      </a>
+    </li>
+  </ul>
+</footer>
+
+<style lang="scss">
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+
+  .copyright {
+    margin: 0;
+  }
+  
+  .link {
+    margin-right: 5px;
+  }
+
+  .link-list {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    & > li {
+      position: relative;
+      margin: 0;
+    }
+
+    & > li:not(:last-child) {
+      margin-right: 26px;
+    }
+
+    & > li::after {
+      position: absolute;
+      top: 4px;
+      right: -14px;
+      display: block;
+      content: "";
+      width: 1px;
+      height: 15px;
+      background-color: #b6b6b6;
+    }
+  }
+
+  .icon-heart {
+    display: inline-block;
+    animation: heartbeat 1.8s infinite;
+  }
+}
+      
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(0.9);
+  }
+  40% {
+    transform: scale(1.2);
+  }
+  60% {
+    transform: scale(0.9);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  80% {
+    transform: scale(1);
+  }
+}
+</style>

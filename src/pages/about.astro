@@ -1,0 +1,62 @@
+---
+import Layout from '@layouts/Layout.astro';
+
+const identity = {
+  firstName: "サラ",
+  country: "カナダ",
+  occupation: "技術ライター",
+  hobbies: ["写真", "バードウォッチング", "野球"],
+};
+
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "ドキュメントの執筆"];
+
+const happy = true;
+const finished = true;
+const goal = 3;
+
+const skillColor = "navy";
+const fontWeight = "bold";
+const textCase = "uppercase"
+
+const pageTitle = "About"
+---
+
+<Layout pageTitle={pageTitle}>
+  <h2>... 내 블로그에 대해서！</h2>
+
+  <p>私はAstroの入門チュートリアルを進めています。これは私のウェブサイトの2番目のページで、自分で作った初めてのページです！</p>
+
+  <p>このサイトはチュートリアルを進めるにつれて更新されていきます。定期的にチェックして、私の旅の様子を見に来てください！</p>
+
+  <p>以下は私に関するいくつかの事実です。</p>
+  <ul>
+    <li>私の名前は{identity.firstName}です。</li>
+    <li>{identity.country}に住んでおり、{identity.occupation}として働いています。</li>
+    {identity.hobbies.length >= 2 &&
+      <li>私の2つの趣味は{identity.hobbies[0]}と{identity.hobbies[1]}です。</li>
+    }
+  </ul>
+  <p>私のスキルは以下の通りです。</p>
+  <ul>
+    {skills.map((skill) => <li class="skill">{skill}</li>)}
+  </ul>
+
+  {happy && <p>I am happy to be learning Astro! Astroを学べて幸せです！</p>}
+
+  {finished && <p>I finished this tutorial! このチュートリアルを終えました！</p>}
+
+  {goal === 3 ? <p>My goal is to finish in 3 days. 3日で終えるのが目標です。</p> : <p>My goal is not 3 days. 3日が目標ではありません。</p>}
+</Layout>
+
+<style lang="scss" define:vars={{skillColor, fontWeight, textCase}}>
+h1 {
+  color: purple;
+  font-size: 4rem;
+}
+
+.skill {
+  color: var(--skillColor);
+  font-weight: var(--fontWeight);
+  text-transform: var(--textCase);
+}
+</style>

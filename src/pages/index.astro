@@ -1,0 +1,11 @@
+---
+import Welcome from '@components/Welcome.astro';
+import Layout from '@layouts/Layout.astro';
+
+const pageTitle = "Home"
+---
+
+<Layout pageTitle={pageTitle}>
+	<h2>나의 멋진 블로그</h2>
+	<Welcome />
+</Layout>
